@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="Externals" Database="./Externals.tags">
+  <Project Name="zlib" Path="zlib/zlib.project" Active="Yes"/>
+  <Project Name="zziplib" Path="zziplib/zziplib.project"/>
+  <Environment>
+    <![CDATA[
+  
+  
+  ]]>
+  </Environment>
+  <Project Name="curllib" Path="curllib/curllib.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="zlib" ConfigName="Debug"/>
+      <Project Name="zziplib" ConfigName="Debug"/>
+      <Project Name="curllib" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="zlib" ConfigName="Release"/>
+      <Project Name="zziplib" ConfigName="Release"/>
+      <Project Name="curllib" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Shipping" Selected="yes">
+      <Project Name="zziplib" ConfigName="Shipping"/>
+      <Project Name="zlib" ConfigName="Shipping"/>
+      <Project Name="curllib" ConfigName="Shipping"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

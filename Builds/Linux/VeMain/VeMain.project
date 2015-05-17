@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="VeMain" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00030001N0005Debug0000000000000001N0007Release0000000000000001N0008Shipping000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Input">
+    <File Name="../../../Source/VeMain/VeInputManager.cpp"/>
+    <File Name="../../../Source/VeMain/VeInputManager.h"/>
+    <File Name="../../../Source/VeMain/VeJoyStick.cpp"/>
+    <File Name="../../../Source/VeMain/VeJoyStick.h"/>
+    <File Name="../../../Source/VeMain/VeKeyboard.cpp"/>
+    <File Name="../../../Source/VeMain/VeKeyboard.h"/>
+    <File Name="../../../Source/VeMain/VeMouse.cpp"/>
+    <File Name="../../../Source/VeMain/VeMouse.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Framework">
+    <File Name="../../../Source/VeMain/VeApplication.cpp"/>
+    <File Name="../../../Source/VeMain/VeApplication.h"/>
+    <File Name="../../../Source/VeMain/VeEditorApplication.cpp"/>
+    <File Name="../../../Source/VeMain/VeEditorApplication.h"/>
+    <File Name="../../../Source/VeMain/VeMain.cpp"/>
+    <File Name="../../../Source/VeMain/VeMain.h"/>
+    <File Name="../../../Source/VeMain/VeStartConfig.cpp"/>
+    <File Name="../../../Source/VeMain/VeStartConfig.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="PCH">
+    <File Name="../../../Source/VeMain/VeMainPCH.cpp"/>
+    <File Name="../../../Source/VeMain/VeMainPCH.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Renderer">
+    <VirtualDirectory Name="D3D11">
+      <File Name="../../../Source/VeMain/_VeRendererD3D11.cpp"/>
+      <File Name="../../../Source/VeMain/_VeRendererD3D11.h"/>
+      <File Name="../../../Source/VeMain/_VeRenderObjectD3D11.cpp"/>
+      <File Name="../../../Source/VeMain/_VeRenderObjectD3D11.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="GL">
+      <File Name="../../../Source/VeMain/_VeGlLoader.cpp"/>
+      <File Name="../../../Source/VeMain/_VeGlLoader.h"/>
+      <File Name="../../../Source/VeMain/_VeRendererGL.cpp"/>
+      <File Name="../../../Source/VeMain/_VeRendererGL.h"/>
+      <File Name="../../../Source/VeMain/gl.cpp"/>
+      <File Name="../../../Source/VeMain/gl.h"/>
+      <File Name="../../../Source/VeMain/glx.cpp"/>
+      <File Name="../../../Source/VeMain/glx.h"/>
+      <File Name="../../../Source/VeMain/wgl.cpp"/>
+      <File Name="../../../Source/VeMain/wgl.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="GLES2">
+      <File Name="../../../Source/VeMain/_VeRendererGLES2.cpp"/>
+      <File Name="../../../Source/VeMain/_VeRendererGLES2.h"/>
+    </VirtualDirectory>
+    <File Name="../../../Source/VeMain/VeRenderer.cpp"/>
+    <File Name="../../../Source/VeMain/VeRenderer.h"/>
+    <File Name="../../../Source/VeMain/VeRenderNode.cpp"/>
+    <File Name="../../../Source/VeMain/VeRenderNode.h"/>
+    <File Name="../../../Source/VeMain/VeRenderObject.cpp"/>
+    <File Name="../../../Source/VeMain/VeRenderObject.h"/>
+    <File Name="../../../Source/VeMain/VeRenderResource.cpp"/>
+    <File Name="../../../Source/VeMain/VeRenderResource.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug">
+    <Project Name="VePower"/>
+  </Dependencies>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-Wall;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG;-fno-exceptions;-fno-rtti" C_Options="-g;-Wall;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Source/VePower"/>
+      </Compiler>
+      <Linker Options="-lX11 -lXrandr" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).so" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Debug]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyToSDK.sh $(ProjectName) $(PlatformName) $(Configuration) so</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG;-fno-exceptions;-fno-rtti" C_Options="-O2;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Source/VePower"/>
+      </Compiler>
+      <Linker Options="-O2 -lX11 -lXrandr" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).so" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Release]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyToSDK.sh $(ProjectName) $(PlatformName) $(Configuration) so</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Shipping" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O3;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING;-fno-exceptions;-fno-rtti" C_Options="-O3;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Source/VePower"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Shipping]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyToSDK.sh $(ProjectName) $(PlatformName) $(Configuration) a</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

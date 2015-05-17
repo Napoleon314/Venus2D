@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4A4373C319EB87770011D401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4373BA19EB87770011D401 /* raknetlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A43738919EB86D70011D401;
+			remoteInfo = raknetlib;
+		};
+		4A4D2932190A293700FF1D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4D292C190A293700FF1D45 /* lzmalib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A4D28FC190A289E00FF1D45;
+			remoteInfo = lzmalib;
+		};
+		6507C1E118448F380093D001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6507C1DC18448F380093D001 /* ogglib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 657010B51844831900B7CF58;
+			remoteInfo = ogglib;
+		};
+		6507C1FB1844942B0093D001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6507C1F51844942B0093D001 /* vorbislib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 657010E71844832D00B7CF58;
+			remoteInfo = vorbislib;
+		};
+		650A1BBE1862DFE60010C325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650A1BB61862DFE40010C325 /* pnglib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 650A1B8D1862DFE40010C325;
+			remoteInfo = pnglib;
+		};
+		65379CEF185312BC000CCF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65379CE9185312BA000CCF53 /* lualib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65379CC0185312BA000CCF53;
+			remoteInfo = lualib;
+		};
+		8A2B865A16272DE2001AF651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2B865616272DE1001AF651 /* curllib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A2B864516272DE1001AF651;
+			remoteInfo = curllib;
+		};
+		8ADFF6D416248CAB00F9E1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADFF6CD16248CAA00F9E1F0 /* zlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A3003BA162478E60044BC94;
+			remoteInfo = zlib;
+		};
+		8ADFF6DE16248CB500F9E1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADFF6D716248CB500F9E1F0 /* zziplib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A3003DC162479190044BC94;
+			remoteInfo = zziplib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A4373BA19EB87770011D401 /* raknetlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = raknetlib.xcodeproj; path = raknetlib/raknetlib.xcodeproj; sourceTree = "<group>"; };
+		4A4D292C190A293700FF1D45 /* lzmalib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lzmalib.xcodeproj; path = lzmalib/lzmalib.xcodeproj; sourceTree = "<group>"; };
+		6507C1DC18448F380093D001 /* ogglib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ogglib.xcodeproj; path = ogglib/ogglib.xcodeproj; sourceTree = "<group>"; };
+		6507C1F51844942B0093D001 /* vorbislib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = vorbislib.xcodeproj; path = vorbislib/vorbislib.xcodeproj; sourceTree = "<group>"; };
+		650A1BB61862DFE40010C325 /* pnglib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pnglib.xcodeproj; path = pnglib/pnglib.xcodeproj; sourceTree = "<group>"; };
+		65379CE9185312BA000CCF53 /* lualib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lualib.xcodeproj; path = lualib/lualib.xcodeproj; sourceTree = "<group>"; };
+		8A2B865616272DE1001AF651 /* curllib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = curllib.xcodeproj; path = curllib/curllib.xcodeproj; sourceTree = "<group>"; };
+		8ADFF6CD16248CAA00F9E1F0 /* zlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zlib.xcodeproj; path = zlib/zlib.xcodeproj; sourceTree = "<group>"; };
+		8ADFF6D716248CB500F9E1F0 /* zziplib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zziplib.xcodeproj; path = zziplib/zziplib.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4A4373BB19EB87770011D401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4373C419EB87770011D401 /* libraknetlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4D292D190A293700FF1D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D2933190A293700FF1D45 /* liblzmalib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6507C1DD18448F380093D001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6507C1E218448F380093D001 /* libogglib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6507C1F61844942B0093D001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6507C1FC1844942B0093D001 /* libvorbislib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650A1BB71862DFE40010C325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650A1BBF1862DFE60010C325 /* libpnglib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65379CEA185312BA000CCF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65379CF0185312BC000CCF53 /* liblualib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2B865716272DE1001AF651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2B865B16272DE2001AF651 /* libcurllib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADFF6C116248C8900F9E1F0 = {
+			isa = PBXGroup;
+			children = (
+				4A4373BA19EB87770011D401 /* raknetlib.xcodeproj */,
+				4A4D292C190A293700FF1D45 /* lzmalib.xcodeproj */,
+				650A1BB61862DFE40010C325 /* pnglib.xcodeproj */,
+				65379CE9185312BA000CCF53 /* lualib.xcodeproj */,
+				6507C1F51844942B0093D001 /* vorbislib.xcodeproj */,
+				6507C1DC18448F380093D001 /* ogglib.xcodeproj */,
+				8A2B865616272DE1001AF651 /* curllib.xcodeproj */,
+				8ADFF6D716248CB500F9E1F0 /* zziplib.xcodeproj */,
+				8ADFF6CD16248CAA00F9E1F0 /* zlib.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		8ADFF6CE16248CAA00F9E1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ADFF6D516248CAB00F9E1F0 /* libzlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADFF6D816248CB500F9E1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ADFF6DF16248CB500F9E1F0 /* libzziplib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8ADFF6C316248C8900F9E1F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 8ADFF6C616248C8900F9E1F0 /* Build configuration list for PBXProject "Externals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ADFF6C116248C8900F9E1F0;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8A2B865716272DE1001AF651 /* Products */;
+					ProjectRef = 8A2B865616272DE1001AF651 /* curllib.xcodeproj */;
+				},
+				{
+					ProductGroup = 65379CEA185312BA000CCF53 /* Products */;
+					ProjectRef = 65379CE9185312BA000CCF53 /* lualib.xcodeproj */;
+				},
+				{
+					ProductGroup = 4A4D292D190A293700FF1D45 /* Products */;
+					ProjectRef = 4A4D292C190A293700FF1D45 /* lzmalib.xcodeproj */;
+				},
+				{
+					ProductGroup = 6507C1DD18448F380093D001 /* Products */;
+					ProjectRef = 6507C1DC18448F380093D001 /* ogglib.xcodeproj */;
+				},
+				{
+					ProductGroup = 650A1BB71862DFE40010C325 /* Products */;
+					ProjectRef = 650A1BB61862DFE40010C325 /* pnglib.xcodeproj */;
+				},
+				{
+					ProductGroup = 4A4373BB19EB87770011D401 /* Products */;
+					ProjectRef = 4A4373BA19EB87770011D401 /* raknetlib.xcodeproj */;
+				},
+				{
+					ProductGroup = 6507C1F61844942B0093D001 /* Products */;
+					ProjectRef = 6507C1F51844942B0093D001 /* vorbislib.xcodeproj */;
+				},
+				{
+					ProductGroup = 8ADFF6CE16248CAA00F9E1F0 /* Products */;
+					ProjectRef = 8ADFF6CD16248CAA00F9E1F0 /* zlib.xcodeproj */;
+				},
+				{
+					ProductGroup = 8ADFF6D816248CB500F9E1F0 /* Products */;
+					ProjectRef = 8ADFF6D716248CB500F9E1F0 /* zziplib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4A4373C419EB87770011D401 /* libraknetlib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libraknetlib.a;
+			remoteRef = 4A4373C319EB87770011D401 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A4D2933190A293700FF1D45 /* liblzmalib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblzmalib.a;
+			remoteRef = 4A4D2932190A293700FF1D45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6507C1E218448F380093D001 /* libogglib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libogglib.a;
+			remoteRef = 6507C1E118448F380093D001 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6507C1FC1844942B0093D001 /* libvorbislib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libvorbislib.a;
+			remoteRef = 6507C1FB1844942B0093D001 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		650A1BBF1862DFE60010C325 /* libpnglib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpnglib.a;
+			remoteRef = 650A1BBE1862DFE60010C325 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65379CF0185312BC000CCF53 /* liblualib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblualib.a;
+			remoteRef = 65379CEF185312BC000CCF53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A2B865B16272DE2001AF651 /* libcurllib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcurllib.a;
+			remoteRef = 8A2B865A16272DE2001AF651 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8ADFF6D516248CAB00F9E1F0 /* libzlib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzlib.a;
+			remoteRef = 8ADFF6D416248CAB00F9E1F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8ADFF6DF16248CB500F9E1F0 /* libzziplib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzziplib.a;
+			remoteRef = 8ADFF6DE16248CB500F9E1F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		8A87797C1625664A0099B575 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Shipping;
+		};
+		8ADFF6C816248C8900F9E1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8ADFF6C916248C8900F9E1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ADFF6C616248C8900F9E1F0 /* Build configuration list for PBXProject "Externals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ADFF6C816248C8900F9E1F0 /* Debug */,
+				8ADFF6C916248C8900F9E1F0 /* Release */,
+				8A87797C1625664A0099B575 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ADFF6C316248C8900F9E1F0 /* Project object */;
+}

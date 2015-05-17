@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A31C20815EB7CE000929F16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A31C20715EB7CE000929F16 /* Cocoa.framework */; };
+		8A31C21215EB7CE000929F16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A31C21015EB7CE000929F16 /* InfoPlist.strings */; };
+		8A31C21815EB7CE000929F16 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A31C21615EB7CE000929F16 /* Credits.rtf */; };
+		8A31C21B15EB7CE000929F16 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A31C21A15EB7CE000929F16 /* AppDelegate.mm */; };
+		8A31C24915EB7DC200929F16 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A31C24815EB7DC200929F16 /* OpenGL.framework */; };
+		8A31C24C15EB7DCA00929F16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A31C24B15EB7DCA00929F16 /* QuartzCore.framework */; };
+		8A31C25115EB7E9100929F16 /* PowerTestMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A31C24E15EB7E9100929F16 /* PowerTestMain.cpp */; };
+		8A31C25215EB7E9100929F16 /* VePowerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A31C24F15EB7E9100929F16 /* VePowerTest.cpp */; };
+		8A31C25715EB7EAB00929F16 /* VeGLShell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A31C25515EB7EAB00929F16 /* VeGLShell.mm */; };
+		8A31C25815EB7EAB00929F16 /* VeMain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A31C25615EB7EAB00929F16 /* VeMain.mm */; };
+		8A31C25D15EB803700929F16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A31C25B15EB803700929F16 /* MainMenu.xib */; };
+		8A5C2AF91625870500D5AE23 /* libVeMain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C2AF51625870500D5AE23 /* libVeMain.a */; };
+		8A5C2AFA1625870500D5AE23 /* libVePower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C2AF61625870500D5AE23 /* libVePower.a */; };
+		8A5C2AFB1625870500D5AE23 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C2AF71625870500D5AE23 /* libzlib.a */; };
+		8A5C2AFC1625870500D5AE23 /* libzziplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C2AF81625870500D5AE23 /* libzziplib.a */; };
+		8AA9AB4016272D3000C92E33 /* libcurllib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA9AB3F16272D3000C92E33 /* libcurllib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A31C20315EB7CE000929F16 /* VePowerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VePowerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A31C20715EB7CE000929F16 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8A31C20A15EB7CE000929F16 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8A31C20B15EB7CE000929F16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A31C20C15EB7CE000929F16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A31C20F15EB7CE000929F16 /* VePowerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VePowerTest-Info.plist"; sourceTree = "<group>"; };
+		8A31C21115EB7CE000929F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A31C21515EB7CE000929F16 /* VePowerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VePowerTest-Prefix.pch"; sourceTree = "<group>"; };
+		8A31C21715EB7CE000929F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8A31C21915EB7CE000929F16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 2; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A31C21A15EB7CE000929F16 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 2; path = AppDelegate.mm; sourceTree = "<group>"; };
+		8A31C24815EB7DC200929F16 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		8A31C24B15EB7DCA00929F16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8A31C24E15EB7E9100929F16 /* PowerTestMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PowerTestMain.cpp; path = ../../../../Tests/VePowerTest/PowerTestMain.cpp; sourceTree = "<group>"; };
+		8A31C24F15EB7E9100929F16 /* VePowerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VePowerTest.cpp; path = ../../../../Tests/VePowerTest/VePowerTest.cpp; sourceTree = "<group>"; };
+		8A31C25015EB7E9100929F16 /* VePowerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VePowerTest.h; path = ../../../../Tests/VePowerTest/VePowerTest.h; sourceTree = "<group>"; };
+		8A31C25415EB7EAB00929F16 /* VeGLShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeGLShell.h; sourceTree = "<group>"; };
+		8A31C25515EB7EAB00929F16 /* VeGLShell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VeGLShell.mm; sourceTree = "<group>"; };
+		8A31C25615EB7EAB00929F16 /* VeMain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VeMain.mm; sourceTree = "<group>"; };
+		8A31C25C15EB803700929F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8A5C2AF51625870500D5AE23 /* libVeMain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVeMain.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug/libVeMain.a"; sourceTree = "<group>"; };
+		8A5C2AF61625870500D5AE23 /* libVePower.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVePower.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug/libVePower.a"; sourceTree = "<group>"; };
+		8A5C2AF71625870500D5AE23 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug/libzlib.a"; sourceTree = "<group>"; };
+		8A5C2AF81625870500D5AE23 /* libzziplib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzziplib.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug/libzziplib.a"; sourceTree = "<group>"; };
+		8AA9AB3F16272D3000C92E33 /* libcurllib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurllib.a; path = ../curllib/build/Shipping/libcurllib.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A31C20015EB7CE000929F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA9AB4016272D3000C92E33 /* libcurllib.a in Frameworks */,
+				8A5C2AF91625870500D5AE23 /* libVeMain.a in Frameworks */,
+				8A5C2AFA1625870500D5AE23 /* libVePower.a in Frameworks */,
+				8A5C2AFB1625870500D5AE23 /* libzlib.a in Frameworks */,
+				8A5C2AFC1625870500D5AE23 /* libzziplib.a in Frameworks */,
+				8A31C24C15EB7DCA00929F16 /* QuartzCore.framework in Frameworks */,
+				8A31C24915EB7DC200929F16 /* OpenGL.framework in Frameworks */,
+				8A31C20815EB7CE000929F16 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A31C1F815EB7CE000929F16 = {
+			isa = PBXGroup;
+			children = (
+				8A31C20D15EB7CE000929F16 /* VePowerTest */,
+				8A31C25315EB7EAB00929F16 /* VeCocoa */,
+				8A31C20615EB7CE000929F16 /* Frameworks */,
+				8A31C20415EB7CE000929F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A31C20415EB7CE000929F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A31C20315EB7CE000929F16 /* VePowerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A31C20615EB7CE000929F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA9AB3F16272D3000C92E33 /* libcurllib.a */,
+				8A5C2AF51625870500D5AE23 /* libVeMain.a */,
+				8A5C2AF61625870500D5AE23 /* libVePower.a */,
+				8A5C2AF71625870500D5AE23 /* libzlib.a */,
+				8A5C2AF81625870500D5AE23 /* libzziplib.a */,
+				8A31C24B15EB7DCA00929F16 /* QuartzCore.framework */,
+				8A31C24815EB7DC200929F16 /* OpenGL.framework */,
+				8A31C20715EB7CE000929F16 /* Cocoa.framework */,
+				8A31C20915EB7CE000929F16 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A31C20915EB7CE000929F16 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A31C20A15EB7CE000929F16 /* AppKit.framework */,
+				8A31C20B15EB7CE000929F16 /* CoreData.framework */,
+				8A31C20C15EB7CE000929F16 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8A31C20D15EB7CE000929F16 /* VePowerTest */ = {
+			isa = PBXGroup;
+			children = (
+				8A31C24E15EB7E9100929F16 /* PowerTestMain.cpp */,
+				8A31C24F15EB7E9100929F16 /* VePowerTest.cpp */,
+				8A31C25015EB7E9100929F16 /* VePowerTest.h */,
+				8A31C21915EB7CE000929F16 /* AppDelegate.h */,
+				8A31C21A15EB7CE000929F16 /* AppDelegate.mm */,
+				8A31C25B15EB803700929F16 /* MainMenu.xib */,
+				8A31C20E15EB7CE000929F16 /* Supporting Files */,
+			);
+			path = VePowerTest;
+			sourceTree = "<group>";
+		};
+		8A31C20E15EB7CE000929F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A31C20F15EB7CE000929F16 /* VePowerTest-Info.plist */,
+				8A31C21015EB7CE000929F16 /* InfoPlist.strings */,
+				8A31C21515EB7CE000929F16 /* VePowerTest-Prefix.pch */,
+				8A31C21615EB7CE000929F16 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A31C25315EB7EAB00929F16 /* VeCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				8A31C25415EB7EAB00929F16 /* VeGLShell.h */,
+				8A31C25515EB7EAB00929F16 /* VeGLShell.mm */,
+				8A31C25615EB7EAB00929F16 /* VeMain.mm */,
+			);
+			name = VeCocoa;
+			path = ../../../SDK/Macosx/VeCocoa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A31C20215EB7CE000929F16 /* VePowerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A31C22115EB7CE100929F16 /* Build configuration list for PBXNativeTarget "VePowerTest" */;
+			buildPhases = (
+				8A31C1FF15EB7CE000929F16 /* Sources */,
+				8A31C20015EB7CE000929F16 /* Frameworks */,
+				8A31C20115EB7CE000929F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VePowerTest;
+			productName = VePowerTest;
+			productReference = 8A31C20315EB7CE000929F16 /* VePowerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A31C1FA15EB7CE000929F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Napoleon;
+			};
+			buildConfigurationList = 8A31C1FD15EB7CE000929F16 /* Build configuration list for PBXProject "VePowerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A31C1F815EB7CE000929F16;
+			productRefGroup = 8A31C20415EB7CE000929F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A31C20215EB7CE000929F16 /* VePowerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A31C20115EB7CE000929F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A31C21215EB7CE000929F16 /* InfoPlist.strings in Resources */,
+				8A31C21815EB7CE000929F16 /* Credits.rtf in Resources */,
+				8A31C25D15EB803700929F16 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A31C1FF15EB7CE000929F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A31C21B15EB7CE000929F16 /* AppDelegate.mm in Sources */,
+				8A31C25115EB7E9100929F16 /* PowerTestMain.cpp in Sources */,
+				8A31C25215EB7E9100929F16 /* VePowerTest.cpp in Sources */,
+				8A31C25715EB7EAB00929F16 /* VeGLShell.mm in Sources */,
+				8A31C25815EB7EAB00929F16 /* VeMain.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A31C21015EB7CE000929F16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A31C21115EB7CE000929F16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A31C21615EB7CE000929F16 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A31C21715EB7CE000929F16 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8A31C25B15EB803700929F16 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A31C25C15EB803700929F16 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A31C21F15EB7CE100929F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A31C22015EB7CE100929F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8A31C22215EB7CE100929F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VePowerTest/VePowerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_DEBUG,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_OSX,
+					VE_STATIC_LIB,
+					VE_CPU_X64,
+					VE_USER,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../SDK/Include,
+					../../../SDK/Include/Externals,
+				);
+				INFOPLIST_FILE = "VePowerTest/VePowerTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../SDK/Macosx/$(CONFIGURATION)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug\"",
+				);
+				OTHER_CFLAGS = "-O0";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A31C22315EB7CE100929F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VePowerTest/VePowerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_RELEASE,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_OSX,
+					VE_STATIC_LIB,
+					VE_CPU_X64,
+					VE_USER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../SDK/Include,
+					../../../SDK/Include/Externals,
+				);
+				INFOPLIST_FILE = "VePowerTest/VePowerTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../SDK/Macosx/$(CONFIGURATION)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug\"",
+				);
+				OTHER_CFLAGS = "-O2";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A31C25915EB7ED700929F16 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Shipping;
+		};
+		8A31C25A15EB7ED700929F16 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VePowerTest/VePowerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_SHIPPING,
+					VE_PLATFORM_OSX,
+					VE_STATIC_LIB,
+					VE_CPU_X64,
+					VE_USER,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../SDK/Include,
+					../../../SDK/Include/Externals,
+				);
+				INFOPLIST_FILE = "VePowerTest/VePowerTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../SDK/Macosx/$(CONFIGURATION)",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-ebttfialtbcxdpgpuhmredluqypl/Build/Products/Debug\"",
+				);
+				OTHER_CFLAGS = "-O3";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A31C1FD15EB7CE000929F16 /* Build configuration list for PBXProject "VePowerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A31C21F15EB7CE100929F16 /* Debug */,
+				8A31C22015EB7CE100929F16 /* Release */,
+				8A31C25915EB7ED700929F16 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+		8A31C22115EB7CE100929F16 /* Build configuration list for PBXNativeTarget "VePowerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A31C22215EB7CE100929F16 /* Debug */,
+				8A31C22315EB7CE100929F16 /* Release */,
+				8A31C25A15EB7ED700929F16 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A31C1FA15EB7CE000929F16 /* Project object */;
+}

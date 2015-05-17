@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AC6E23B8-1DBC-4B2A-A7D0-F34CFB16C7FA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VePower</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeLibDebug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeLibRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeLibShipping.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;CURL_STATICLIB;_DEBUG;_WINDOWS;_USRDLL;VE_POWER_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>VePowerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(VENUS3D_PATH)\SDK\MobileSim\VC$(PlatformToolsetVersion)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>zlib.lib;zziplib.lib;curllib.lib;ws2_32.lib;wldap32.lib;lualib.lib;raknetlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;CURL_STATICLIB;NDEBUG;_WINDOWS;_USRDLL;VE_POWER_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PrecompiledHeaderFile>VePowerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(VENUS3D_PATH)\SDK\MobileSim\VC$(PlatformToolsetVersion)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>zlib.lib;zziplib.lib;curllib.lib;ws2_32.lib;wldap32.lib;lualib.lib;raknetlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;CURL_STATICLIB;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>VePowerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAllocator.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAllocatorManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAngle.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAsset.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeBackgroundTaskQueue.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeBinaryStream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeBoundingBox.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeClientBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeColor.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeDirectory.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeFile.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeFloat16.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLine2D.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLog.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLua.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLuaBind.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMath.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMatrix.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMemObject.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMemory.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMemoryStream.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeNetEntity.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeNetwork.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeObject.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VePower.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VePowerPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeQuaternion.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeRefObject.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeResourceManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeRTTI.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeServerBase.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeSharedLib.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeString.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTextTable.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeThread.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTime.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTimer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTransform.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeURL.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeVector2D.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeVector3D.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeVector4D.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeXML.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VePower\VeZip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAllocator.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAllocatorManager.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAngle.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAsset.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeBackgroundTaskQueue.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeBinaryStream.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeBoundingBox.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeClientBase.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeColor.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeDirectory.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeEvent.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeEventSub.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeFile.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeFloat16.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeHashMap.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLine2D.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeList.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLog.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLua.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLuaBind.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMap.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMath.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMatrix.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMemObject.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMemory.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMemoryStream.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeNetEntity.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeNetwork.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeObject.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VePair.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VePower.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VePowerPCH.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeQuaternion.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeRefList.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeRefObject.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeResource.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeResourceManager.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeRTTI.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeServerBase.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeSharedLib.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeSingleton.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeSmartPointer.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeString.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeStringMap.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTemplate.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTextTable.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeThread.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTime.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTimer.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTransform.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTreeMap.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeURL.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector2D.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector3D.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector4D.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeXML.h" />
+    <ClInclude Include="..\..\..\..\Source\VePower\VeZip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\VePower\VeAllocator.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeAngle.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeBackgroundTaskQueue.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeBinaryStream.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeBoundingBox.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeClientBase.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeColor.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeFloat16.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeLine2D.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeLua.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeMath.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeMatrix.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeMemory.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeMemoryStream.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeNetEntity.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeQuaternion.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeRefObject.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeResource.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeResourceManager.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeServerBase.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeTextTable.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeThread.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeTime.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeTimer.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeTransform.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeVector2D.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeVector3D.inl" />
+    <None Include="..\..\..\..\Source\VePower\VeVector4D.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="curllib" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00030001N0005Debug0000000000000001N0007Release0000000000000001N0008Shipping000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Source Files">
+    <File Name="../../../Externals/curllib/amigaos.c"/>
+    <File Name="../../../Externals/curllib/amigaos.h"/>
+    <File Name="../../../Externals/curllib/arpa_telnet.h"/>
+    <File Name="../../../Externals/curllib/asyn.h"/>
+    <File Name="../../../Externals/curllib/asyn-ares.c"/>
+    <File Name="../../../Externals/curllib/asyn-thread.c"/>
+    <File Name="../../../Externals/curllib/axtls.c"/>
+    <File Name="../../../Externals/curllib/axtls.h"/>
+    <File Name="../../../Externals/curllib/base64.c"/>
+    <File Name="../../../Externals/curllib/config-amigaos.h"/>
+    <File Name="../../../Externals/curllib/config-dos.h"/>
+    <File Name="../../../Externals/curllib/config-mac.h"/>
+    <File Name="../../../Externals/curllib/config-os400.h"/>
+    <File Name="../../../Externals/curllib/config-riscos.h"/>
+    <File Name="../../../Externals/curllib/config-symbian.h"/>
+    <File Name="../../../Externals/curllib/config-tpf.h"/>
+    <File Name="../../../Externals/curllib/config-vms.h"/>
+    <File Name="../../../Externals/curllib/config-vxworks.h"/>
+    <File Name="../../../Externals/curllib/config-win32.h"/>
+    <File Name="../../../Externals/curllib/config-win32ce.h"/>
+    <File Name="../../../Externals/curllib/connect.c"/>
+    <File Name="../../../Externals/curllib/connect.h"/>
+    <File Name="../../../Externals/curllib/content_encoding.c"/>
+    <File Name="../../../Externals/curllib/content_encoding.h"/>
+    <File Name="../../../Externals/curllib/cookie.c"/>
+    <File Name="../../../Externals/curllib/cookie.h"/>
+    <File Name="../../../Externals/curllib/curl_addrinfo.c"/>
+    <File Name="../../../Externals/curllib/curl_addrinfo.h"/>
+    <File Name="../../../Externals/curllib/curl_base64.h"/>
+    <File Name="../../../Externals/curllib/curl_darwinssl.c"/>
+    <File Name="../../../Externals/curllib/curl_darwinssl.h"/>
+    <File Name="../../../Externals/curllib/curl_fnmatch.c"/>
+    <File Name="../../../Externals/curllib/curl_fnmatch.h"/>
+    <File Name="../../../Externals/curllib/curl_gethostname.c"/>
+    <File Name="../../../Externals/curllib/curl_gethostname.h"/>
+    <File Name="../../../Externals/curllib/curl_gssapi.c"/>
+    <File Name="../../../Externals/curllib/curl_gssapi.h"/>
+    <File Name="../../../Externals/curllib/curl_hmac.h"/>
+    <File Name="../../../Externals/curllib/curl_ldap.h"/>
+    <File Name="../../../Externals/curllib/curl_md4.h"/>
+    <File Name="../../../Externals/curllib/curl_md5.h"/>
+    <File Name="../../../Externals/curllib/curl_memory.h"/>
+    <File Name="../../../Externals/curllib/curl_memrchr.c"/>
+    <File Name="../../../Externals/curllib/curl_memrchr.h"/>
+    <File Name="../../../Externals/curllib/curl_multibyte.c"/>
+    <File Name="../../../Externals/curllib/curl_multibyte.h"/>
+    <File Name="../../../Externals/curllib/curl_ntlm.c"/>
+    <File Name="../../../Externals/curllib/curl_ntlm.h"/>
+    <File Name="../../../Externals/curllib/curl_ntlm_core.c"/>
+    <File Name="../../../Externals/curllib/curl_ntlm_core.h"/>
+    <File Name="../../../Externals/curllib/curl_ntlm_msgs.c"/>
+    <File Name="../../../Externals/curllib/curl_ntlm_msgs.h"/>
+    <File Name="../../../Externals/curllib/curl_ntlm_wb.c"/>
+    <File Name="../../../Externals/curllib/curl_ntlm_wb.h"/>
+    <File Name="../../../Externals/curllib/curl_rand.c"/>
+    <File Name="../../../Externals/curllib/curl_rand.h"/>
+    <File Name="../../../Externals/curllib/curl_rtmp.c"/>
+    <File Name="../../../Externals/curllib/curl_rtmp.h"/>
+    <File Name="../../../Externals/curllib/curl_sasl.c"/>
+    <File Name="../../../Externals/curllib/curl_sasl.h"/>
+    <File Name="../../../Externals/curllib/curl_schannel.c"/>
+    <File Name="../../../Externals/curllib/curl_schannel.h"/>
+    <File Name="../../../Externals/curllib/curl_sspi.c"/>
+    <File Name="../../../Externals/curllib/curl_sspi.h"/>
+    <File Name="../../../Externals/curllib/curl_threads.c"/>
+    <File Name="../../../Externals/curllib/curl_threads.h"/>
+    <File Name="../../../Externals/curllib/curlx.h"/>
+    <File Name="../../../Externals/curllib/cyassl.c"/>
+    <File Name="../../../Externals/curllib/cyassl.h"/>
+    <File Name="../../../Externals/curllib/dict.c"/>
+    <File Name="../../../Externals/curllib/dict.h"/>
+    <File Name="../../../Externals/curllib/easy.c"/>
+    <File Name="../../../Externals/curllib/easyif.h"/>
+    <File Name="../../../Externals/curllib/escape.c"/>
+    <File Name="../../../Externals/curllib/escape.h"/>
+    <File Name="../../../Externals/curllib/file.c"/>
+    <File Name="../../../Externals/curllib/file.h"/>
+    <File Name="../../../Externals/curllib/fileinfo.c"/>
+    <File Name="../../../Externals/curllib/fileinfo.h"/>
+    <File Name="../../../Externals/curllib/formdata.c"/>
+    <File Name="../../../Externals/curllib/formdata.h"/>
+    <File Name="../../../Externals/curllib/ftp.c"/>
+    <File Name="../../../Externals/curllib/ftp.h"/>
+    <File Name="../../../Externals/curllib/ftplistparser.c"/>
+    <File Name="../../../Externals/curllib/ftplistparser.h"/>
+    <File Name="../../../Externals/curllib/getenv.c"/>
+    <File Name="../../../Externals/curllib/getinfo.c"/>
+    <File Name="../../../Externals/curllib/getinfo.h"/>
+    <File Name="../../../Externals/curllib/gopher.c"/>
+    <File Name="../../../Externals/curllib/gopher.h"/>
+    <File Name="../../../Externals/curllib/gtls.c"/>
+    <File Name="../../../Externals/curllib/gtls.h"/>
+    <File Name="../../../Externals/curllib/hash.c"/>
+    <File Name="../../../Externals/curllib/hash.h"/>
+    <File Name="../../../Externals/curllib/hmac.c"/>
+    <File Name="../../../Externals/curllib/hostasyn.c"/>
+    <File Name="../../../Externals/curllib/hostip.c"/>
+    <File Name="../../../Externals/curllib/hostip.h"/>
+    <File Name="../../../Externals/curllib/hostip4.c"/>
+    <File Name="../../../Externals/curllib/hostip6.c"/>
+    <File Name="../../../Externals/curllib/hostsyn.c"/>
+    <File Name="../../../Externals/curllib/http.c"/>
+    <File Name="../../../Externals/curllib/http.h"/>
+    <File Name="../../../Externals/curllib/http_chunks.c"/>
+    <File Name="../../../Externals/curllib/http_chunks.h"/>
+    <File Name="../../../Externals/curllib/http_digest.c"/>
+    <File Name="../../../Externals/curllib/http_digest.h"/>
+    <File Name="../../../Externals/curllib/http_negotiate.c"/>
+    <File Name="../../../Externals/curllib/http_negotiate.h"/>
+    <File Name="../../../Externals/curllib/http_negotiate_sspi.c"/>
+    <File Name="../../../Externals/curllib/http_proxy.c"/>
+    <File Name="../../../Externals/curllib/http_proxy.h"/>
+    <File Name="../../../Externals/curllib/idn_win32.c"/>
+    <File Name="../../../Externals/curllib/if2ip.c"/>
+    <File Name="../../../Externals/curllib/if2ip.h"/>
+    <File Name="../../../Externals/curllib/imap.c"/>
+    <File Name="../../../Externals/curllib/imap.h"/>
+    <File Name="../../../Externals/curllib/inet_ntop.c"/>
+    <File Name="../../../Externals/curllib/inet_ntop.h"/>
+    <File Name="../../../Externals/curllib/inet_pton.c"/>
+    <File Name="../../../Externals/curllib/inet_pton.h"/>
+    <File Name="../../../Externals/curllib/krb4.c"/>
+    <File Name="../../../Externals/curllib/krb4.h"/>
+    <File Name="../../../Externals/curllib/krb5.c"/>
+    <File Name="../../../Externals/curllib/ldap.c"/>
+    <File Name="../../../Externals/curllib/llist.c"/>
+    <File Name="../../../Externals/curllib/llist.h"/>
+    <File Name="../../../Externals/curllib/md4.c"/>
+    <File Name="../../../Externals/curllib/md5.c"/>
+    <File Name="../../../Externals/curllib/memdebug.c"/>
+    <File Name="../../../Externals/curllib/memdebug.h"/>
+    <File Name="../../../Externals/curllib/mprintf.c"/>
+    <File Name="../../../Externals/curllib/multi.c"/>
+    <File Name="../../../Externals/curllib/multiif.h"/>
+    <File Name="../../../Externals/curllib/netrc.c"/>
+    <File Name="../../../Externals/curllib/netrc.h"/>
+    <File Name="../../../Externals/curllib/non-ascii.c"/>
+    <File Name="../../../Externals/curllib/non-ascii.h"/>
+    <File Name="../../../Externals/curllib/nonblock.c"/>
+    <File Name="../../../Externals/curllib/nonblock.h"/>
+    <File Name="../../../Externals/curllib/nss.c"/>
+    <File Name="../../../Externals/curllib/nssg.h"/>
+    <File Name="../../../Externals/curllib/nwlib.c"/>
+    <File Name="../../../Externals/curllib/nwos.c"/>
+    <File Name="../../../Externals/curllib/openldap.c"/>
+    <File Name="../../../Externals/curllib/parsedate.c"/>
+    <File Name="../../../Externals/curllib/parsedate.h"/>
+    <File Name="../../../Externals/curllib/pingpong.c"/>
+    <File Name="../../../Externals/curllib/pingpong.h"/>
+    <File Name="../../../Externals/curllib/polarssl.c"/>
+    <File Name="../../../Externals/curllib/polarssl.h"/>
+    <File Name="../../../Externals/curllib/pop3.c"/>
+    <File Name="../../../Externals/curllib/pop3.h"/>
+    <File Name="../../../Externals/curllib/progress.c"/>
+    <File Name="../../../Externals/curllib/progress.h"/>
+    <File Name="../../../Externals/curllib/qssl.c"/>
+    <File Name="../../../Externals/curllib/qssl.h"/>
+    <File Name="../../../Externals/curllib/rawstr.c"/>
+    <File Name="../../../Externals/curllib/rawstr.h"/>
+    <File Name="../../../Externals/curllib/rtsp.c"/>
+    <File Name="../../../Externals/curllib/rtsp.h"/>
+    <File Name="../../../Externals/curllib/security.c"/>
+    <File Name="../../../Externals/curllib/select.c"/>
+    <File Name="../../../Externals/curllib/select.h"/>
+    <File Name="../../../Externals/curllib/sendf.c"/>
+    <File Name="../../../Externals/curllib/sendf.h"/>
+    <File Name="../../../Externals/curllib/setup.h"/>
+    <File Name="../../../Externals/curllib/setup_once.h"/>
+    <File Name="../../../Externals/curllib/setup-os400.h"/>
+    <File Name="../../../Externals/curllib/share.c"/>
+    <File Name="../../../Externals/curllib/share.h"/>
+    <File Name="../../../Externals/curllib/slist.c"/>
+    <File Name="../../../Externals/curllib/slist.h"/>
+    <File Name="../../../Externals/curllib/smtp.c"/>
+    <File Name="../../../Externals/curllib/smtp.h"/>
+    <File Name="../../../Externals/curllib/sockaddr.h"/>
+    <File Name="../../../Externals/curllib/socks.c"/>
+    <File Name="../../../Externals/curllib/socks.h"/>
+    <File Name="../../../Externals/curllib/socks_gssapi.c"/>
+    <File Name="../../../Externals/curllib/socks_sspi.c"/>
+    <File Name="../../../Externals/curllib/speedcheck.c"/>
+    <File Name="../../../Externals/curllib/speedcheck.h"/>
+    <File Name="../../../Externals/curllib/splay.c"/>
+    <File Name="../../../Externals/curllib/splay.h"/>
+    <File Name="../../../Externals/curllib/ssh.c"/>
+    <File Name="../../../Externals/curllib/ssh.h"/>
+    <File Name="../../../Externals/curllib/sslgen.c"/>
+    <File Name="../../../Externals/curllib/sslgen.h"/>
+    <File Name="../../../Externals/curllib/ssluse.c"/>
+    <File Name="../../../Externals/curllib/ssluse.h"/>
+    <File Name="../../../Externals/curllib/strdup.c"/>
+    <File Name="../../../Externals/curllib/strdup.h"/>
+    <File Name="../../../Externals/curllib/strequal.c"/>
+    <File Name="../../../Externals/curllib/strequal.h"/>
+    <File Name="../../../Externals/curllib/strerror.c"/>
+    <File Name="../../../Externals/curllib/strerror.h"/>
+    <File Name="../../../Externals/curllib/strtok.c"/>
+    <File Name="../../../Externals/curllib/strtok.h"/>
+    <File Name="../../../Externals/curllib/strtoofft.c"/>
+    <File Name="../../../Externals/curllib/strtoofft.h"/>
+    <File Name="../../../Externals/curllib/telnet.c"/>
+    <File Name="../../../Externals/curllib/telnet.h"/>
+    <File Name="../../../Externals/curllib/tftp.c"/>
+    <File Name="../../../Externals/curllib/tftp.h"/>
+    <File Name="../../../Externals/curllib/timeval.c"/>
+    <File Name="../../../Externals/curllib/timeval.h"/>
+    <File Name="../../../Externals/curllib/transfer.c"/>
+    <File Name="../../../Externals/curllib/transfer.h"/>
+    <File Name="../../../Externals/curllib/url.c"/>
+    <File Name="../../../Externals/curllib/url.h"/>
+    <File Name="../../../Externals/curllib/urldata.h"/>
+    <File Name="../../../Externals/curllib/version.c"/>
+    <File Name="../../../Externals/curllib/warnless.c"/>
+    <File Name="../../../Externals/curllib/warnless.h"/>
+    <File Name="../../../Externals/curllib/wildcard.c"/>
+    <File Name="../../../Externals/curllib/wildcard.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Header Files">
+    <File Name="../../../Externals/curllib/curllib/curl.h"/>
+    <File Name="../../../Externals/curllib/curllib/curlbuild.h"/>
+    <File Name="../../../Externals/curllib/curllib/curlrules.h"/>
+    <File Name="../../../Externals/curllib/curllib/curlver.h"/>
+    <File Name="../../../Externals/curllib/curllib/easy.h"/>
+    <File Name="../../../Externals/curllib/curllib/mprintf.h"/>
+    <File Name="../../../Externals/curllib/curllib/multi.h"/>
+    <File Name="../../../Externals/curllib/curllib/stdcheaders.h"/>
+    <File Name="../../../Externals/curllib/curllib/typecheck-gcc.h"/>
+    <File Name="../../../Externals/curllib/Linux/curl_config.h"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG;-DHAVE_CONFIG_H;-DBUILDING_LIBCURL;-DCURL_STATICLIB;-fno-exceptions;-fno-rtti" C_Options="-g;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG;-DHAVE_CONFIG_H;-DBUILDING_LIBCURL;-DCURL_STATICLIB" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Externals/zlib"/>
+        <IncludePath Value="../../../Externals/curllib"/>
+        <IncludePath Value="../../../Externals/curllib/Linux"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Debug]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyExternalsToSDK.sh $(ProjectName) $(PlatformName) $(Configuration)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG;-DHAVE_CONFIG_H;-DBUILDING_LIBCURL;-DCURL_STATICLIB;-fno-exceptions;-fno-rtti" C_Options="-O2;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG;-DHAVE_CONFIG_H;-DBUILDING_LIBCURL;-DCURL_STATICLIB" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Externals/zlib"/>
+        <IncludePath Value="../../../Externals/curllib"/>
+        <IncludePath Value="../../../Externals/curllib/Linux"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Release]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyExternalsToSDK.sh $(ProjectName) $(PlatformName) $(Configuration)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Shipping" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O3;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING;-DHAVE_CONFIG_H;-DBUILDING_LIBCURL;-DCURL_STATICLIB;-fno-exceptions;-fno-rtti" C_Options="-O3;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING;-DHAVE_CONFIG_H;-DBUILDING_LIBCURL;-DCURL_STATICLIB" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Externals/zlib"/>
+        <IncludePath Value="../../../Externals/curllib"/>
+        <IncludePath Value="../../../Externals/curllib/Linux"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Shipping]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyExternalsToSDK.sh $(ProjectName) $(PlatformName) $(Configuration)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

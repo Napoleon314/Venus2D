@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.android.toolchain.gcc.286349280">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.286349280" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="com.android.toolchain.gcc.286349280" name="Debug" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.286349280.955005412" name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.961200301" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1026396498" name="Android Platform" osList="all" superClass="com.android.targetPlatform"/>
+							<builder arguments="${NDKROOT}/ndk-build ${VENUS_TESTS_MODULE_PATH} Configuration=Debug NDK_DEBUG=1 CPU=armeabi" command="bash" id="com.android.builder.1502525081" incrementalBuildTarget="BuildAll" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.android.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1978478830" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="com.android.tool.compiler.g++.1221230265" name="Android G++" superClass="com.android.tool.compiler.g++">
+								<option id="gnu.cpp.compiler.option.include.paths.1207782292" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.630459795" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="VE_CPU_ARM"/>
+									<listOptionValue builtIn="false" value="VE_PLATFORM_ANDROID"/>
+									<listOptionValue builtIn="false" value="VE_STATIC_LIB"/>
+									<listOptionValue builtIn="false" value="VE_DEBUG"/>
+									<listOptionValue builtIn="false" value="VE_MEM_DEBUG"/>
+								</option>
+								<inputType id="com.android.tool.compiler.g++.input.286793422" superClass="com.android.tool.compiler.g++.input"/>
+							</tool>
+							<tool id="com.android.tool.compiler.c.1606469552" name="Android GCC" superClass="com.android.tool.compiler.c">
+								<option id="gnu.c.compiler.option.include.paths.385047430" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1992551148" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="VE_CPU_ARM"/>
+									<listOptionValue builtIn="false" value="VE_PLATFORM_ANDROID"/>
+									<listOptionValue builtIn="false" value="VE_STATIC_LIB"/>
+									<listOptionValue builtIn="false" value="VE_DEBUG"/>
+									<listOptionValue builtIn="false" value="VE_MEM_DEBUG"/>
+								</option>
+								<inputType id="com.android.tool.compiler.c.input.1723404339" superClass="com.android.tool.compiler.c.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1359903605" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1703386486" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1207911841" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.1301115454" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1361796934" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1811727327" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.android.toolchain.gcc.286349280.1289910361">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.286349280.1289910361" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="com.android.toolchain.gcc.286349280.1289910361" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.286349280.1289910361." name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.1601009799" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.868302271" name="Android Platform" osList="all" superClass="com.android.targetPlatform"/>
+							<builder arguments="${NDKROOT}/ndk-build ${VENUS_TESTS_MODULE_PATH} Configuration=Release CPU=armeabi" command="bash" id="com.android.builder.1229373051" incrementalBuildTarget="BuildAll" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.android.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.366263423" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="com.android.tool.compiler.g++.36445579" name="Android G++" superClass="com.android.tool.compiler.g++">
+								<option id="gnu.cpp.compiler.option.include.paths.423430429" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.896054347" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="VE_CPU_ARM"/>
+									<listOptionValue builtIn="false" value="VE_PLATFORM_ANDROID"/>
+									<listOptionValue builtIn="false" value="VE_STATIC_LIB"/>
+									<listOptionValue builtIn="false" value="VE_RELEASE"/>
+									<listOptionValue builtIn="false" value="VE_MEM_DEBUG"/>
+								</option>
+								<inputType id="com.android.tool.compiler.g++.input.1155913745" superClass="com.android.tool.compiler.g++.input"/>
+							</tool>
+							<tool id="com.android.tool.compiler.c.1964959382" name="Android GCC" superClass="com.android.tool.compiler.c">
+								<option id="gnu.c.compiler.option.include.paths.1610013628" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.450477791" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="VE_CPU_ARM"/>
+									<listOptionValue builtIn="false" value="VE_PLATFORM_ANDROID"/>
+									<listOptionValue builtIn="false" value="VE_STATIC_LIB"/>
+									<listOptionValue builtIn="false" value="VE_RELEASE"/>
+									<listOptionValue builtIn="false" value="VE_MEM_DEBUG"/>
+								</option>
+								<inputType id="com.android.tool.compiler.c.input.706724943" superClass="com.android.tool.compiler.c.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.323027629" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1217780768" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1310224331" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.468734337" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.560579084" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.549933986" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.android.toolchain.gcc.286349280.1289910361.1101254992">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.286349280.1289910361.1101254992" moduleId="org.eclipse.cdt.core.settings" name="Shipping">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="com.android.toolchain.gcc.286349280.1289910361.1101254992" name="Shipping" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.286349280.1289910361.1101254992." name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.1731414571" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.100685830" name="Android Platform" osList="all" superClass="com.android.targetPlatform"/>
+							<builder arguments="${NDKROOT}/ndk-build ${VENUS_TESTS_MODULE_PATH} Configuration=Shipping CPU=armeabi" command="bash" id="com.android.builder.745936142" incrementalBuildTarget="BuildAll" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.android.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1316742433" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="com.android.tool.compiler.g++.1972416933" name="Android G++" superClass="com.android.tool.compiler.g++">
+								<option id="gnu.cpp.compiler.option.include.paths.1577478846" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.748710708" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="VE_CPU_ARM"/>
+									<listOptionValue builtIn="false" value="VE_PLATFORM_ANDROID"/>
+									<listOptionValue builtIn="false" value="VE_STATIC_LIB"/>
+									<listOptionValue builtIn="false" value="VE_SHIPPING"/>
+								</option>
+								<inputType id="com.android.tool.compiler.g++.input.1183292027" superClass="com.android.tool.compiler.g++.input"/>
+							</tool>
+							<tool id="com.android.tool.compiler.c.1148944421" name="Android GCC" superClass="com.android.tool.compiler.c">
+								<option id="gnu.c.compiler.option.include.paths.528222983" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.2093186943" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="VE_CPU_ARM"/>
+									<listOptionValue builtIn="false" value="VE_PLATFORM_ANDROID"/>
+									<listOptionValue builtIn="false" value="VE_STATIC_LIB"/>
+									<listOptionValue builtIn="false" value="VE_SHIPPING"/>
+								</option>
+								<inputType id="com.android.tool.compiler.c.input.1620875529" superClass="com.android.tool.compiler.c.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.436422773" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.243907674" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1683588246" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.275026123" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1420041550" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NATIVE_APP_GLUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${PLATFORM9}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/VePowerTest/VE_MAIN}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1326289244" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="VePowerTest.null.1116849023" name="VePowerTest"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/VePowerTest"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.286349280.1289910361;com.android.toolchain.gcc.286349280.1289910361.;com.android.tool.compiler.c.1964959382;com.android.tool.compiler.c.input.706724943">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.286349280.1289910361;com.android.toolchain.gcc.286349280.1289910361.;com.android.tool.compiler.g++.36445579;com.android.tool.compiler.g++.input.1155913745">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.286349280;com.android.toolchain.gcc.286349280.955005412;com.android.tool.compiler.g++.1221230265;com.android.tool.compiler.g++.input.286793422">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.286349280;com.android.toolchain.gcc.286349280.955005412;com.android.tool.compiler.c.1606469552;com.android.tool.compiler.c.input.1723404339">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.286349280.1289910361.1101254992;com.android.toolchain.gcc.286349280.1289910361.1101254992.;com.android.tool.compiler.c.1148944421;com.android.tool.compiler.c.input.1620875529">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.286349280.1289910361.1101254992;com.android.toolchain.gcc.286349280.1289910361.1101254992.;com.android.tool.compiler.g++.1972416933;com.android.tool.compiler.g++.input.1183292027">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

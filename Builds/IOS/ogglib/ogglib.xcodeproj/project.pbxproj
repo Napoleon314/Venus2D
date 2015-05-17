@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6507C1E91844904D0093D001 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 6507C1E71844904D0093D001 /* bitwise.c */; };
+		6507C1EA1844904D0093D001 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 6507C1E81844904D0093D001 /* framing.c */; };
+		6507C1ED1844921C0093D001 /* libogglib.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 657010B51844831900B7CF58 /* libogglib.a */; };
+		6507C1EF1844923B0093D001 /* ogg.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6507C1EB184490600093D001 /* ogg.h */; };
+		6507C1F01844923B0093D001 /* os_types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6507C1EC184490600093D001 /* os_types.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6507C1EE184492260093D001 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${SRCROOT}/../../../SDK/Include/Externals/ogglib";
+			dstSubfolderSpec = 0;
+			files = (
+				6507C1EF1844923B0093D001 /* ogg.h in CopyFiles */,
+				6507C1F01844923B0093D001 /* os_types.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657010B31844831900B7CF58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${SRCROOT}/../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}";
+			dstSubfolderSpec = 0;
+			files = (
+				6507C1ED1844921C0093D001 /* libogglib.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6507C1E71844904D0093D001 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = ../../../../Externals/ogglib/bitwise.c; sourceTree = "<group>"; };
+		6507C1E81844904D0093D001 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = framing.c; path = ../../../../Externals/ogglib/framing.c; sourceTree = "<group>"; };
+		6507C1EB184490600093D001 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = ../../../../Externals/ogglib/ogglib/ogg.h; sourceTree = "<group>"; };
+		6507C1EC184490600093D001 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = os_types.h; path = ../../../../Externals/ogglib/ogglib/os_types.h; sourceTree = "<group>"; };
+		657010B51844831900B7CF58 /* libogglib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libogglib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		657010BC1844831900B7CF58 /* ogglib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ogglib-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657010B21844831900B7CF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657010AC1844831900B7CF58 = {
+			isa = PBXGroup;
+			children = (
+				657010BA1844831900B7CF58 /* ogglib */,
+				657010B61844831900B7CF58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657010B61844831900B7CF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657010B51844831900B7CF58 /* libogglib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657010BA1844831900B7CF58 /* ogglib */ = {
+			isa = PBXGroup;
+			children = (
+				6507C1EB184490600093D001 /* ogg.h */,
+				6507C1EC184490600093D001 /* os_types.h */,
+				6507C1E71844904D0093D001 /* bitwise.c */,
+				6507C1E81844904D0093D001 /* framing.c */,
+				657010BB1844831900B7CF58 /* Supporting Files */,
+			);
+			path = ogglib;
+			sourceTree = "<group>";
+		};
+		657010BB1844831900B7CF58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657010BC1844831900B7CF58 /* ogglib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657010B41844831900B7CF58 /* ogglib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657010D81844831900B7CF58 /* Build configuration list for PBXNativeTarget "ogglib" */;
+			buildPhases = (
+				657010B11844831900B7CF58 /* Sources */,
+				657010B21844831900B7CF58 /* Frameworks */,
+				657010B31844831900B7CF58 /* CopyFiles */,
+				6507C1EE184492260093D001 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ogglib;
+			productName = ogglib;
+			productReference = 657010B51844831900B7CF58 /* libogglib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657010AD1844831900B7CF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Napoleon;
+			};
+			buildConfigurationList = 657010B01844831900B7CF58 /* Build configuration list for PBXProject "ogglib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 657010AC1844831900B7CF58;
+			productRefGroup = 657010B61844831900B7CF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657010B41844831900B7CF58 /* ogglib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657010B11844831900B7CF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6507C1EA1844904D0093D001 /* framing.c in Sources */,
+				6507C1E91844904D0093D001 /* bitwise.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6507C1E518448F600093D001 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Shipping;
+		};
+		6507C1E618448F600093D001 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ogglib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogglib/ogglib-Prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = ../../../Externals/ogglib;
+				OTHER_CFLAGS = "-O3";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Shipping;
+		};
+		657010D61844831900B7CF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		657010D71844831900B7CF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657010D91844831900B7CF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ogglib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogglib/ogglib-Prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = ../../../Externals/ogglib;
+				OTHER_CFLAGS = "-O0";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		657010DA1844831900B7CF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ogglib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ogglib/ogglib-Prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = ../../../Externals/ogglib;
+				OTHER_CFLAGS = "-O2";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657010B01844831900B7CF58 /* Build configuration list for PBXProject "ogglib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657010D61844831900B7CF58 /* Debug */,
+				657010D71844831900B7CF58 /* Release */,
+				6507C1E518448F600093D001 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+		657010D81844831900B7CF58 /* Build configuration list for PBXNativeTarget "ogglib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657010D91844831900B7CF58 /* Debug */,
+				657010DA1844831900B7CF58 /* Release */,
+				6507C1E618448F600093D001 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657010AD1844831900B7CF58 /* Project object */;
+}

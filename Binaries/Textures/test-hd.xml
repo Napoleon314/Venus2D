@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:3c7e2ed2f00070c696a869a4d31b887a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="test-hd.png" width="512" height="512">
+    <sprite n="expression_1_01.png" x="216" y="216" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_02.png" x="368" y="144" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_03.png" x="294" y="144" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_04.png" x="220" y="144" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_05.png" x="146" y="440" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_06.png" x="144" y="366" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_07.png" x="0" y="0" w="76" h="72" oX="4" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_08.png" x="144" y="292" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_09.png" x="144" y="218" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_10.png" x="144" y="144" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_11.png" x="72" y="440" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_12.png" x="72" y="366" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_13.png" x="72" y="292" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_14.png" x="72" y="218" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_15.png" x="72" y="144" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_16.png" x="368" y="72" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_17.png" x="294" y="72" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_18.png" x="220" y="72" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_19.png" x="146" y="72" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_20.png" x="72" y="72" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_21.png" x="0" y="368" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_22.png" x="0" y="294" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_23.png" x="216" y="290" w="72" h="72" oX="4" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_24.png" x="0" y="220" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_25.png" x="0" y="146" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_26.png" x="0" y="72" w="72" h="74" oX="3" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="expression_1_27.png" x="372" y="0" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_28.png" x="298" y="0" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_29.png" x="224" y="0" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_30.png" x="150" y="0" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+    <sprite n="expression_1_31.png" x="76" y="0" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+</TextureAtlas>

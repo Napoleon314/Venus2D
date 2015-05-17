@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8A1D918615DF753B007F401C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D918215DF753A007F401C /* VePower.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A1D917115DF753A007F401C;
+			remoteInfo = VePower;
+		};
+		8A2F235A15DF885E000437A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2F235615DF885D000437A4 /* VeMain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A2F234515DF885D000437A4;
+			remoteInfo = VeMain;
+		};
+		8A98025215EB8AB60065B427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A98024A15EB8AB50065B427 /* VePowerTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A98020A15EB8A910065B427;
+			remoteInfo = VePowerTest;
+		};
+		8AC4FB8815E4D84600BEEAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AC4FB8015E4D84500BEEAC5 /* VeGraphicsTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AC4FAF415E4A2F900BEEAC5;
+			remoteInfo = VeGraphicsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A1D918215DF753A007F401C /* VePower.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VePower.xcodeproj; path = VePower/VePower.xcodeproj; sourceTree = "<group>"; };
+		8A2F235615DF885D000437A4 /* VeMain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VeMain.xcodeproj; path = VeMain/VeMain.xcodeproj; sourceTree = "<group>"; };
+		8A87796B1625661D0099B575 /* Externals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Externals.xcodeproj; sourceTree = "<group>"; };
+		8A98024A15EB8AB50065B427 /* VePowerTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VePowerTest.xcodeproj; path = VePowerTest/VePowerTest.xcodeproj; sourceTree = "<group>"; };
+		8AC4FB8015E4D84500BEEAC5 /* VeGraphicsTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VeGraphicsTest.xcodeproj; path = VeGraphicsTest/VeGraphicsTest.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8A1D915915DF74C1007F401C = {
+			isa = PBXGroup;
+			children = (
+				8AC4FB8015E4D84500BEEAC5 /* VeGraphicsTest.xcodeproj */,
+				8A98024A15EB8AB50065B427 /* VePowerTest.xcodeproj */,
+				8A2F235615DF885D000437A4 /* VeMain.xcodeproj */,
+				8A1D918215DF753A007F401C /* VePower.xcodeproj */,
+				8A87796B1625661D0099B575 /* Externals.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1D918315DF753A007F401C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D918715DF753B007F401C /* libVePower.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2F235715DF885D000437A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2F235B15DF885E000437A4 /* libVeMain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A87796C1625661D0099B575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A98024B15EB8AB50065B427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A98025315EB8AB60065B427 /* VePowerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC4FB8115E4D84500BEEAC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4FB8915E4D84600BEEAC5 /* VeGraphicsTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8A1D915B15DF74C1007F401C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 8A1D915E15DF74C1007F401C /* Build configuration list for PBXProject "CoreLibsTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A1D915915DF74C1007F401C;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8A87796C1625661D0099B575 /* Products */;
+					ProjectRef = 8A87796B1625661D0099B575 /* Externals.xcodeproj */;
+				},
+				{
+					ProductGroup = 8AC4FB8115E4D84500BEEAC5 /* Products */;
+					ProjectRef = 8AC4FB8015E4D84500BEEAC5 /* VeGraphicsTest.xcodeproj */;
+				},
+				{
+					ProductGroup = 8A2F235715DF885D000437A4 /* Products */;
+					ProjectRef = 8A2F235615DF885D000437A4 /* VeMain.xcodeproj */;
+				},
+				{
+					ProductGroup = 8A1D918315DF753A007F401C /* Products */;
+					ProjectRef = 8A1D918215DF753A007F401C /* VePower.xcodeproj */;
+				},
+				{
+					ProductGroup = 8A98024B15EB8AB50065B427 /* Products */;
+					ProjectRef = 8A98024A15EB8AB50065B427 /* VePowerTest.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8A1D918715DF753B007F401C /* libVePower.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVePower.a;
+			remoteRef = 8A1D918615DF753B007F401C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A2F235B15DF885E000437A4 /* libVeMain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVeMain.a;
+			remoteRef = 8A2F235A15DF885E000437A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A98025315EB8AB60065B427 /* VePowerTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = VePowerTest.app;
+			remoteRef = 8A98025215EB8AB60065B427 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AC4FB8915E4D84600BEEAC5 /* VeGraphicsTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = VeGraphicsTest.app;
+			remoteRef = 8AC4FB8815E4D84600BEEAC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		8A1D916015DF74C1007F401C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8A1D916115DF74C1007F401C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		8A1D916215DF74D7007F401C /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1D915E15DF74C1007F401C /* Build configuration list for PBXProject "CoreLibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1D916015DF74C1007F401C /* Debug */,
+				8A1D916115DF74C1007F401C /* Release */,
+				8A1D916215DF74D7007F401C /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1D915B15DF74C1007F401C /* Project object */;
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)..\..\..\Binaries\MobileSim\VC$(PlatformToolsetVersion)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IntDir>$(SolutionDir)..\..\..\Binaries\MobileSim\VC$(PlatformToolsetVersion)\$(Configuration)\$(SolutionName)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile />
+    <ClCompile>
+      <ExceptionHandling>false</ExceptionHandling>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PreprocessorDefinitions>VE_CPU_X86;VE_PLATFORM_MOBILE_SIM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(VENUS3D_PATH)\SDK\Include\Externals;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

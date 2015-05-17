@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9b14c5ddf418318f5ba2b470d20f50fe:068641b5b7e15b4986ae25caca76ea7b:1e4f53237de4309546457f12b7e1197b$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="pc_0.png" width="1024" height="1024">
+    <sprite n="npc_0_a_win_l.png" x="398" y="272" w="174" h="81" oX="3" oY="14" oW="91" oH="202" r="y"/>
+    <sprite n="npc_0_s_win_l.png" x="365" y="898" w="176" h="87" oX="3" oY="13" oW="91" oH="202" r="y"/>
+    <sprite n="pc_0_a_bady.png" x="525" y="1" w="245" h="270"/>
+    <sprite n="pc_0_a_hand_l_1.png" x="771" y="271" w="242" h="174" oX="1" oY="0" oW="184" oH="250" r="y"/>
+    <sprite n="pc_0_a_hand_l_2.png" x="1" y="928" w="75" h="95"/>
+    <sprite n="pc_0_a_hand_r_1.png" x="771" y="136" w="246" h="134" oX="6" oY="6" oW="146" oH="258" r="y"/>
+    <sprite n="pc_0_a_hand_r_2.png" x="481" y="354" w="78" h="78" oX="0" oY="0" oW="80" oH="80"/>
+    <sprite n="pc_0_a_hear.png" x="573" y="272" w="188" h="216" oX="0" oY="0" oW="188" oH="218"/>
+    <sprite n="pc_0_a_shield.png" x="1" y="644" w="154" h="283"/>
+    <sprite n="pc_0_b_bady.png" x="279" y="1" w="245" h="270"/>
+    <sprite n="pc_0_b_hand_l_1.png" x="252" y="898" w="112" h="116" oX="11" oY="130" oW="184" oH="250" r="y"/>
+    <sprite n="pc_0_b_hand_l_2.png" x="124" y="285" w="90" h="70" r="y"/>
+    <sprite n="pc_0_b_hand_r_1.png" x="153" y="928" w="98" h="90" oX="50" oY="146" oW="146" oH="258" r="y"/>
+    <sprite n="pc_0_b_hand_r_2.png" x="402" y="354" w="78" h="80" oX="0" oY="0" oW="80" oH="80"/>
+    <sprite n="pc_0_b_hear.png" x="402" y="676" w="183" h="213"/>
+    <sprite n="pc_0_b_shield.png" x="124" y="1" w="154" h="283"/>
+    <sprite n="pc_0_s_bady.png" x="156" y="627" w="245" h="270"/>
+    <sprite n="pc_0_s_badyl.png" x="156" y="356" w="245" h="270"/>
+    <sprite n="pc_0_s_hand_l_1.png" x="762" y="446" w="238" h="174" oX="2" oY="4" oW="184" oH="250" r="y"/>
+    <sprite n="pc_0_s_hand_l_2.png" x="77" y="928" w="75" h="93" oX="0" oY="0" oW="75" oH="95"/>
+    <sprite n="pc_0_s_hand_r_1.png" x="771" y="1" w="248" h="134" oX="6" oY="4" oW="146" oH="258" r="y"/>
+    <sprite n="pc_0_s_hand_r_2.png" x="542" y="890" w="78" h="80" oX="0" oY="0" oW="80" oH="80"/>
+    <sprite n="pc_0_s_hear.png" x="542" y="489" w="214" h="186" oX="1" oY="1" oW="188" oH="218" r="y"/>
+    <sprite n="pc_0_s_shield.png" x="1" y="360" w="154" h="283"/>
+    <sprite n="pc_0_sword.png" x="215" y="285" w="182" h="36" r="y"/>
+    <sprite n="pc_0_sword2.png" x="1" y="1" w="122" h="358" oX="120" oY="128" oW="350" oH="560"/>
+</TextureAtlas>

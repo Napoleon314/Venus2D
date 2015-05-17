@@ -1,0 +1,36 @@
+<Material>
+	<Platform>
+		<RenderObject>
+			<BlendState name="replace" alpha_to_coverage="false">
+				<RenderTarget enable="false"/>
+			</BlendState>
+			<BlendState name="blend" alpha_to_coverage="false">
+				<RenderTarget enable="true" blend_src="src_alpha" blend_dst="inv_src_alpha" blend_op="add" blend_src_alpha="src_alpha" blend_dst_alpha="inv_src_alpha" blend_op_alpha="add" write="r|g|b|a"/>
+			</BlendState>
+			<BlendState name="add" alpha_to_coverage="false">
+				<RenderTarget enable="true" blend_src="one" blend_dst="one" blend_op="add" blend_src_alpha="one" blend_dst_alpha="one" blend_op_alpha="add"/>
+			</BlendState>
+			<DepthStencilState name="depth_test" enable="true" write="true" func="less" stencil="false"/>
+			<DepthStencilState name="no_depth_test" enable="false"/>
+			
+			<RasterizerState name="normal" fill_mode="solid" cull_mode="back" ccw="false" depth_bias="none" depth_clip="true" scissor="false" msaa="false" aa_line="false"/>
+			<!--RasterizerState name="normal_msaa" fill_mode="solid" cull_mode="back" ccw="false" depth_bias="none" depth_clip="true" scissor="false" msaa="true" aa_line="false"/>
+			<RasterizerState name="wireframe" fill_mode="wireframe" cull_mode="back" ccw="false" depth_bias="none" depth_clip="true" scissor="false" msaa="false" aa_line="false"/>
+			<RasterizerState name="wireframe_msaa" fill_mode="wireframe" cull_mode="back" ccw="false" depth_bias="none" depth_clip="true" scissor="false" msaa="true" aa_line="false"/-->
+			
+			<SamplerState name="point_clamp" filter="min_mag_mip_point" address_u="clamp" address_v="clamp" address_w="clamp" anisotropy="16" comp_func="never" mip_bias="0" lod_min="none" lod_max="none" border="0,0,0,0"/>
+			<SamplerState name="point_wrap" filter="min_mag_mip_point" address_u="wrap" address_v="wrap" address_w="wrap" anisotropy="16" comp_func="never" mip_bias="0" lod_min="none" lod_max="none" border="0,0,0,0"/>
+			<SamplerState name="trilinear_clamp" filter="min_mag_mip_linear" address_u="clamp" address_v="clamp" address_w="clamp" anisotropy="16" comp_func="never" mip_bias="0" lod_min="none" lod_max="none" border="0,0,0,0"/>
+			<SamplerState name="trilinear_wrap" filter="min_mag_mip_linear" address_u="wrap" address_v="wrap" address_w="wrap" anisotropy="16" comp_func="never" mip_bias="0" lod_min="none" lod_max="none" border="0,0,0,0"/>
+			<SamplerState name="anisotropic" filter="anisotropic" address_u="wrap" address_v="wrap" address_w="wrap" anisotropy="16" comp_func="never" mip_bias="0" lod_min="none" lod_max="none" border="0,0,0,0"/>
+			
+			<InputLayout name="Quad" shader="Quad">
+				<Element semantic="POSITION" index="0" format="R32G32B32_FLOAT" slot="0" offset="0" class="vertex_data" rate="0"/>
+			</InputLayout>
+			<InputLayout name="Sample" shader="Sample">
+				<Element semantic="COLOR" index="0" format="R8G8B8A8_UNORM" slot="0" offset="0" class="vertex_data" rate="0"/>
+				<Element semantic="POSITION" index="0" format="R32G32B32_FLOAT" slot="1" offset="0" class="vertex_data" rate="0"/>
+			</InputLayout>
+		</RenderObject>
+	</Platform>
+</Material>

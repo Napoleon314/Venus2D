@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a2bc26d17aa38c2fc6b8562c57a48a0e:3960ffd22122feeba665cab8d64d75aa:dfcde9ad2e0a5bff4e10a88e4678ff69$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="card_002.png" width="1024" height="1024">
+    <sprite n="c01_001_bady_1.png" x="265" y="374" w="166" h="140" oX="0" oY="2" oW="168" oH="144"/>
+    <sprite n="c01_001_bady_10.png" x="218" y="651" w="58" h="32" oX="41" oY="126" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_10_1.png" x="60" y="991" w="58" h="32" oX="41" oY="126" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_10_2.png" x="1" y="991" w="58" h="32" oX="41" oY="126" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_11.png" x="660" y="691" w="92" h="72" oX="69" oY="60" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_11_1.png" x="432" y="501" w="72" h="92" oX="69" oY="60" oW="164" oH="164" r="y"/>
+    <sprite n="c01_001_bady_11_2.png" x="432" y="408" w="72" h="92" oX="69" oY="60" oW="164" oH="164" r="y"/>
+    <sprite n="c01_001_bady_2.png" x="211" y="684" w="40" h="78" oX="43" oY="58" oW="168" oH="144"/>
+    <sprite n="c01_001_bady_2_1.png" x="170" y="684" w="40" h="78" oX="43" oY="58" oW="168" oH="144"/>
+    <sprite n="c01_001_bady_2_2.png" x="1" y="653" w="40" h="78" oX="43" oY="58" oW="168" oH="144"/>
+    <sprite n="c01_001_bady_3.png" x="51" y="653" w="118" h="110" oX="1" oY="1" oW="120" oH="112"/>
+    <sprite n="c01_001_bady_4.png" x="457" y="985" w="22" h="22" oX="15" oY="25" oW="120" oH="112"/>
+    <sprite n="c01_001_bady_4_1.png" x="434" y="985" w="22" h="22" oX="15" oY="25" oW="120" oH="112"/>
+    <sprite n="c01_001_bady_4_2.png" x="411" y="985" w="22" h="22" oX="15" oY="25" oW="120" oH="112"/>
+    <sprite n="c01_001_bady_5.png" x="175" y="836" w="130" h="148" oX="3" oY="4" oW="152" oH="140" r="y"/>
+    <sprite n="c01_001_bady_6.png" x="406" y="764" w="82" h="56" oX="19" oY="43" oW="152" oH="140" r="y"/>
+    <sprite n="c01_001_bady_6_1.png" x="672" y="555" w="82" h="56" oX="19" oY="43" oW="152" oH="140" r="y"/>
+    <sprite n="c01_001_bady_6_2.png" x="672" y="498" w="82" h="56" oX="19" oY="43" oW="152" oH="140" r="y"/>
+    <sprite n="c01_001_bady_7.png" x="538" y="736" w="40" h="40" oX="86" oY="37" oW="152" oH="140"/>
+    <sprite n="c01_001_bady_7_1.png" x="497" y="736" w="40" h="40" oX="86" oY="37" oW="152" oH="140"/>
+    <sprite n="c01_001_bady_7_2.png" x="540" y="793" w="40" h="40" oX="86" oY="37" oW="152" oH="140"/>
+    <sprite n="c01_001_bady_8.png" x="505" y="583" w="154" h="152" oX="7" oY="6" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_9.png" x="147" y="764" w="72" h="70" oX="12" oY="7" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_9_1.png" x="74" y="764" w="72" h="70" oX="12" oY="7" oW="164" oH="164"/>
+    <sprite n="c01_001_bady_9_2.png" x="1" y="764" w="72" h="70" oX="12" oY="7" oW="164" oH="164"/>
+    <sprite n="c01_001_hand_l_0.png" x="757" y="392" w="176" h="142" oX="0" oY="0" oW="144" oH="176" r="y"/>
+    <sprite n="c01_001_hand_l_1.png" x="698" y="158" w="58" h="60" oX="1" oY="0" oW="60" oH="60"/>
+    <sprite n="c01_001_hand_l_2.png" x="934" y="430" w="88" h="86" oX="1" oY="0" oW="88" oH="88" r="y"/>
+    <sprite n="c01_001_hand_l_3.png" x="119" y="419" w="98" h="128" oX="0" oY="1" oW="128" oH="100" r="y"/>
+    <sprite n="c01_001_hand_l_4.png" x="385" y="836" w="78" h="148" oX="5" oY="4" oW="144" oH="176"/>
+    <sprite n="c01_001_hand_l_4_1.png" x="306" y="836" w="78" h="148" oX="5" oY="4" oW="144" oH="176"/>
+    <sprite n="c01_001_hand_l_4_2.png" x="283" y="515" w="148" h="78" oX="5" oY="4" oW="144" oH="176" r="y"/>
+    <sprite n="c01_001_hand_l_5.png" x="336" y="985" w="28" h="34" oX="37" oY="148" oW="144" oH="176" r="y"/>
+    <sprite n="c01_001_hand_l_5_1.png" x="307" y="985" w="28" h="34" oX="37" oY="148" oW="144" oH="176" r="y"/>
+    <sprite n="c01_001_hand_l_5_2.png" x="278" y="985" w="28" h="34" oX="37" oY="148" oW="144" oH="176" r="y"/>
+    <sprite n="c01_001_hand_r_1.png" x="916" y="586" w="104" h="120" r="y"/>
+    <sprite n="c01_001_hand_r_2.png" x="1" y="836" w="70" h="154" oX="12" oY="1" oW="152" oH="164"/>
+    <sprite n="c01_001_hand_r_2_1.png" x="753" y="749" w="154" h="70" oX="12" oY="1" oW="152" oH="164" r="y"/>
+    <sprite n="c01_001_hand_r_2_2.png" x="753" y="678" w="154" h="70" oX="12" oY="1" oW="152" oH="164" r="y"/>
+    <sprite n="c01_001_hand_r_3.png" x="249" y="985" w="28" h="34" oX="81" oY="20" oW="152" oH="164" r="y"/>
+    <sprite n="c01_001_hand_r_3_1.png" x="220" y="985" w="28" h="34" oX="81" oY="20" oW="152" oH="164" r="y"/>
+    <sprite n="c01_001_hand_r_3_2.png" x="191" y="985" w="28" h="34" oX="81" oY="20" oW="152" oH="164" r="y"/>
+    <sprite n="c01_001_hand_r_4.png" x="755" y="535" w="160" h="142" oX="5" oY="1" oW="152" oH="164" r="y"/>
+    <sprite n="c01_001_head_1.png" x="505" y="158" w="192" h="158" oX="0" oY="0" oW="192" oH="160"/>
+    <sprite n="c01_001_head_2.png" x="218" y="334" w="46" h="54" oX="100" oY="103" oW="192" oH="160" r="y"/>
+    <sprite n="c01_001_head_2_1.png" x="218" y="279" w="46" h="54" oX="100" oY="103" oW="192" oH="160" r="y"/>
+    <sprite n="c01_001_head_2_2.png" x="218" y="224" w="46" h="54" oX="100" oY="103" oW="192" oH="160" r="y"/>
+    <sprite n="c01_001_head_3.png" x="261" y="585" w="20" h="34" oX="59" oY="124" oW="192" oH="160"/>
+    <sprite n="c01_001_head_3_1.png" x="261" y="550" w="20" h="34" oX="59" oY="124" oW="192" oH="160"/>
+    <sprite n="c01_001_head_3_2.png" x="261" y="515" w="20" h="34" oX="59" oY="124" oW="192" oH="160"/>
+    <sprite n="c01_001_head_4.png" x="365" y="985" w="22" h="30" oX="170" oY="86" oW="192" oH="160"/>
+    <sprite n="c01_001_head_4_1.png" x="252" y="722" w="30" h="22" oX="170" oY="86" oW="192" oH="160" r="y"/>
+    <sprite n="c01_001_head_4_2.png" x="252" y="699" w="30" h="22" oX="170" oY="86" oW="192" oH="160" r="y"/>
+    <sprite n="c01_001_head_5.png" x="1" y="419" w="18" h="36" oX="85" oY="99" oW="192" oH="160" r="y"/>
+    <sprite n="c01_001_head_6.png" x="265" y="269" w="188" h="104" oX="0" oY="0" oW="192" oH="160"/>
+    <sprite n="c01_001_head_6_1.png" x="757" y="287" w="188" h="104" oX="0" oY="0" oW="192" oH="160"/>
+    <sprite n="c01_001_head_6_2.png" x="757" y="182" w="188" h="104" oX="0" oY="0" oW="192" oH="160"/>
+    <sprite n="c01_001_leg_r_1.png" x="72" y="836" w="102" h="150" oX="1" oY="1" oW="152" oH="104" r="y"/>
+    <sprite n="c01_001_leg_r_2.png" x="692" y="396" w="64" h="74" oX="26" oY="35" oW="152" oH="104" r="y"/>
+    <sprite n="c01_001_leg_r_2_1.png" x="692" y="321" w="64" h="74" oX="26" oY="35" oW="152" oH="104" r="y"/>
+    <sprite n="c01_001_leg_r_2_2.png" x="946" y="365" w="74" h="64" oX="26" oY="35" oW="152" oH="104"/>
+    <sprite n="c01_001_leg_r_3.png" x="283" y="699" w="122" h="136" oX="4" oY="0" oW="144" oH="124" r="y"/>
+    <sprite n="c01_001_leg_r_4.png" x="489" y="793" w="50" h="40" oX="73" oY="0" oW="144" oH="124"/>
+    <sprite n="c01_001_leg_r_4_1.png" x="454" y="367" w="50" h="40" oX="73" oY="0" oW="144" oH="124"/>
+    <sprite n="c01_001_leg_r_4_2.png" x="454" y="326" w="50" h="40" oX="73" oY="0" oW="144" oH="124"/>
+    <sprite n="c01_001_leg_r_5.png" x="1" y="610" w="102" h="42" oX="38" oY="80" oW="144" oH="124"/>
+    <sprite n="c01_001_leg_r_5_1.png" x="218" y="525" w="42" h="102" oX="38" oY="80" oW="144" oH="124" r="y"/>
+    <sprite n="c01_001_leg_r_5_2.png" x="218" y="422" w="42" h="102" oX="38" oY="80" oW="144" oH="124" r="y"/>
+    <sprite n="c01_001_leg_r_6.png" x="594" y="736" w="56" h="56" oX="4" oY="29" oW="144" oH="124"/>
+    <sprite n="c01_001_leg_r_6_1.png" x="537" y="957" w="56" h="56" oX="4" oY="29" oW="144" oH="124"/>
+    <sprite n="c01_001_leg_r_6_2.png" x="480" y="957" w="56" h="56" oX="4" oY="29" oW="144" oH="124"/>
+    <sprite n="c03_001_bady_a1.png" x="505" y="317" w="186" h="132" oX="1" oY="0" oW="188" oH="132"/>
+    <sprite n="c03_001_bady_a2.png" x="454" y="269" w="50" h="56" oX="30" oY="46" oW="188" oH="132" r="y"/>
+    <sprite n="c03_001_bady_a3.png" x="432" y="374" w="18" h="32" oX="31" oY="34" oW="188" oH="132" r="y"/>
+    <sprite n="c03_001_bady_a4.png" x="162" y="987" w="28" h="34" oX="94" oY="40" oW="188" oH="132"/>
+    <sprite n="c03_001_bady_a5.png" x="20" y="736" w="30" h="24" oX="11" oY="55" oW="188" oH="132" r="y"/>
+    <sprite n="c03_001_bady_b1.png" x="515" y="1" w="242" h="156" oX="7" oY="0" oW="288" oH="224"/>
+    <sprite n="c03_001_bady_b2.png" x="1" y="553" w="48" h="54" oX="68" oY="27" oW="288" oH="224"/>
+    <sprite n="c03_001_hand_l_a1.png" x="220" y="764" w="62" h="70" oX="1" oY="1" oW="72" oH="64" r="y"/>
+    <sprite n="c03_001_hand_l_a2.png" x="464" y="836" w="80" h="120" r="y"/>
+    <sprite n="c03_001_hand_r_1.png" x="961" y="1" w="62" h="134" oX="3" oY="9" oW="112" oH="144"/>
+    <sprite n="c03_001_hand_r_a1.png" x="946" y="292" w="74" h="72" oX="17" oY="29" oW="112" oH="144" r="y"/>
+    <sprite n="c03_001_head_2.png" x="961" y="136" w="62" h="74" oX="88" oY="1" oW="216" oH="240"/>
+    <sprite n="c03_001_head_a1.png" x="1" y="224" w="216" h="194" oX="0" oY="46" oW="216" oH="240"/>
+    <sprite n="c03_001_head_a3.png" x="672" y="471" w="84" h="26" oX="70" oY="161" oW="216" oH="240"/>
+    <sprite n="c03_001_head_a4.png" x="218" y="628" w="60" h="22" oX="72" oY="152" oW="216" oH="240"/>
+    <sprite n="c03_001_head_a5.png" x="946" y="182" w="14" h="14" oX="142" oY="168" oW="216" oH="240"/>
+    <sprite n="c03_001_leg_l_a1.png" x="385" y="594" w="118" h="104" oX="183" oY="106" oW="288" oH="224" r="y"/>
+    <sprite n="c03_001_leg_l_a2.png" x="119" y="987" w="42" h="36" oX="222" oY="152" oW="288" oH="224"/>
+    <sprite n="c03_001_leg_r_a1.png" x="50" y="553" w="66" h="56" oX="0" oY="115" oW="288" oH="224"/>
+    <sprite n="c03_001_leg_r_a2.png" x="916" y="535" w="16" h="22" oX="10" oY="133" oW="288" oH="224" r="y"/>
+    <sprite n="c03_001_should_l_a1.png" x="660" y="612" w="92" h="78" oX="5" oY="68" oW="100" oH="148"/>
+    <sprite n="c03_001_should_l_a2.png" x="20" y="486" w="96" h="66" oX="3" oY="2" oW="100" oH="148" r="y"/>
+    <sprite n="c03_001_should_l_a3.png" x="20" y="419" w="96" h="66" oX="3" oY="2" oW="100" oH="148" r="y"/>
+    <sprite n="c03_001_should_r_a1.png" x="908" y="707" w="112" h="128" oX="2" oY="74" oW="132" oH="188" r="y"/>
+    <sprite n="c03_001_should_r_a2.png" x="282" y="594" w="100" h="104" oX="28" oY="2" oW="132" oH="188"/>
+    <sprite n="c03_001_should_r_a3.png" x="117" y="548" w="100" h="104" oX="28" oY="2" oW="132" oH="188"/>
+    <sprite n="c03_002_bady_1.png" x="1" y="1" w="264" h="222" oX="1" oY="1" oW="268" oH="224"/>
+    <sprite n="c03_002_bady_2.png" x="170" y="653" w="30" h="30" oX="92" oY="124" oW="268" oH="224"/>
+    <sprite n="c03_002_bady_3.png" x="388" y="985" w="22" h="28" oX="137" oY="59" oW="268" oH="224"/>
+    <sprite n="c03_002_bady_4.png" x="1" y="736" w="18" h="26" oX="22" oY="94" oW="268" oH="224" r="y"/>
+    <sprite n="c03_002_bady_5.png" x="672" y="450" w="18" h="12" oX="206" oY="131" oW="268" oH="224" r="y"/>
+    <sprite n="c03_002_bady_6.png" x="946" y="211" w="76" h="80" oX="185" oY="147" oW="268" oH="224" r="y"/>
+    <sprite n="c03_002_bady_7.png" x="698" y="276" w="58" h="44" oX="38" oY="165" oW="268" oH="224" r="y"/>
+    <sprite n="c03_002_hand_l_1.png" x="406" y="699" w="90" h="56" oX="0" oY="3" oW="56" oH="96" r="y"/>
+    <sprite n="c03_002_hand_l_2.png" x="266" y="1" w="248" h="140" r="y"/>
+    <sprite n="c03_002_hand_r_1.png" x="698" y="219" w="58" h="56" oX="1" oY="0" oW="60" oH="56"/>
+    <sprite n="c03_002_hand_r_2.png" x="266" y="142" w="238" h="126" oX="0" oY="1" oW="128" oH="240" r="y"/>
+    <sprite n="c03_002_head_1.png" x="758" y="1" w="202" h="180" oX="0" oY="1" oW="180" oH="204" r="y"/>
+    <sprite n="c03_002_head_2.png" x="505" y="450" w="166" h="132" oX="0" oY="15" oW="180" oH="204"/>
+    <sprite n="c03_002_head_3.png" x="218" y="389" w="44" h="32" oX="81" oY="18" oW="180" oH="204" r="y"/>
+    <sprite n="c03_002_head_4.png" x="934" y="517" w="86" h="68" oX="83" oY="47" oW="180" oH="204" r="y"/>
+</TextureAtlas>

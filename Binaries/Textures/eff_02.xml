@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f9e45696a46c05bd773c7448a61f1eca:1944fd3d78d1d5b594d1593f257530c1:1d5ddd3386e08d8a5341633f685867f9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="eff_02.png" width="1024" height="1024">
+    <sprite n="boom_0.png" x="447" y="368" w="166" h="166" oX="63" oY="50" oW="280" oH="274"/>
+    <sprite n="boom_1.png" x="644" y="2" w="254" h="250" oX="13" oY="17" oW="280" oH="274"/>
+    <sprite n="boom_2.png" x="615" y="480" w="234" h="234" oX="21" oY="20" oW="280" oH="274"/>
+    <sprite n="boom_3.png" x="456" y="716" w="226" h="232" oX="18" oY="24" oW="280" oH="274" r="y"/>
+    <sprite n="boom_4.png" x="230" y="722" w="224" h="236" oX="14" oY="27" oW="280" oH="274" r="y"/>
+    <sprite n="boom_5.png" x="225" y="480" w="220" h="240" oX="13" oY="26" oW="280" oH="274" r="y"/>
+    <sprite n="boom_6.png" x="644" y="254" w="244" h="224" oX="11" oY="23" oW="280" oH="274"/>
+    <sprite n="boom_7.png" x="2" y="726" w="226" h="242" oX="12" oY="26" oW="280" oH="274" r="y"/>
+    <sprite n="boom_8.png" x="2" y="480" w="221" h="244" oX="12" oY="27" oW="280" oH="273" r="y"/>
+    <sprite n="cd_a0.png" x="900" y="2" w="42" h="42" oX="1" oY="1" oW="44" oH="44"/>
+    <sprite n="cd_a1.png" x="944" y="2" w="36" h="18" oX="4" oY="4" oW="44" oH="44" r="y"/>
+    <sprite n="cd_a17.png" x="944" y="22" w="18" h="8" oX="14" oY="4" oW="44" oH="44" r="y"/>
+    <sprite n="eff_black.png" x="982" y="2" w="32" h="32"/>
+    <sprite n="eff_skillbg.png" x="2" y="2" w="640" h="364"/>
+</TextureAtlas>

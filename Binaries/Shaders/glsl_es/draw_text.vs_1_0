@@ -1,0 +1,25 @@
+uniform highp vec4 uVSSlot0;
+uniform highp vec4 uVSSlot1;
+
+attribute highp vec3 aPosition0;
+attribute highp vec4 aTexcoord;
+attribute lowp vec4 aColor0;
+
+varying highp vec2 vTex;
+varying highp vec2 vParam;
+varying highp vec4 vTexRange;
+varying lowp vec4 vColor0;
+
+void main()
+{
+	gl_Position = vec4(aPosition0.xy * uVSSlot0.xy * vec2(2.0,-2.0) - vec2(1.0,-1.0), 0, 1);
+	vTex = aTexcoord.xy / 1024.0;
+	vParam = uVSSlot1.xy;
+	vParam.y += aPosition0.z;
+	vTexRange.x = min(aTexcoord.x, aTexcoord.z) + 0.5;
+	vTexRange.y = min(aTexcoord.y, aTexcoord.w) + 0.5;
+	vTexRange.z = max(aTexcoord.x, aTexcoord.z) - 0.5;
+	vTexRange.w = max(aTexcoord.y, aTexcoord.w) - 0.5;
+	vTexRange /= 1024.0;
+	vColor0 = aColor0;
+}

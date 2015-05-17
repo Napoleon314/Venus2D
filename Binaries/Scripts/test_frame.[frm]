@@ -1,0 +1,15 @@
+<Frame>
+	<Platform value="all">
+		<Unit name="test">
+			<Technique scheme="default">
+				<Target type="output" name="display" input="none"/>
+        <Click target="display" mat_scheme="default" visible="0xffffffff">
+          <Pass type="clear" buffer="c" stencil="255" depth="1.0">
+            <Color value="0.0,0.125,0.3,1.0"/>
+          </Pass>
+          <Pass type="draw" start="90" end="99"/>
+        </Click>
+			</Technique>
+		</Unit>
+	</Platform>
+</Frame>

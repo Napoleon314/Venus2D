@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:d43e9e1d7809ffb8ff1c10e48abbcf7d:8faa9e8c60e9b3df1909d52abd715bc9:f1adcf41c0b13c08845b73b0dbe28e8c$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="eff_01.png" width="1024" height="1024">
+    <sprite n="bullet0_2a.png" x="236" y="532" w="68" h="60" oX="3" oY="2" oW="64" oH="72" r="y"/>
+    <sprite n="bullet0_2b.png" x="826" y="452" w="58" h="68" oX="4" oY="0" oW="64" oH="72"/>
+    <sprite n="bullet0_2c.png" x="250" y="354" w="70" h="62" oX="1" oY="1" oW="64" oH="72" r="y"/>
+    <sprite n="bullet0_2d.png" x="236" y="468" w="68" h="62" oX="1" oY="2" oW="64" oH="72" r="y"/>
+    <sprite n="bullet_0_1.png" x="886" y="498" w="58" h="44" r="y"/>
+    <sprite n="bullet_0_2.png" x="106" y="608" w="64" h="64"/>
+    <sprite n="eff_fire.png" x="2" y="867" w="104" h="146"/>
+    <sprite n="eff_fire2.png" x="330" y="242" w="240" h="128" r="y"/>
+    <sprite n="eff_fire3_a.png" x="477" y="567" w="100" h="60" oX="0" oY="4" oW="64" oH="104" r="y"/>
+    <sprite n="eff_fire3_b.png" x="729" y="632" w="64" h="104"/>
+    <sprite n="eff_fire4.png" x="886" y="452" w="130" h="44" oX="12" oY="0" oW="68" oH="130" r="y"/>
+    <sprite n="eff_fly0_0.png" x="2" y="220" w="246" h="219" oX="14" oY="3" oW="274" oH="227"/>
+    <sprite n="eff_fly0_1.png" x="584" y="2" w="246" h="207" oX="14" oY="13" oW="274" oH="227"/>
+    <sprite n="eff_fly0_2.png" x="584" y="211" w="242" h="201" oX="16" oY="15" oW="274" oH="227"/>
+    <sprite n="eff_fly0_3.png" x="322" y="372" w="234" h="193" oX="20" oY="14" oW="274" oH="227"/>
+    <sprite n="eff_fly0_4.png" x="2" y="441" w="232" h="165" oX="21" oY="39" oW="274" oH="227"/>
+    <sprite n="eff_gun0_1.png" x="575" y="632" w="152" h="151" oX="10" oY="9" oW="171" oH="168" r="y"/>
+    <sprite n="eff_gun0_2.png" x="306" y="567" w="169" h="164" oX="4" oY="8" oW="181" oH="182"/>
+    <sprite n="eff_gun0_3.png" x="832" y="86" w="184" h="179" oX="5" oY="13" oW="191" oH="208" r="y"/>
+    <sprite n="eff_gun0_4.png" x="828" y="267" w="194" h="183" oX="6" oY="9" oW="191" oH="208" r="y"/>
+    <sprite n="eff_light_1_0.png" x="2" y="750" w="106" h="106"/>
+    <sprite n="eff_light_1_1.png" x="2" y="608" w="102" h="106" oX="1" oY="0" oW="106" oH="106"/>
+    <sprite n="eff_light_1_2.png" x="110" y="750" w="102" h="106" oX="0" oY="0" oW="106" oH="106"/>
+    <sprite n="eff_light_1_3.png" x="202" y="642" w="102" h="106" oX="0" oY="0" oW="106" oH="106"/>
+    <sprite n="eff_light_1_4.png" x="798" y="446" w="26" h="96" oX="2" oY="0" oW="100" oH="26" r="y"/>
+    <sprite n="eff_pc_0_sword_0.png" x="832" y="2" w="188" h="82" oX="137" oY="78" oW="350" oH="560" r="y"/>
+    <sprite n="gold_0.png" x="558" y="404" w="20" h="30" oX="5" oY="1" oW="32" oH="32"/>
+    <sprite n="gold_1.png" x="572" y="242" w="10" h="30" oX="10" oY="1" oW="32" oH="32"/>
+    <sprite n="gold_2.png" x="558" y="372" w="20" h="30" oX="5" oY="1" oW="32" oH="32"/>
+    <sprite n="gold_3.png" x="798" y="414" w="28" h="30" oX="2" oY="1" oW="32" oH="32"/>
+    <sprite n="pve_0.png" x="580" y="414" w="216" h="216"/>
+    <sprite n="pve_1.png" x="330" y="2" w="252" h="238" oX="0" oY="1" oW="252" oH="240"/>
+    <sprite n="pve_2.png" x="477" y="629" w="96" h="96"/>
+    <sprite n="pve_3.png" x="250" y="220" w="78" h="78" oX="1" oY="1" oW="80" oH="80"/>
+    <sprite n="pve_4.png" x="154" y="674" w="46" h="46" oX="1" oY="1" oW="48" oH="48"/>
+    <sprite n="pve_5.png" x="106" y="674" w="46" h="46" oX="1" oY="1" oW="48" oH="48"/>
+    <sprite n="pve_6.png" x="572" y="274" w="8" h="56" r="y"/>
+    <sprite n="pve_7.png" x="250" y="300" w="74" h="52" oX="0" oY="1" oW="52" oH="76" r="y"/>
+    <sprite n="pvp_0.png" x="2" y="2" w="326" h="216" oX="1" oY="0" oW="328" oH="216"/>
+    <sprite n="pvp_1.png" x="108" y="867" w="92" h="138" oX="0" oY="2" oW="140" oH="96" r="y"/>
+    <sprite n="pvp_2.png" x="477" y="727" w="92" h="138" oX="0" oY="2" oW="140" oH="96" r="y"/>
+    <sprite n="pvp_3.png" x="250" y="418" w="70" h="48" oX="0" oY="0" oW="72" oH="48"/>
+    <sprite n="pvp_4.png" x="236" y="594" w="68" h="46"/>
+    <sprite n="pvp_5.png" x="798" y="544" w="204" h="162"/>
+</TextureAtlas>

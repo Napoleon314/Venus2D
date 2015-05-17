@@ -1,0 +1,3 @@
+make -f VeExternals.mak $1 EXT_LIB=zlib
+make -f VeExternals.mak $1 EXT_LIB=zziplib PROJECT_FLAGS="-I../../../../Externals/zlib -I../../../../Externals/zziplib"
+make -f VeExternals.mak $1 EXT_LIB=curllib PROJECT_FLAGS="-I../../../../Externals/zlib -I../../../../Externals/curllib -I../../../../Externals/curllib/Linux -DHAVE_CONFIG_H -DBUILDING_LIBCURL -DCURL_STATICLIB -Wpointer-arith -Wwrite-strings -Wunused -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wno-system-headers"

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="zziplib" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00030001N0005Debug0000000000000001N0007Release0000000000000001N0008Shipping000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Source Files">
+    <File Name="../../../Externals/zziplib/dir.c"/>
+    <File Name="../../../Externals/zziplib/err.c"/>
+    <File Name="../../../Externals/zziplib/fetch.c"/>
+    <File Name="../../../Externals/zziplib/file.c"/>
+    <File Name="../../../Externals/zziplib/fseeko.c"/>
+    <File Name="../../../Externals/zziplib/info.c"/>
+    <File Name="../../../Externals/zziplib/memdisk.c"/>
+    <File Name="../../../Externals/zziplib/mmapped.c"/>
+    <File Name="../../../Externals/zziplib/plugin.c"/>
+    <File Name="../../../Externals/zziplib/stat.c"/>
+    <File Name="../../../Externals/zziplib/write.c"/>
+    <File Name="../../../Externals/zziplib/zip.c"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Header Files">
+    <File Name="../../../Externals/zziplib/zziplib/autoconf.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/conf.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/_config.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/__debug.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/__dirent.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/fetch.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/file.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/__fnmatch.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/format.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/fseeko.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/__hints.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/info.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/lib.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/memdisk.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/__mmap.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/mmapped.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/_msvc.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/plugin.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/stdint.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/types.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/write.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/zzip.h"/>
+    <File Name="../../../Externals/zziplib/zziplib/zzip32.h"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG;-fno-exceptions;-fno-rtti" C_Options="-g;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Externals/zlib"/>
+        <IncludePath Value="../../../Externals/zziplib"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Debug]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyExternalsToSDK.sh $(ProjectName) $(PlatformName) $(Configuration)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG;-fno-exceptions;-fno-rtti" C_Options="-O2;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Externals/zlib"/>
+        <IncludePath Value="../../../Externals/zziplib"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Release]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyExternalsToSDK.sh $(ProjectName) $(PlatformName) $(Configuration)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Shipping" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O3;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING;-fno-exceptions;-fno-rtti" C_Options="-O3;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../Externals/zlib"/>
+        <IncludePath Value="../../../Externals/zziplib"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Shipping]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyExternalsToSDK.sh $(ProjectName) $(PlatformName) $(Configuration)</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

@@ -1,0 +1,5 @@
+CodeLiteDir=/usr/share/codelite
+PlatformName=i386
+VE_MACRO_OS=-DVE_PLATFORM_LINUX
+VE_MACRO_CPU=-march=pentium4 -mmmx -DVE_CPU_X86 -m32
+VENUS3D_PATH=/home/napoleon/Venus3D/trunk

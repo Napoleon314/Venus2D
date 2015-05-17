@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8A0F83D81650CB730022D5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0F83D41650CB710022D5DA /* VenusEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A0F83CD1650CB710022D5DA;
+			remoteInfo = VenusEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A0F83D41650CB710022D5DA /* VenusEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VenusEditor.xcodeproj; path = VenusEditor/VenusEditor.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8A0F838F1650CAB80022D5DA = {
+			isa = PBXGroup;
+			children = (
+				8A0F83D41650CB710022D5DA /* VenusEditor.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0F83D51650CB710022D5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0F83D91650CB730022D5DA /* libVenusEditor.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8A0F83911650CAB80022D5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 8A0F83941650CAB80022D5DA /* Build configuration list for PBXProject "Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A0F838F1650CAB80022D5DA;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8A0F83D51650CB710022D5DA /* Products */;
+					ProjectRef = 8A0F83D41650CB710022D5DA /* VenusEditor.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8A0F83D91650CB730022D5DA /* libVenusEditor.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libVenusEditor.dylib;
+			remoteRef = 8A0F83D81650CB730022D5DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		8A0F83961650CAB80022D5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8A0F83971650CAB80022D5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0F83941650CAB80022D5DA /* Build configuration list for PBXProject "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0F83961650CAB80022D5DA /* Debug */,
+				8A0F83971650CAB80022D5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A0F83911650CAB80022D5DA /* Project object */;
+}

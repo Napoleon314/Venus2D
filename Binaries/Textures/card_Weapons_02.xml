@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a3ad80bb3eaa58ef455b55a2d412c242:42a25a78bd7d9d3018bc8811a60c0bcd:c4b66fbffb6fceab5f2364ff3ae61b0a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="card_Weapons_02.png" width="512" height="1024">
+    <sprite n="c02_001_gun1.png" x="1" y="1" w="420" h="78" oX="0" oY="1" oW="420" oH="80"/>
+    <sprite n="c02_001_gun1_1.png" x="78" y="938" w="58" h="76" oX="2" oY="8" oW="80" oH="72" r="y"/>
+    <sprite n="c02_001_gun2.png" x="306" y="447" w="52" h="72" oX="0" oY="7" oW="72" oH="68" r="y"/>
+    <sprite n="c02_001_gun3.png" x="306" y="520" w="50" h="146" oX="0" oY="1" oW="148" oH="52" r="y"/>
+    <sprite n="c02_001_win_lv3.png" x="357" y="568" w="152" h="146" oX="1" oY="0" oW="148" oH="152" r="y"/>
+    <sprite n="c02_001_win_lv4.png" x="302" y="740" w="206" h="138" oX="1" oY="1" oW="140" oH="208" r="y"/>
+    <sprite n="c02_002_gun_0.png" x="1" y="733" w="300" h="108"/>
+    <sprite n="c02_002_gun_1.png" x="360" y="332" w="44" h="214" oX="0" oY="1" oW="44" oH="216"/>
+    <sprite n="c02_002_gun_2.png" x="78" y="842" w="210" h="58" oX="1" oY="1" oW="212" oH="60"/>
+    <sprite n="c02_002_gun_4.png" x="422" y="1" w="84" h="268" r="y"/>
+    <sprite n="c03_001_fly_1.png" x="1" y="80" w="406" h="142" oX="1" oY="1" oW="144" oH="408" r="y"/>
+    <sprite n="c03_001_fly_2.png" x="1" y="332" w="358" h="114" oX="0" oY="1" oW="116" oH="360" r="y"/>
+    <sprite n="c03_001_gun_1.png" x="1" y="223" w="404" h="108" oX="0" oY="0" oW="404" oH="140"/>
+    <sprite n="c03_001_gun_2.png" x="304" y="938" w="44" h="54" oX="118" oY="86" oW="404" oH="140"/>
+    <sprite n="c03_001_gun_a2.png" x="306" y="667" w="48" h="72" oX="60" oY="15" oW="404" oH="140"/>
+    <sprite n="c03_001_gun_a3.png" x="137" y="938" w="56" h="76" oX="178" oY="5" oW="404" oH="140"/>
+    <sprite n="c03_001_gun_a4.png" x="194" y="938" w="60" h="64" oX="301" oY="16" oW="404" oH="140"/>
+    <sprite n="c03_001_gun_a5.png" x="255" y="938" w="48" h="58" oX="346" oY="44" oW="404" oH="140" r="y"/>
+    <sprite n="c03_001_gun_a6.png" x="408" y="80" w="12" h="58" oX="335" oY="0" oW="404" oH="140" r="y"/>
+    <sprite n="c03_001_shield_0.png" x="1" y="590" w="304" h="142" oX="0" oY="0" oW="144" oH="304" r="y"/>
+    <sprite n="c03_002_gun_1.png" x="289" y="879" w="210" h="58" oX="0" oY="0" oW="60" oH="212" r="y"/>
+    <sprite n="c03_002_shield_1.png" x="1" y="447" w="304" h="142" oX="0" oY="0" oW="144" oH="304" r="y"/>
+    <sprite n="c03_002_shield_2.png" x="78" y="901" w="32" h="36" oX="24" oY="51" oW="144" oH="304"/>
+    <sprite n="c03_002_shield_3.png" x="406" y="270" w="90" h="128" oX="10" oY="29" oW="144" oH="304"/>
+    <sprite n="c03_002_win_1.png" x="405" y="399" w="76" h="168"/>
+    <sprite n="c03_002_win_2.png" x="1" y="842" w="76" h="158" oX="0" oY="10" oW="76" oH="168"/>
+</TextureAtlas>

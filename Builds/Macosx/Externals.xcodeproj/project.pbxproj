@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8A65D84416256CD9002F7F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A65D84016256CD8002F7F70 /* zlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A65D83916256CD7002F7F70;
+			remoteInfo = zlib;
+		};
+		8A65D85E16256D0C002F7F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A65D85A16256D0B002F7F70 /* zziplib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A65D85316256D0B002F7F70;
+			remoteInfo = zziplib;
+		};
+		8AA9A9301627286200C92E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA9A92C1627286100C92E33 /* curllib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AA9A9251627286100C92E33;
+			remoteInfo = curllib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A65D84016256CD8002F7F70 /* zlib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zlib.xcodeproj; path = zlib/zlib.xcodeproj; sourceTree = "<group>"; };
+		8A65D85A16256D0B002F7F70 /* zziplib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zziplib.xcodeproj; path = zziplib/zziplib.xcodeproj; sourceTree = "<group>"; };
+		8AA9A92C1627286100C92E33 /* curllib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = curllib.xcodeproj; path = curllib/curllib.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8A65D7DA16256BD2002F7F70 = {
+			isa = PBXGroup;
+			children = (
+				8AA9A92C1627286100C92E33 /* curllib.xcodeproj */,
+				8A65D85A16256D0B002F7F70 /* zziplib.xcodeproj */,
+				8A65D84016256CD8002F7F70 /* zlib.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		8A65D84116256CD8002F7F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A65D84516256CD9002F7F70 /* libzlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A65D85B16256D0B002F7F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A65D85F16256D0C002F7F70 /* libzziplib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AA9A92D1627286100C92E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA9A9311627286200C92E33 /* libcurllib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8A65D7DC16256BD2002F7F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 8A65D7DF16256BD2002F7F70 /* Build configuration list for PBXProject "Externals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A65D7DA16256BD2002F7F70;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8AA9A92D1627286100C92E33 /* Products */;
+					ProjectRef = 8AA9A92C1627286100C92E33 /* curllib.xcodeproj */;
+				},
+				{
+					ProductGroup = 8A65D84116256CD8002F7F70 /* Products */;
+					ProjectRef = 8A65D84016256CD8002F7F70 /* zlib.xcodeproj */;
+				},
+				{
+					ProductGroup = 8A65D85B16256D0B002F7F70 /* Products */;
+					ProjectRef = 8A65D85A16256D0B002F7F70 /* zziplib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8A65D84516256CD9002F7F70 /* libzlib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzlib.a;
+			remoteRef = 8A65D84416256CD9002F7F70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A65D85F16256D0C002F7F70 /* libzziplib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzziplib.a;
+			remoteRef = 8A65D85E16256D0C002F7F70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8AA9A9311627286200C92E33 /* libcurllib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcurllib.a;
+			remoteRef = 8AA9A9301627286200C92E33 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		8A65D7E116256BD2002F7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8A65D7E216256BD2002F7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		8A65D7E316256BDA002F7F70 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A65D7DF16256BD2002F7F70 /* Build configuration list for PBXProject "Externals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A65D7E116256BD2002F7F70 /* Debug */,
+				8A65D7E216256BD2002F7F70 /* Release */,
+				8A65D7E316256BDA002F7F70 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A65D7DC16256BD2002F7F70 /* Project object */;
+}

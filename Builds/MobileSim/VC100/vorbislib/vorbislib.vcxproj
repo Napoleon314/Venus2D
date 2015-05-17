@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\backends.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\bitrate.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\books\coupled\res_books_51.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\books\coupled\res_books_stereo.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\books\floor\floor_books.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\books\uncoupled\res_books_uncoupled.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\codebook.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\codec_internal.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\envelope.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\highlevel.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\lookup.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\lookup_data.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\lpc.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\lsp.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\masking.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\mdct.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\misc.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\floor_all.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\psych_11.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\psych_16.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\psych_44.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\psych_8.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\residue_16.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\residue_44.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\residue_44p51.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\residue_44u.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\residue_8.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_11.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_16.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_22.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_32.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_44.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_44p51.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_44u.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_8.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\modes\setup_X.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\os.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\psy.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\registry.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\scales.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\smallft.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\lib\window.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\vorbislib\codec.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\vorbislib\vorbisenc.h" />
+    <ClInclude Include="..\..\..\..\Externals\vorbislib\vorbislib\vorbisfile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\analysis.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\bitrate.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\block.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\codebook.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\envelope.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\floor0.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\floor1.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\info.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\lookup.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\lpc.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\lsp.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\mapping0.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\mdct.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\psy.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\registry.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\res0.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\sharedbook.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\smallft.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\synthesis.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\vorbisenc.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\vorbisfile.c" />
+    <ClCompile Include="..\..\..\..\Externals\vorbislib\lib\window.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DED6335-3EAE-4CA2-A2EC-C4AF3D9F3768}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>vorbislib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeExtLibDebug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeExtLibRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeExtLibShipping.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;LIBVORBIS_EXPORTS;_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>..\..\..\..\Externals\vorbislib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4305;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;LIBVORBIS_EXPORTS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsC</CompileAs>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\..\..\Externals\vorbislib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4305;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;LIBVORBIS_EXPORTS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>..\..\..\..\Externals\vorbislib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4305;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

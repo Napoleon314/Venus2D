@@ -1,0 +1,11 @@
+VeSceneNode
+	mask
+VeSceneNode2D
+	z x y rot skx sky s scx scy mul add
+VeUIWidget widget
+	ox oy w h enable visible input clip check
+VeUIImage image
+	res atlas ax ay aox aoy afloor
+
+VeUITextLabel text_label
+	font text align color bias off shadow_color shadow_bais soffx soffy

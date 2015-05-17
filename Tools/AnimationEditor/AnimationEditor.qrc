@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/saveas.png</file>
+        <file>res/splash.png</file>
+        <file>trans/zh_CN.qm</file>
+        <file>trans/en_US.qm</file>
+    </qresource>
+</RCC>

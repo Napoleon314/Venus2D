@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="CoreLibsTests" Database="./CoreLibsTests.tags">
+  <Project Name="VePower" Path="VePower/VePower.project" Active="No"/>
+  <Environment>
+    <![CDATA[
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ]]>
+  </Environment>
+  <Project Name="VePowerTest" Path="VePowerTest/VePowerTest.project" Active="Yes"/>
+  <Project Name="VeMain" Path="VeMain/VeMain.project" Active="No"/>
+  <Project Name="VeGraphicsTest" Path="VeGraphicsTest/VeGraphicsTest.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="VePower" ConfigName="Debug"/>
+      <Project Name="VePowerTest" ConfigName="Debug"/>
+      <Project Name="VeMain" ConfigName="Debug"/>
+      <Project Name="VeGraphicsTest" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="VePower" ConfigName="Release"/>
+      <Project Name="VePowerTest" ConfigName="Release"/>
+      <Project Name="VeMain" ConfigName="Release"/>
+      <Project Name="VeGraphicsTest" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Shipping" Selected="no">
+      <Project Name="VePowerTest" ConfigName="Shipping"/>
+      <Project Name="VePower" ConfigName="Shipping"/>
+      <Project Name="VeMain" ConfigName="Shipping"/>
+      <Project Name="VeGraphicsTest" ConfigName="Shipping"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

@@ -1,0 +1,125 @@
+<dragonBones name="ui_create_ani_1" frameRate="23" version="2.3">
+  <armature name="ui_create_ani">
+    <bone name="ui_create_title_0">
+      <transform x="-229.57" y="-59.52" skX="-5" skY="-5" scX="1" scY="1"/>
+    </bone>
+    <bone name="ui_create_title_1">
+      <transform x="241.05" y="75.53" skX="5" skY="5" scX="1" scY="1"/>
+    </bone>
+    <bone name="ui_create_title_2">
+      <transform x="-238.55" y="201.53" skX="-5" skY="-5" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="ui_create_title_2" parent="ui_create_title_2" z="0">
+        <display name="ui_create_title_2" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="51" pY="14"/>
+        </display>
+      </slot>
+      <slot name="ui_create_title_1" parent="ui_create_title_1" z="1">
+        <display name="ui_create_title_1" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="51" pY="14"/>
+        </display>
+      </slot>
+      <slot name="ui_create_title_0" parent="ui_create_title_0" z="2">
+        <display name="ui_create_title_0" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="51" pY="14"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="show" fadeInTime="0" duration="44" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="ui_create_title_2" scale="1" offset="0">
+        <frame duration="27" displayIndex="-1"/>
+        <frame z="0" tweenEasing="0" duration="2">
+          <transform x="-238.55" y="201.53" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="2">
+          <transform x="-184.67" y="197.4" skX="-4.81" skY="-4.81" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="25" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="0" duration="13">
+          <transform x="-110.27" y="190.78" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_1" scale="1" offset="0">
+        <frame duration="25" displayIndex="-1"/>
+        <frame z="1" tweenEasing="0" duration="2">
+          <transform x="241.05" y="75.53" skX="5" skY="5" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="1" tweenEasing="0" duration="2">
+          <transform x="185.8" y="70.58" skX="4.81" skY="4.81" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="25" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="1" duration="15">
+          <transform x="111" y="63.13" skX="5" skY="5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_0" scale="1" offset="0">
+        <frame duration="23" displayIndex="-1"/>
+        <frame z="2" tweenEasing="0" duration="2">
+          <transform x="-229.57" y="-59.52" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="2" tweenEasing="0" duration="2">
+          <transform x="-180.17" y="-62.5" skX="-4.81" skY="-4.81" scX="1" scY="1" pX="0" pY="0"/>
+          <colorTransform aO="0" rO="0" gO="0" bO="0" aM="25" rM="100" gM="100" bM="100"/>
+        </frame>
+        <frame z="2" duration="17">
+          <transform x="-110.02" y="-68" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+    <animation name="choose1" fadeInTime="0" duration="20" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="ui_create_title_2" scale="1" offset="0">
+        <frame z="0" duration="61">
+          <transform x="-110.27" y="190.78" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_1" scale="1" offset="0">
+        <frame z="1" duration="61">
+          <transform x="111" y="63.13" skX="5" skY="5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_0" scale="1" offset="0">
+        <frame z="2" duration="61">
+          <transform x="-110.02" y="-68" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+    <animation name="choose2" fadeInTime="0" duration="20" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="ui_create_title_2" scale="1" offset="0">
+        <frame z="0" duration="41">
+          <transform x="-110.27" y="190.78" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_1" scale="1" offset="0">
+        <frame z="1" duration="41">
+          <transform x="111" y="63.13" skX="5" skY="5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_0" scale="1" offset="0">
+        <frame z="2" duration="41">
+          <transform x="-110.02" y="-68" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+    <animation name="choose3" fadeInTime="0" duration="21" scale="1" loop="1" tweenEasing="NaN">
+      <timeline name="ui_create_title_2" scale="1" offset="0">
+        <frame z="0" duration="21">
+          <transform x="-110.27" y="190.78" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_1" scale="1" offset="0">
+        <frame z="1" duration="21">
+          <transform x="111" y="63.13" skX="5" skY="5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="ui_create_title_0" scale="1" offset="0">
+        <frame z="2" duration="21">
+          <transform x="-110.02" y="-68" skX="-5" skY="-5" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>

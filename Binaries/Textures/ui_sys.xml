@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a8580fa0f53446ec1d032bc83ae55c41:7788b41dc9796d6365f31f2ea8a0f671:d13f0d63dc21fdacb5a49a354553464a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="ui_sys.png" width="256" height="512">
+    <sprite n="alert_b.png" x="252" y="50" w="1" h="46" oX="0" oY="0" oW="1" oH="48"/>
+    <sprite n="alert_btn0_n_c.png" x="246" y="2" w="1" h="86" oX="0" oY="1" oW="1" oH="88"/>
+    <sprite n="alert_btn0_n_l.png" x="90" y="23" w="86" h="16" oX="0" oY="1" oW="16" oH="88" r="y"/>
+    <sprite n="alert_btn0_p_c.png" x="178" y="23" w="1" h="86" oX="0" oY="1" oW="1" oH="88"/>
+    <sprite n="alert_btn0_p_l.png" x="2" y="20" w="86" h="16" r="y"/>
+    <sprite n="alert_btn1_n_c.png" x="92" y="2" w="88" h="1" r="y"/>
+    <sprite n="alert_btn1_n_l.png" x="2" y="2" w="88" h="16" r="y"/>
+    <sprite n="alert_btn1_p_c.png" x="2" y="38" w="86" h="1" oX="0" oY="1" oW="1" oH="88" r="y"/>
+    <sprite n="alert_btn1_p_l.png" x="92" y="5" w="86" h="16" r="y"/>
+    <sprite n="alert_c.png" x="249" y="52" w="1" h="1"/>
+    <sprite n="alert_l.png" x="249" y="2" w="1" h="48" r="y"/>
+    <sprite n="alert_lb.png" x="86" y="167" w="48" h="46" oX="0" oY="0" oW="48" oH="48"/>
+    <sprite n="alert_lt.png" x="86" y="119" w="48" h="46" oX="0" oY="2" oW="48" oH="48"/>
+    <sprite n="alert_t.png" x="252" y="2" w="1" h="46" oX="0" oY="2" oW="1" oH="48"/>
+    <sprite n="alert_title.png" x="182" y="2" w="62" h="276" oX="14" oY="0" oW="290" oH="62" r="y"/>
+    <sprite n="loading.png" x="86" y="41" w="76" h="76" oX="4" oY="4" oW="84" oH="84"/>
+    <sprite n="start_banner.png" x="2" y="41" w="82" h="282" oX="2" oY="1" oW="284" oH="84" r="y"/>
+</TextureAtlas>

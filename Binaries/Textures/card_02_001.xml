@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:77b65e855d790d059b44338e62a821e1:96c2dfb0b579a106d6aa2af21b63bfdb:8fe3d23b486c0ef0309bdc4ffe5b49e6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="card_02_001.png" width="512" height="1024">
+    <sprite n="c02_001_bady.png" x="1" y="219" w="164" h="128" oX="0" oY="2" oW="128" oH="168" r="y"/>
+    <sprite n="c02_001_bady_lv1_1.png" x="166" y="288" w="36" h="68" r="y"/>
+    <sprite n="c02_001_bady_lv1_2.png" x="183" y="534" w="80" h="60"/>
+    <sprite n="c02_001_bady_lv1_3.png" x="1" y="527" w="90" h="48" oX="0" oY="0" oW="92" oH="48"/>
+    <sprite n="c02_001_bady_lv1_4.png" x="434" y="626" w="70" h="50" oX="0" oY="1" oW="72" oH="52"/>
+    <sprite n="c02_001_bady_lv2_1.png" x="166" y="219" w="36" h="68" r="y"/>
+    <sprite n="c02_001_bady_lv2_2.png" x="290" y="529" w="60" h="80" r="y"/>
+    <sprite n="c02_001_bady_lv3_3.png" x="92" y="513" w="90" h="48" oX="0" oY="0" oW="92" oH="48"/>
+    <sprite n="c02_001_bady_lv3_4.png" x="438" y="575" w="70" h="50" oX="0" oY="1" oW="72" oH="52"/>
+    <sprite n="c02_001_bady_lv4_1.png" x="422" y="88" w="68" h="36"/>
+    <sprite n="c02_001_bady_lv4_2.png" x="294" y="448" w="60" h="80" r="y"/>
+    <sprite n="c02_001_bady_lv4_3.png" x="1" y="478" w="90" h="48" oX="0" oY="0" oW="92" oH="48"/>
+    <sprite n="c02_001_bady_lv4_4.png" x="438" y="524" w="70" h="50" oX="0" oY="1" oW="72" oH="52"/>
+    <sprite n="c02_001_gun1.png" x="1" y="1" w="420" h="78" oX="0" oY="1" oW="420" oH="80"/>
+    <sprite n="c02_001_gun2.png" x="148" y="357" w="52" h="72" oX="0" oY="7" oW="72" oH="68" r="y"/>
+    <sprite n="c02_001_gun3.png" x="1" y="348" w="146" h="50" oX="0" oY="1" oW="148" oH="52"/>
+    <sprite n="c02_001_hand_l.png" x="201" y="392" w="92" h="92"/>
+    <sprite n="c02_001_hand_l_lv1.png" x="52" y="644" w="46" h="42" oX="0" oY="1" oW="48" oH="44"/>
+    <sprite n="c02_001_hand_l_lv2.png" x="105" y="640" w="46" h="42" oX="0" oY="1" oW="48" oH="44"/>
+    <sprite n="c02_001_hand_l_lv4.png" x="105" y="597" w="46" h="42" oX="0" oY="1" oW="48" oH="44"/>
+    <sprite n="c02_001_hand_r.png" x="393" y="224" w="102" h="146" oX="1" oY="0" oW="104" oH="148"/>
+    <sprite n="c02_001_hand_r_lv1.png" x="1" y="629" w="50" h="46" oX="1" oY="1" oW="48" oH="52" r="y"/>
+    <sprite n="c02_001_hand_r_lv2.png" x="54" y="597" w="50" h="46" oX="1" oY="1" oW="48" oH="52" r="y"/>
+    <sprite n="c02_001_hand_r_lv4.png" x="267" y="610" w="50" h="46" oX="1" oY="1" oW="48" oH="52" r="y"/>
+    <sprite n="c02_001_head_0.png" x="208" y="80" w="184" h="164"/>
+    <sprite n="c02_001_head_lv1_1.png" x="351" y="601" w="82" h="76" oX="0" oY="1" oW="76" oH="84" r="y"/>
+    <sprite n="c02_001_head_lv1_2.png" x="199" y="485" w="90" h="48" oX="0" oY="0" oW="92" oH="48"/>
+    <sprite n="c02_001_head_lv1_3.png" x="496" y="224" w="14" h="20" oX="3" oY="0" oW="20" oH="20"/>
+    <sprite n="c02_001_head_lv2_2.png" x="92" y="562" w="68" h="34" oX="11" oY="3" oW="92" oH="40"/>
+    <sprite n="c02_001_head_lv2_3.png" x="491" y="103" w="20" h="14" oX="3" oY="0" oW="20" oH="20" r="y"/>
+    <sprite n="c02_001_head_lv3_1.png" x="355" y="524" w="82" h="76" oX="0" oY="1" oW="76" oH="84" r="y"/>
+    <sprite n="c02_001_head_lv4_1.png" x="122" y="430" w="76" h="82" oX="0" oY="1" oW="76" oH="84"/>
+    <sprite n="c02_001_head_lv4_2.png" x="434" y="677" w="70" h="34" oX="6" oY="14" oW="92" oH="48"/>
+    <sprite n="c02_001_head_lv4_3.png" x="491" y="88" w="20" h="14" oX="3" oY="0" oW="20" oH="20" r="y"/>
+    <sprite n="c02_001_leg_l.png" x="1" y="399" w="120" h="78" oX="1" oY="0" oW="80" oH="120" r="y"/>
+    <sprite n="c02_001_leg_r.png" x="203" y="245" w="158" h="146" oX="0" oY="1" oW="160" oH="148"/>
+    <sprite n="c02_001_should_l_0.png" x="422" y="1" w="88" h="86" oX="0" oY="0" oW="88" oH="88" r="y"/>
+    <sprite n="c02_001_should_l_lv1.png" x="214" y="595" w="52" h="52"/>
+    <sprite n="c02_001_should_l_lv2.png" x="161" y="595" w="52" h="52"/>
+    <sprite n="c02_001_should_l_lv4.png" x="1" y="576" w="52" h="52"/>
+    <sprite n="c02_001_should_r1.png" x="393" y="129" w="112" h="94" r="y"/>
+    <sprite n="c02_001_should_r2.png" x="294" y="392" w="65" h="55" r="y"/>
+    <sprite n="c02_001_should_r_lv1.png" x="362" y="294" w="28" h="48" r="y"/>
+    <sprite n="c02_001_should_r_lv2.png" x="362" y="245" w="28" h="48" r="y"/>
+    <sprite n="c02_001_should_r_lv4.png" x="393" y="80" w="28" h="48" r="y"/>
+    <sprite n="c02_001_win_lv3.png" x="362" y="371" w="146" h="152" oX="1" oY="0" oW="148" oH="152"/>
+    <sprite n="c02_001_win_lv4.png" x="1" y="80" w="206" h="138" oX="1" oY="1" oW="140" oH="208" r="y"/>
+</TextureAtlas>

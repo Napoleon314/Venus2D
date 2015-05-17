@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{7b8da946-a90a-4d8b-b59f-8c387a380f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{47aeb44f-8ab8-425e-a8dc-2fd4c2bb6f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{da1508ed-ca49-4e6b-a7bb-04726b4ee067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{61dc7db0-c383-45bf-955f-c4f7a3371c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\GL">
+      <UniqueIdentifier>{b759d05c-a14d-4a0b-82f2-fdfa4a6c2acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\GLES2">
+      <UniqueIdentifier>{d7ecc4a8-9837-47d0-84af-f1cf0ba4010d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\D3D11">
+      <UniqueIdentifier>{dd97799f-1820-42e1-a568-364406d67bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{abc5f00e-2a4f-4a74-9e11-6e88109081fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{6b74d462-ac16-4a88-beec-6e707ffe6d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame">
+      <UniqueIdentifier>{547a7c90-0ca9-4b9a-919f-432f8cdeecfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{3107a2fd-ac79-43c4-96a9-19acd1f8f4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{8fb2bfd6-5045-46cf-86d4-f3f2e106f72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ef27c811-6326-48fe-a69e-6bd7b5201b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Windows">
+      <UniqueIdentifier>{571df2fd-9772-4c62-8a0d-79ad5f887a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{9cf35e08-2cce-45b0-ae80-5a595f1b28ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeMainPCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeMain.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeGlLoader.cpp">
+      <Filter>Renderer\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRendererGL.cpp">
+      <Filter>Renderer\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRendererGLES2.cpp">
+      <Filter>Renderer\GLES2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeApplication.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\gl.cpp">
+      <Filter>Renderer\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\glx.cpp">
+      <Filter>Renderer\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\wgl.cpp">
+      <Filter>Renderer\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRendererD3D11.cpp">
+      <Filter>Renderer\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeInputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeKeyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeMouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeJoyStick.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderObject.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRenderObjectD3D11.cpp">
+      <Filter>Renderer\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderResource.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderNode.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeEditorApplication.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRenderObjectGLES2.cpp">
+      <Filter>Renderer\GLES2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRenderObjectGL.cpp">
+      <Filter>Renderer\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeSceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAudioData.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAudioResource.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderFrame.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeSceneNode.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeImage.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeSceneRenderable.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeTweenEasing.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIWidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAction.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeDevice.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\Windows\_VeWindows.cpp">
+      <Filter>Framework\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeFont.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeDragonBones.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIFrame.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIText.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUICachedPane.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIScrollView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeMainPCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeMain.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeGlLoader.h">
+      <Filter>Renderer\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRendererGL.h">
+      <Filter>Renderer\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRendererGLES2.h">
+      <Filter>Renderer\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeApplication.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\gl.h">
+      <Filter>Renderer\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\glx.h">
+      <Filter>Renderer\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\wgl.h">
+      <Filter>Renderer\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRendererD3D11.h">
+      <Filter>Renderer\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeInputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeKeyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeMouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeJoyStick.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderObject.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRenderObjectD3D11.h">
+      <Filter>Renderer\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderResource.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderNode.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeEditorApplication.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRenderObjectGLES2.h">
+      <Filter>Renderer\GLES2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRenderObjectGL.h">
+      <Filter>Renderer\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeSceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAudioData.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAudioResource.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAudioSystem.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderFrame.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeSceneNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeSceneRenderable.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeTweenEasing.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAction.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeDevice.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\Windows\_VeWindows.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeDragonBones.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIFrame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIText.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUICachedPane.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIScrollView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\VeMain\VeApplication.inl">
+      <Filter>Framework</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeInputManager.inl">
+      <Filter>Input</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeJoyStick.inl">
+      <Filter>Input</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeKeyboard.inl">
+      <Filter>Input</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeMouse.inl">
+      <Filter>Input</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeRenderResource.inl">
+      <Filter>Renderer</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeRenderObject.inl">
+      <Filter>Renderer</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeRenderNode.inl">
+      <Filter>Renderer</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeRenderer.inl">
+      <Filter>Renderer</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeSceneManager.inl">
+      <Filter>Scene</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeAudioData.inl">
+      <Filter>Audio</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeAudioResource.inl">
+      <Filter>Audio</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeAudioSystem.inl">
+      <Filter>Audio</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeRenderFrame.inl">
+      <Filter>Frame</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeSceneNode.inl">
+      <Filter>Scene</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeImage.inl">
+      <Filter>Image</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeSceneRenderable.inl">
+      <Filter>Scene</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeUIWidget.inl">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeUIManager.inl">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeAction.inl">
+      <Filter>Animation</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeDevice.inl">
+      <Filter>Framework</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeDragonBones.inl">
+      <Filter>Animation</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VeMain\VeUIFrame.inl">
+      <Filter>UI</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,836 @@
+<dragonBones name="pc_0s" frameRate="24" version="2.3">
+ <armature name="pc_0_1">
+  <bone name="pc_0_hear">
+   <transform x="-19.5" y="-48.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="weapons_l">
+   <transform x="-38.8" y="-39.25" skX="-135" skY="-135" scX="0.65" scY="0.65"/>
+  </bone>
+  <bone name="pc_0_hand_r_1">
+   <transform x="-44" y="-29.45" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="pc_0_hand_r_2">
+   <transform x="-49.5" y="-29.2" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Weapons_r">
+   <transform x="34.23" y="-23.07" skX="36.47" skY="36.47" scX="0.86" scY="0.86"/>
+  </bone>
+  <bone name="pc_0_hand_l_1">
+   <transform x="15.05" y="-28.17" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="pc_0_hand_l_2">
+   <transform x="36.55" y="-29.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="pc_0_bady">
+   <transform x="-9" y="2.55" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="npc_0_win_lc">
+   <transform x="23.15" y="-44.7" skX="15.01" skY="-164.76" scX="0.99" scY="1"/>
+  </bone>
+  <bone name="npc_0_win_lc2">
+   <transform x="33.13" y="-52.32" skX="39.96" skY="-139.57" scX="0.91" scY="0.92"/>
+  </bone>
+  <bone name="npc_0_win_lc3">
+   <transform x="31.08" y="-51.3" skX="71.08" skY="-108.25" scX="0.74" scY="0.74"/>
+  </bone>
+  <bone name="npc_0_win_l">
+   <transform x="-40.1" y="-38.85" skX="-10.5" skY="-10.5" scX="1" scY="1"/>
+  </bone>
+  <bone name="npc_0_win_l 2">
+   <transform x="-43.3" y="-29.2" skX="-33.82" skY="-33.82" scX="0.92" scY="0.92"/>
+  </bone>
+  <bone name="npc_0_win_l 3">
+   <transform x="-60.97" y="-41.92" skX="-65.46" skY="-65.46" scX="0.75" scY="0.75"/>
+  </bone>
+  <bone name="eff_fire0_2_auto">
+   <transform x="30.15" y="-12.27" skX="165" skY="165" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_fire0_1_auto">
+   <transform x="-49.32" y="-8.27" skX="-165" skY="-165" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="eff_fire0_1_auto" parent="eff_fire0_1_auto" z="0">
+    <display name="eff_fire0" type="armature">
+     <transform x="-26.02" y="-36.47" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="eff_fire0_2_auto" parent="eff_fire0_2_auto" z="1">
+    <display name="eff_fire0" type="armature">
+     <transform x="-26.02" y="-36.47" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="npc_0_win_l 3" parent="npc_0_win_l 3" z="2">
+    <display name="npc_0_s_win_l" type="image">
+     <transform x="-19.02" y="-73.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="npc_0_win_l 2" parent="npc_0_win_l 2" z="3">
+    <display name="npc_0_s_win_l" type="image">
+     <transform x="-25.75" y="-95.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="npc_0_win_l" parent="npc_0_win_l" z="4">
+    <display name="npc_0_s_win_l" type="image">
+     <transform x="-31.45" y="-89.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="npc_0_win_lc3" parent="npc_0_win_lc3" z="5">
+    <display name="npc_0_s_win_l" type="image">
+     <transform x="-19.05" y="-73.53" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="npc_0_win_lc2" parent="npc_0_win_lc2" z="6">
+    <display name="npc_0_s_win_l" type="image">
+     <transform x="-19.05" y="-73.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="npc_0_win_lc" parent="npc_0_win_lc" z="7">
+    <display name="npc_0_s_win_l" type="image">
+     <transform x="-27.17" y="-93.97" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_bady" parent="pc_0_bady" z="8">
+    <display name="pc_0_s_bady" type="image">
+     <transform x="-55" y="-36.25" skX="0" skY="0" scX="1" scY="1" pX="-1.5" pY="-1"/>
+    </display>
+   </slot>
+   <slot name="pc_0_hand_l_2" parent="pc_0_hand_l_2" z="9">
+    <display name="pc_0_s_hand_l_2" type="image">
+     <transform x="-4.5" y="-7.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_hand_l_1" parent="pc_0_hand_l_1" z="10">
+    <display name="pc_0_s_hand_l_1" type="image">
+     <transform x="-21" y="-103" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="Weapons_r" parent="Weapons_r" z="11">
+    <display name="Weapons_r" type="armature">
+     <transform x="35.45" y="-97.22" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="pc_0_hand_r_2" parent="pc_0_hand_r_2" z="12">
+    <display name="pc_0_s_hand_r_2" type="image">
+     <transform x="-37.5" y="-4.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_hand_r_1" parent="pc_0_hand_r_1" z="13">
+    <display name="pc_0_s_hand_r_1" type="image">
+     <transform x="-52.5" y="-98" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="weapons_l" parent="weapons_l" z="14">
+    <display name="Weapons_l" type="armature">
+     <transform x="4.17" y="-172.65" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="pc_0_hear" parent="pc_0_hear" z="15">
+    <display name="pc_0_s_hear" type="image">
+     <transform x="-44.5" y="-52" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="stand" fadeInTime="0" duration="68" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="eff_fire0_1_auto" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="29">
+     <transform x="-49.32" y="-8.27" skX="-165" skY="-165" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="38">
+     <transform x="-49.32" y="-10.77" skX="-165" skY="-165" scX="1" scY="1" pX="0" pY="0.03"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="-49.32" y="-8.27" skX="-165" skY="-165" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="eff_fire0_2_auto" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="29">
+     <transform x="30.15" y="-12.27" skX="165" skY="165" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="38">
+     <transform x="29.15" y="-13.27" skX="165" skY="165" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="30.15" y="-12.27" skX="165" skY="165" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="npc_0_win_l 3" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="31">
+     <transform x="-60.97" y="-41.92" skX="-65.46" skY="-65.46" scX="0.75" scY="0.75" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="36">
+     <transform x="-47.97" y="-34.4" skX="-35.37" skY="-35.37" scX="0.75" scY="0.75" pX="-0.02" pY="0.05"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-60.97" y="-41.92" skX="-65.46" skY="-65.46" scX="0.75" scY="0.75" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="npc_0_win_l 2" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="31">
+     <transform x="-43.3" y="-29.2" skX="-33.82" skY="-33.82" scX="0.92" scY="0.92" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="36">
+     <transform x="-42.77" y="-17.7" skX="-14.14" skY="-14.14" scX="0.92" scY="0.92" pX="0" pY="0.03"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-43.3" y="-29.2" skX="-33.82" skY="-33.82" scX="0.92" scY="0.92" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="npc_0_win_l" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="30">
+     <transform x="-40.1" y="-38.85" skX="-10.5" skY="-10.5" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="37">
+     <transform x="-47.1" y="-38.85" skX="9.69" skY="9.69" scX="1" scY="1" pX="0.03" pY="-0.02"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-40.1" y="-38.85" skX="-10.5" skY="-10.5" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="npc_0_win_lc3" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="33">
+     <transform x="31.08" y="-51.3" skX="71.08" skY="-108.25" scX="0.74" scY="0.74" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="34">
+     <transform x="33.13" y="-40.83" skX="10.85" skY="-168.42" scX="0.74" scY="0.74" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="31.08" y="-51.3" skX="71.08" skY="-108.25" scX="0.74" scY="0.74" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="npc_0_win_lc2" scale="1" offset="0">
+    <frame z="6" tweenEasing="0" duration="32">
+     <transform x="33.13" y="-52.32" skX="39.96" skY="-139.57" scX="0.91" scY="0.92" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="35">
+     <transform x="29.15" y="-43.82" skX="4.1" skY="-175.41" scX="0.91" scY="0.91" pX="0.03" pY="0.05"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="33.13" y="-52.32" skX="39.96" skY="-139.57" scX="0.91" scY="0.92" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="npc_0_win_lc" scale="1" offset="0">
+    <frame z="7" tweenEasing="0" duration="32">
+     <transform x="23.15" y="-44.7" skX="15.01" skY="-164.76" scX="0.99" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="35">
+     <transform x="23.15" y="-44.7" skX="-7.68" skY="172.37" scX="0.99" scY="1" pX="-0.02" pY="-0.02"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="23.15" y="-44.7" skX="15.01" skY="-164.76" scX="0.99" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_bady" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="29">
+     <transform x="-9" y="2.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="38">
+     <transform x="-9" y="-0.95" skX="0" skY="0" scX="1" scY="0.97" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-9" y="2.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_hand_l_2" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="34">
+     <transform x="36.55" y="-29.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="33">
+     <transform x="32.42" y="-22.02" skX="13.44" skY="13.44" scX="1" scY="1" pX="0.03" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="36.55" y="-29.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_hand_l_1" scale="1" offset="0">
+    <frame z="10" tweenEasing="0" duration="34">
+     <transform x="15.05" y="-28.17" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="33">
+     <transform x="11.18" y="-25.55" skX="6.46" skY="6.46" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="1">
+     <transform x="15.05" y="-28.17" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Weapons_r" scale="1" offset="0">
+    <frame z="11" tweenEasing="0" duration="34">
+     <transform x="34.23" y="-23.07" skX="36.47" skY="36.47" scX="0.86" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="33">
+     <transform x="28.6" y="-15.2" skX="49.82" skY="49.82" scX="0.86" scY="0.86" pX="-0.05" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="1">
+     <transform x="34.23" y="-23.07" skX="36.47" skY="36.47" scX="0.86" scY="0.86" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_hand_r_2" scale="1" offset="0">
+    <frame z="12" tweenEasing="0" duration="34">
+     <transform x="-49.5" y="-29.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="33">
+     <transform x="-45.12" y="-26.02" skX="-21.24" skY="-21.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="1">
+     <transform x="-49.5" y="-29.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_hand_r_1" scale="1" offset="0">
+    <frame z="13" tweenEasing="0" duration="31">
+     <transform x="-44" y="-29.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="3">
+     <transform x="-40.42" y="-28.32" skX="-11.3" skY="-11.3" scX="1" scY="1" pX="0.03" pY="-0.02"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="33">
+     <transform x="-40.08" y="-28.25" skX="-12.52" skY="-12.52" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="1">
+     <transform x="-44" y="-29.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="weapons_l" scale="1" offset="0">
+    <frame z="14" tweenEasing="0" duration="2">
+     <transform x="-38.8" y="-39.25" skX="-135" skY="-135" scX="0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="32">
+     <transform x="-38.83" y="-39.27" skX="-136.35" skY="-136.35" scX="0.65" scY="0.65" pX="-0.02" pY="0.03"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="33">
+     <transform x="-38.8" y="-39.25" skX="-156.33" skY="-156.33" scX="0.65" scY="0.65" pX="0.03" pY="0.08"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="1">
+     <transform x="-38.8" y="-39.25" skX="-135" skY="-135" scX="0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_hear" scale="1" offset="0">
+    <frame z="15" tweenEasing="0" duration="2">
+     <transform x="-19.5" y="-48.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="1">
+     <transform x="-19.5" y="-48.62" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="27">
+     <transform x="-19.5" y="-48.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="4">
+     <transform x="-19.5" y="-47.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="33">
+     <transform x="-19.5" y="-47.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="1">
+     <transform x="-19.5" y="-48.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="eff_fire0">
+  <bone name="eff_fire">
+   <transform x="26" y="56.48" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="eff_fire" parent="eff_fire" z="0">
+    <display name="eff_fire" type="image">
+     <transform x="0" y="-19.98" skX="0" skY="0" scX="1" scY="1" pX="26" pY="36.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="stand" fadeInTime="0" duration="10" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="eff_fire" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="26" y="56.48" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="26" y="56.48" skX="0" skY="0" scX="1" scY="0.64" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="26" y="56.48" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="Weapons_r">
+  <bone name="pc_0_shield">
+   <transform x="5.3" y="90.18" skX="-18.29" skY="-18.29" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_4">
+   <transform x="0.18" y="-0.82" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_3">
+   <transform x="1.18" y="-0.82" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_2">
+   <transform x="-0.35" y="-0.47" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_1">
+   <transform x="-0.35" y="56.53" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_0">
+   <transform x="0.65" y="74.03" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="pc_0_sword">
+   <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43"/>
+  </bone>
+  <bone name="pc_0_sword2">
+   <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43"/>
+  </bone>
+  <bone name="pc_0_sword3">
+   <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43"/>
+  </bone>
+  <skin name="">
+   <slot name="pc_0_sword3" parent="pc_0_sword3" z="1">
+    <display name="pc_0_sword" type="image">
+     <transform x="-9" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_sword2" parent="pc_0_sword2" z="2">
+    <display name="pc_0_sword" type="image">
+     <transform x="-9" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_sword" parent="pc_0_sword" z="3">
+    <display name="pc_0_sword" type="image">
+     <transform x="-9" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_0" parent="eff_pc_0_sword_0" z="4">
+    <display name="eff_pc_0_sword_0" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_1" parent="eff_pc_0_sword_1" z="5">
+    <display name="eff_pc_0_sword_1" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_2" parent="eff_pc_0_sword_2" z="6">
+    <display name="eff_pc_0_sword_2" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_3" parent="eff_pc_0_sword_3" z="7">
+    <display name="eff_pc_0_sword_3" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_4" parent="eff_pc_0_sword_4" z="8">
+    <display name="eff_pc_0_sword_4" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_shield" parent="pc_0_shield" z="0">
+    <display name="pc_0_s_shield" type="image">
+     <transform x="-37.25" y="-69.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="01" fadeInTime="0.3" duration="10" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="pc_0_sword3" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="10">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword2" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="10">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword" scale="1" offset="0">
+    <frame z="3" duration="10">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="eff_pc_0_sword_0" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="0.65" y="74.03" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="0.65" y="-0.47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="eff_pc_0_sword_1" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="5" duration="1">
+     <transform x="-0.35" y="56.53" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-0.35" y="56.53" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_pc_0_sword_2" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="6" duration="1">
+     <transform x="-0.35" y="-0.47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="-0.35" y="-0.47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_pc_0_sword_3" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="7" duration="1">
+     <transform x="1.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="1.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_pc_0_sword_4" scale="1" offset="0">
+    <frame z="8" duration="1">
+     <transform x="0.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="0.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+  </animation>
+  <animation name="02" fadeInTime="0.3" duration="25" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="pc_0_sword3" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="8">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="16">
+     <transform x="-0.5" y="88.2" skX="-174.58" skY="-174.58" scX="1" scY="1.43" pX="0" pY="-0.02"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword2" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="8">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="16">
+     <transform x="-0.5" y="88.2" skX="-177.55" skY="-177.55" scX="1" scY="1.43" pX="-0.02" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword" scale="1" offset="0">
+    <frame z="3" duration="24">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="03" fadeInTime="0.3" duration="1" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="pc_0_shield" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="5.3" y="90.18" skX="-18.29" skY="-18.29" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="Weapons_l">
+  <bone name="eff_pc_0_sword_4">
+   <transform x="0.18" y="-0.82" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_3">
+   <transform x="1.18" y="-0.82" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_2">
+   <transform x="-0.35" y="-0.47" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_1">
+   <transform x="-0.35" y="56.53" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_pc_0_sword_0">
+   <transform x="0.65" y="74.03" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="pc_0_sword">
+   <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43"/>
+  </bone>
+  <bone name="pc_0_sword2">
+   <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43"/>
+  </bone>
+  <bone name="pc_0_sword3">
+   <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43"/>
+  </bone>
+  <skin name="">
+   <slot name="pc_0_sword3" parent="pc_0_sword3" z="0">
+    <display name="pc_0_sword" type="image">
+     <transform x="-9" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_sword2" parent="pc_0_sword2" z="1">
+    <display name="pc_0_sword" type="image">
+     <transform x="-9" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="pc_0_sword" parent="pc_0_sword" z="2">
+    <display name="pc_0_sword" type="image">
+     <transform x="-9" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_0" parent="eff_pc_0_sword_0" z="3">
+    <display name="eff_pc_0_sword_0" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_1" parent="eff_pc_0_sword_1" z="4">
+    <display name="eff_pc_0_sword_1" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_2" parent="eff_pc_0_sword_2" z="5">
+    <display name="eff_pc_0_sword_2" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_3" parent="eff_pc_0_sword_3" z="6">
+    <display name="eff_pc_0_sword_3" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_pc_0_sword_4" parent="eff_pc_0_sword_4" z="7">
+    <display name="eff_pc_0_sword_4" type="image">
+     <transform x="-87.5" y="-140" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="01" fadeInTime="0.3" duration="10" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="pc_0_sword3" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="10">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword2" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="10">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword" scale="1" offset="0">
+    <frame z="2" duration="10">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="eff_pc_0_sword_0" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="3" duration="1">
+     <transform x="0.65" y="74.03" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="0.65" y="-0.47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="eff_pc_0_sword_1" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="-0.35" y="56.53" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-0.35" y="56.53" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_pc_0_sword_2" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="5" duration="1">
+     <transform x="-0.35" y="-0.47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-0.35" y="-0.47" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_pc_0_sword_3" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="6" duration="1">
+     <transform x="1.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="1.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_pc_0_sword_4" scale="1" offset="0">
+    <frame z="7" duration="1">
+     <transform x="0.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="0.18" y="-0.82" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+  </animation>
+  <animation name="02" fadeInTime="0.3" duration="25" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="pc_0_sword3" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="8">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="16">
+     <transform x="-0.5" y="88.2" skX="-174.58" skY="-174.58" scX="1" scY="1.43" pX="0" pY="-0.02"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword2" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="8">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="16">
+     <transform x="-0.5" y="88.2" skX="-177.55" skY="-177.55" scX="1" scY="1.43" pX="-0.02" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="pc_0_sword" scale="1" offset="0">
+    <frame z="2" duration="24">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-0.5" y="88.18" skX="180" skY="180" scX="1" scY="1.43" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="eff_shield_0">
+  <bone name="eff_shield0">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="eff_shield0" parent="eff_shield0" z="0">
+    <display name="eff_shield0" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="88.5" pY="88.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="stand" fadeInTime="0" duration="24" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="eff_shield0" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="12">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="11">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="eff_fly0">
+  <bone name="eff_fly0_4">
+   <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_fly0_3">
+   <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_fly0_2">
+   <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_fly0_1">
+   <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="eff_fly0_0">
+   <transform x="68.5" y="56.75" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="eff_fly0_0" parent="eff_fly0_0" z="0">
+    <display name="eff_fly0_0" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="68.5" pY="56.75"/>
+    </display>
+   </slot>
+   <slot name="eff_fly0_1" parent="eff_fly0_1" z="1">
+    <display name="eff_fly0_1" type="image">
+     <transform x="-68.5" y="-56.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_fly0_2" parent="eff_fly0_2" z="2">
+    <display name="eff_fly0_2" type="image">
+     <transform x="-68.5" y="-56.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_fly0_3" parent="eff_fly0_3" z="3">
+    <display name="eff_fly0_3" type="image">
+     <transform x="-68.5" y="-56.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="eff_fly0_4" parent="eff_fly0_4" z="4">
+    <display name="eff_fly0_4" type="image">
+     <transform x="-68.5" y="-56.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="stand" fadeInTime="0.3" duration="10" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="eff_fly0_0" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="68.5" y="56.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="68.5" y="56.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_fly0_1" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="1" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_fly0_2" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="2" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_fly0_3" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+   <timeline name="eff_fly0_4" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="68.68" y="56.93" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

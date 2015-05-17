@@ -1,0 +1,28 @@
+<dragonBones name="test" frameRate="24" version="2.3">
+ <armature name="test">
+  <bone name="c02_001_gun2">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="c02_001_gun2" parent="c02_001_gun2" z="0">
+    <display name="c02_001_gun2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18" pY="17"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="show" fadeInTime="0.3" duration="18" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="c02_001_gun2" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="8">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="9">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="93" gO="88" bO="88" aM="100" rM="100" gM="32" bM="17"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

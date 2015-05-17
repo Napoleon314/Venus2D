@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652253CE187D29FB00DFF2C8 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 652253CC187D29FB00DFF2C8 /* Scripts */; };
+		652253CF187D29FB00DFF2C8 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 652253CD187D29FB00DFF2C8 /* Shaders */; };
+		65AE7D17186E5B55007BDF34 /* liblualib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE7D13186E5B55007BDF34 /* liblualib.a */; };
+		65AE7D18186E5B55007BDF34 /* libogglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE7D14186E5B55007BDF34 /* libogglib.a */; };
+		65AE7D19186E5B55007BDF34 /* libpnglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE7D15186E5B55007BDF34 /* libpnglib.a */; };
+		65AE7D1A186E5B55007BDF34 /* libvorbislib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE7D16186E5B55007BDF34 /* libvorbislib.a */; };
+		65AE7D1C186E5B8B007BDF34 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE7D1B186E5B8B007BDF34 /* OpenAL.framework */; };
+		65AE7D1E186E5BDE007BDF34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE7D1D186E5BDE007BDF34 /* AudioToolbox.framework */; };
+		8A2B88541627392C001AF651 /* libcurllib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2B88531627392C001AF651 /* libcurllib.a */; };
+		8A3516E6163EE26C006AE3DF /* Config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8A3516E5163EE26C006AE3DF /* Config.xml */; };
+		8A877968162565FC0099B575 /* libVePower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A877967162565FC0099B575 /* libVePower.a */; };
+		8A87796A162566000099B575 /* libVeMain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A877969162566000099B575 /* libVeMain.a */; };
+		8A87797F1625665A0099B575 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87797D1625665A0099B575 /* libzlib.a */; };
+		8A8779801625665A0099B575 /* libzziplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87797E1625665A0099B575 /* libzziplib.a */; };
+		8A971D721627D85D00BE8A7B /* Test.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8A971D711627D85D00BE8A7B /* Test.zip */; };
+		8A98020F15EB8A910065B427 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98020E15EB8A910065B427 /* UIKit.framework */; };
+		8A98021115EB8A910065B427 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98021015EB8A910065B427 /* Foundation.framework */; };
+		8A98021315EB8A910065B427 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98021215EB8A910065B427 /* CoreGraphics.framework */; };
+		8A98021715EB8A910065B427 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98021615EB8A910065B427 /* OpenGLES.framework */; };
+		8A98021D15EB8A920065B427 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A98021B15EB8A920065B427 /* InfoPlist.strings */; };
+		8A98025815EB8B980065B427 /* PowerTestMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A98025515EB8B980065B427 /* PowerTestMain.cpp */; };
+		8A98025915EB8B980065B427 /* VePowerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A98025615EB8B980065B427 /* VePowerTest.cpp */; };
+		8AA64032162812EE008CB058 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6402F162812C1008CB058 /* Default-568h@2x.png */; };
+		8AAF26621665213500793A60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAF26611665213500793A60 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652253CC187D29FB00DFF2C8 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../../../Binaries/Scripts; sourceTree = "<group>"; };
+		652253CD187D29FB00DFF2C8 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders; path = ../../../Binaries/Shaders; sourceTree = "<group>"; };
+		65AE7D13186E5B55007BDF34 /* liblualib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblualib.a; path = "../lualib/build/Release-iphoneos/liblualib.a"; sourceTree = "<group>"; };
+		65AE7D14186E5B55007BDF34 /* libogglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogglib.a; path = "../ogglib/build/Release-iphoneos/libogglib.a"; sourceTree = "<group>"; };
+		65AE7D15186E5B55007BDF34 /* libpnglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpnglib.a; path = "../pnglib/build/Release-iphoneos/libpnglib.a"; sourceTree = "<group>"; };
+		65AE7D16186E5B55007BDF34 /* libvorbislib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbislib.a; path = "../vorbislib/build/Release-iphoneos/libvorbislib.a"; sourceTree = "<group>"; };
+		65AE7D1B186E5B8B007BDF34 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		65AE7D1D186E5BDE007BDF34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8A2B88531627392C001AF651 /* libcurllib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurllib.a; path = "../curllib/build/Shipping-iphoneos/libcurllib.a"; sourceTree = "<group>"; };
+		8A3516E5163EE26C006AE3DF /* Config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Config.xml; path = ../../../Binaries/Config.xml; sourceTree = "<group>"; };
+		8A877967162565FC0099B575 /* libVePower.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVePower.a; path = "../VePower/build/Debug-iphoneos/libVePower.a"; sourceTree = "<group>"; };
+		8A877969162566000099B575 /* libVeMain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVeMain.a; path = "../VeMain/build/Debug-iphoneos/libVeMain.a"; sourceTree = "<group>"; };
+		8A87797D1625665A0099B575 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "../zlib/build/Shipping-iphoneos/libzlib.a"; sourceTree = "<group>"; };
+		8A87797E1625665A0099B575 /* libzziplib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzziplib.a; path = "../zziplib/build/Shipping-iphoneos/libzziplib.a"; sourceTree = "<group>"; };
+		8A971D711627D85D00BE8A7B /* Test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = Test.zip; path = ../../../Binaries/Test.zip; sourceTree = "<group>"; };
+		8A98020A15EB8A910065B427 /* VePowerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VePowerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A98020E15EB8A910065B427 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A98021015EB8A910065B427 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A98021215EB8A910065B427 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A98021615EB8A910065B427 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8A98021A15EB8A920065B427 /* VePowerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VePowerTest-Info.plist"; sourceTree = "<group>"; };
+		8A98021C15EB8A920065B427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A98022015EB8A920065B427 /* VePowerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 2; path = "VePowerTest-Prefix.pch"; sourceTree = "<group>"; };
+		8A98025515EB8B980065B427 /* PowerTestMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PowerTestMain.cpp; path = ../../../../Tests/VePowerTest/PowerTestMain.cpp; sourceTree = "<group>"; };
+		8A98025615EB8B980065B427 /* VePowerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VePowerTest.cpp; path = ../../../../Tests/VePowerTest/VePowerTest.cpp; sourceTree = "<group>"; };
+		8A98025715EB8B980065B427 /* VePowerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VePowerTest.h; path = ../../../../Tests/VePowerTest/VePowerTest.h; sourceTree = "<group>"; };
+		8AA6402F162812C1008CB058 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8AAF26611665213500793A60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A98020715EB8A910065B427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AE7D17186E5B55007BDF34 /* liblualib.a in Frameworks */,
+				65AE7D18186E5B55007BDF34 /* libogglib.a in Frameworks */,
+				65AE7D19186E5B55007BDF34 /* libpnglib.a in Frameworks */,
+				65AE7D1A186E5B55007BDF34 /* libvorbislib.a in Frameworks */,
+				8A2B88541627392C001AF651 /* libcurllib.a in Frameworks */,
+				8A87797F1625665A0099B575 /* libzlib.a in Frameworks */,
+				8A8779801625665A0099B575 /* libzziplib.a in Frameworks */,
+				8A87796A162566000099B575 /* libVeMain.a in Frameworks */,
+				8A877968162565FC0099B575 /* libVePower.a in Frameworks */,
+				65AE7D1E186E5BDE007BDF34 /* AudioToolbox.framework in Frameworks */,
+				65AE7D1C186E5B8B007BDF34 /* OpenAL.framework in Frameworks */,
+				8A98020F15EB8A910065B427 /* UIKit.framework in Frameworks */,
+				8A98021115EB8A910065B427 /* Foundation.framework in Frameworks */,
+				8A98021315EB8A910065B427 /* CoreGraphics.framework in Frameworks */,
+				8A98021715EB8A910065B427 /* OpenGLES.framework in Frameworks */,
+				8AAF26621665213500793A60 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A971D741627D86600BE8A7B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				652253CC187D29FB00DFF2C8 /* Scripts */,
+				652253CD187D29FB00DFF2C8 /* Shaders */,
+				8A3516E5163EE26C006AE3DF /* Config.xml */,
+				8AA6402F162812C1008CB058 /* Default-568h@2x.png */,
+				8A971D711627D85D00BE8A7B /* Test.zip */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		8A9801FF15EB8A910065B427 = {
+			isa = PBXGroup;
+			children = (
+				8A98021815EB8A920065B427 /* VePowerTest */,
+				8A971D741627D86600BE8A7B /* Resource */,
+				8A98020D15EB8A910065B427 /* Frameworks */,
+				8A98020B15EB8A910065B427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A98020B15EB8A910065B427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A98020A15EB8A910065B427 /* VePowerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A98020D15EB8A910065B427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65AE7D1D186E5BDE007BDF34 /* AudioToolbox.framework */,
+				65AE7D1B186E5B8B007BDF34 /* OpenAL.framework */,
+				65AE7D13186E5B55007BDF34 /* liblualib.a */,
+				65AE7D14186E5B55007BDF34 /* libogglib.a */,
+				65AE7D15186E5B55007BDF34 /* libpnglib.a */,
+				65AE7D16186E5B55007BDF34 /* libvorbislib.a */,
+				8A2B88531627392C001AF651 /* libcurllib.a */,
+				8A87797D1625665A0099B575 /* libzlib.a */,
+				8A87797E1625665A0099B575 /* libzziplib.a */,
+				8A877969162566000099B575 /* libVeMain.a */,
+				8A877967162565FC0099B575 /* libVePower.a */,
+				8A98020E15EB8A910065B427 /* UIKit.framework */,
+				8A98021015EB8A910065B427 /* Foundation.framework */,
+				8A98021215EB8A910065B427 /* CoreGraphics.framework */,
+				8A98021615EB8A910065B427 /* OpenGLES.framework */,
+				8AAF26611665213500793A60 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A98021815EB8A920065B427 /* VePowerTest */ = {
+			isa = PBXGroup;
+			children = (
+				8A98025615EB8B980065B427 /* VePowerTest.cpp */,
+				8A98025715EB8B980065B427 /* VePowerTest.h */,
+				8A98025515EB8B980065B427 /* PowerTestMain.cpp */,
+				8A98021915EB8A920065B427 /* Supporting Files */,
+			);
+			path = VePowerTest;
+			sourceTree = "<group>";
+		};
+		8A98021915EB8A920065B427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A98021A15EB8A920065B427 /* VePowerTest-Info.plist */,
+				8A98021B15EB8A920065B427 /* InfoPlist.strings */,
+				8A98022015EB8A920065B427 /* VePowerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A98020915EB8A910065B427 /* VePowerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A98023315EB8A920065B427 /* Build configuration list for PBXNativeTarget "VePowerTest" */;
+			buildPhases = (
+				8A98020615EB8A910065B427 /* Sources */,
+				8A98020715EB8A910065B427 /* Frameworks */,
+				8A98020815EB8A910065B427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VePowerTest;
+			productName = VePowerTest;
+			productReference = 8A98020A15EB8A910065B427 /* VePowerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A98020115EB8A910065B427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Napoleon;
+			};
+			buildConfigurationList = 8A98020415EB8A910065B427 /* Build configuration list for PBXProject "VePowerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A9801FF15EB8A910065B427;
+			productRefGroup = 8A98020B15EB8A910065B427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A98020915EB8A910065B427 /* VePowerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A98020815EB8A910065B427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A98021D15EB8A920065B427 /* InfoPlist.strings in Resources */,
+				652253CE187D29FB00DFF2C8 /* Scripts in Resources */,
+				8A971D721627D85D00BE8A7B /* Test.zip in Resources */,
+				652253CF187D29FB00DFF2C8 /* Shaders in Resources */,
+				8AA64032162812EE008CB058 /* Default-568h@2x.png in Resources */,
+				8A3516E6163EE26C006AE3DF /* Config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A98020615EB8A910065B427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A98025815EB8B980065B427 /* PowerTestMain.cpp in Sources */,
+				8A98025915EB8B980065B427 /* VePowerTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A98021B15EB8A920065B427 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A98021C15EB8A920065B427 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A98023115EB8A920065B427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A98023215EB8A920065B427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A98023415EB8A920065B427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VePowerTest/VePowerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_DEBUG,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_IOS,
+					VE_STATIC_LIB,
+					VE_CPU_ARM,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = ../../../SDK/Include;
+				INFOPLIST_FILE = "VePowerTest/VePowerTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}";
+				OTHER_CFLAGS = "-O0";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A98023515EB8A920065B427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VePowerTest/VePowerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_RELEASE,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_IOS,
+					VE_STATIC_LIB,
+					VE_CPU_ARM,
+				);
+				HEADER_SEARCH_PATHS = ../../../SDK/Include;
+				INFOPLIST_FILE = "VePowerTest/VePowerTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}";
+				OTHER_CFLAGS = (
+					"-O2",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A98025E15EB8CDB0065B427 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Shipping;
+		};
+		8A98025F15EB8CDB0065B427 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VePowerTest/VePowerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_SHIPPING,
+					VE_PLATFORM_IOS,
+					VE_STATIC_LIB,
+					VE_CPU_ARM,
+				);
+				HEADER_SEARCH_PATHS = ../../../SDK/Include;
+				INFOPLIST_FILE = "VePowerTest/VePowerTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}";
+				OTHER_CFLAGS = (
+					"-O3",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A98020415EB8A910065B427 /* Build configuration list for PBXProject "VePowerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A98023115EB8A920065B427 /* Debug */,
+				8A98023215EB8A920065B427 /* Release */,
+				8A98025E15EB8CDB0065B427 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+		8A98023315EB8A920065B427 /* Build configuration list for PBXNativeTarget "VePowerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A98023415EB8A920065B427 /* Debug */,
+				8A98023515EB8A920065B427 /* Release */,
+				8A98025F15EB8CDB0065B427 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A98020115EB8A910065B427 /* Project object */;
+}

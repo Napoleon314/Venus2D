@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\VeMain\gl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\glx.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\MobileSim\_VeMobileSim.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../VeMainPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../VeMainPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">../VeMainPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAction.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeApplication.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAudioData.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAudioResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeAudioSystem.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeDevice.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeDragonBones.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeEditorApplication.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeFont.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeImage.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeInputManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeJoyStick.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeKeyboard.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeMain.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeMainPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeMouse.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderer.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderFrame.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderNode.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderObject.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeRenderResource.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeSceneManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeSceneNode.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeSceneRenderable.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeTweenEasing.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUICachedPane.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIFrame.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIManager.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIScrollView.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIText.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\VeUIWidget.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\wgl.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeGlLoader.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRendererD3D11.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRendererGL.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRendererGLES2.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRenderObjectD3D11.cpp" />
+    <ClCompile Include="..\..\..\..\Source\VeMain\_VeRenderObjectGLES2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\VeMain\gl.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\glx.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\MobileSim\_VeMobileSim.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAction.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeApplication.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAudioData.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAudioResource.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeAudioSystem.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeDevice.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeDragonBones.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeEditorApplication.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeFont.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeImage.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeInputManager.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeJoyStick.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeKeyboard.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeMain.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeMainPCH.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeMouse.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderer.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderFrame.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderNode.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderObject.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeRenderResource.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeSceneManager.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeSceneNode.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeSceneRenderable.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeTweenEasing.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUICachedPane.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIFrame.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIManager.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIScrollView.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIText.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\VeUIWidget.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\wgl.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeGlLoader.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRendererD3D11.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRendererGL.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRendererGLES2.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRenderObjectD3D11.h" />
+    <ClInclude Include="..\..\..\..\Source\VeMain\_VeRenderObjectGLES2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\VeMain\VeAction.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeApplication.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeAudioData.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeAudioResource.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeAudioSystem.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeDevice.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeDragonBones.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeImage.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeInputManager.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeJoyStick.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeKeyboard.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeMouse.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeRenderer.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeRenderFrame.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeRenderNode.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeRenderObject.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeRenderResource.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeSceneManager.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeSceneNode.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeSceneRenderable.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeUIFrame.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeUIManager.inl" />
+    <None Include="..\..\..\..\Source\VeMain\VeUIWidget.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0C3BA33-CAE5-4F53-826A-5E8119EFA87E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VeMain</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeLibDebug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeLibRelease.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Property Sheets\VeLibShipping.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;VE_MAIN_EXPORT;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>VeMainPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\..\..\Source\VePower;..\..\..\..\Externals\OGLES2\Include;..\..\..\..\Externals\OAL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>VePower.lib;libEGL.lib;libGLESv2.lib;dinput8.lib;dxguid.lib;OpenAL32.lib;ogglib.lib;vorbislib.lib;pnglib.lib;zlib.lib;lzmalib.lib;imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\..\Binaries\MobileSim\VC$(PlatformToolsetVersion)\$(Configuration);..\..\..\..\Externals\OGLES2\WindowsX86\Lib;..\..\..\..\Externals\D3D11\Lib\Win32;..\..\..\..\Externals\OAL\Lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;VE_MAIN_EXPORT;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PrecompiledHeaderFile>VeMainPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\..\..\Source\VePower;..\..\..\..\Externals\OGLES2\Include;..\..\..\..\Externals\OAL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>VePower.lib;libEGL.lib;libGLESv2.lib;dinput8.lib;dxguid.lib;OpenAL32.lib;ogglib.lib;vorbislib.lib;pnglib.lib;zlib.lib;lzmalib.lib;imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\..\Binaries\MobileSim\VC$(PlatformToolsetVersion)\$(Configuration);..\..\..\..\Externals\OGLES2\WindowsX86\Lib;..\..\..\..\Externals\D3D11\Lib\Win32;..\..\..\..\Externals\OAL\Lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>VeMainPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\..\..\Source\VePower;..\..\..\..\Externals\OGLES2\Include;..\..\..\..\Externals\OAL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib />
+    <Lib />
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

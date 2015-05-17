@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4ecd215c149e82695fe2f19b71183b68:c2fc62b216f9dc5ac35723b5d8367d4a:4415cf4ac10b646d5fb85f68be4bc216$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="ui_create.png" width="1024" height="1024">
+    <sprite n="ui_create_divider_n.png" x="172" y="300" w="168" h="720" r="y"/>
+    <sprite n="ui_create_divider_p.png" x="2" y="300" w="168" h="720" r="y"/>
+    <sprite n="ui_create_flare.png" x="724" y="118" w="120" h="46" oX="0" oY="1" oW="120" oH="48"/>
+    <sprite n="ui_create_gear0.png" x="2" y="2" w="720" h="296"/>
+    <sprite n="ui_create_gear1.png" x="342" y="602" w="530" h="308" oX="1" oY="0" oW="532" oH="308"/>
+    <sprite n="ui_create_gear2.png" x="342" y="300" w="578" h="300" oX="1" oY="0" oW="580" oH="300"/>
+    <sprite n="ui_create_title_0.png" x="724" y="60" w="204" h="56"/>
+    <sprite n="ui_create_title_1.png" x="930" y="2" w="56" h="204" r="y"/>
+    <sprite n="ui_create_title_2.png" x="724" y="2" w="204" h="56"/>
+</TextureAtlas>

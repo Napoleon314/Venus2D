@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="VePower" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00030001N0005Debug0000000000000001N0007Release0000000000000001N0008Shipping000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Event">
+    <File Name="../../../Source/VePower/VeEvent.h"/>
+    <File Name="../../../Source/VePower/VeEventSub.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Kernel">
+    <File Name="../../../Source/VePower/VeAllocator.cpp"/>
+    <File Name="../../../Source/VePower/VeAllocator.h"/>
+    <File Name="../../../Source/VePower/VeAllocatorManager.cpp"/>
+    <File Name="../../../Source/VePower/VeAllocatorManager.h"/>
+    <File Name="../../../Source/VePower/VeBackgroundTaskQueue.cpp"/>
+    <File Name="../../../Source/VePower/VeBackgroundTaskQueue.h"/>
+    <File Name="../../../Source/VePower/VeFloat16.cpp"/>
+    <File Name="../../../Source/VePower/VeFloat16.h"/>
+    <File Name="../../../Source/VePower/VeLog.cpp"/>
+    <File Name="../../../Source/VePower/VeLog.h"/>
+    <File Name="../../../Source/VePower/VeMemObject.cpp"/>
+    <File Name="../../../Source/VePower/VeMemObject.h"/>
+    <File Name="../../../Source/VePower/VeMemory.cpp"/>
+    <File Name="../../../Source/VePower/VeMemory.h"/>
+    <File Name="../../../Source/VePower/VePower.cpp"/>
+    <File Name="../../../Source/VePower/VePower.h"/>
+    <File Name="../../../Source/VePower/VeRefObject.cpp"/>
+    <File Name="../../../Source/VePower/VeRefObject.h"/>
+    <File Name="../../../Source/VePower/VeRTTI.cpp"/>
+    <File Name="../../../Source/VePower/VeRTTI.h"/>
+    <File Name="../../../Source/VePower/VeSharedLib.cpp"/>
+    <File Name="../../../Source/VePower/VeSharedLib.h"/>
+    <File Name="../../../Source/VePower/VeString.cpp"/>
+    <File Name="../../../Source/VePower/VeString.h"/>
+    <File Name="../../../Source/VePower/VeStringParser.cpp"/>
+    <File Name="../../../Source/VePower/VeStringParser.h"/>
+    <File Name="../../../Source/VePower/VeThread.cpp"/>
+    <File Name="../../../Source/VePower/VeThread.h"/>
+    <File Name="../../../Source/VePower/VeTime.cpp"/>
+    <File Name="../../../Source/VePower/VeTime.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Math">
+    <File Name="../../../Source/VePower/VeAngle.cpp"/>
+    <File Name="../../../Source/VePower/VeAngle.h"/>
+    <File Name="../../../Source/VePower/VeColor.cpp"/>
+    <File Name="../../../Source/VePower/VeColor.h"/>
+    <File Name="../../../Source/VePower/VeMath.cpp"/>
+    <File Name="../../../Source/VePower/VeMath.h"/>
+    <File Name="../../../Source/VePower/VeVector2D.cpp"/>
+    <File Name="../../../Source/VePower/VeVector2D.h"/>
+    <File Name="../../../Source/VePower/VeVector3D.cpp"/>
+    <File Name="../../../Source/VePower/VeVector3D.h"/>
+    <File Name="../../../Source/VePower/VeVector4D.cpp"/>
+    <File Name="../../../Source/VePower/VeVector4D.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="PCH">
+    <File Name="../../../Source/VePower/VePowerPCH.cpp"/>
+    <File Name="../../../Source/VePower/VePowerPCH.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Resource">
+    <File Name="../../../Source/VePower/VeZip.h"/>
+    <File Name="../../../Source/VePower/VeZip.cpp"/>
+    <File Name="../../../Source/VePower/VeDirectory.cpp"/>
+    <File Name="../../../Source/VePower/VeDirectory.h"/>
+    <File Name="../../../Source/VePower/VeFile.cpp"/>
+    <File Name="../../../Source/VePower/VeFile.h"/>
+    <File Name="../../../Source/VePower/VeResource.cpp"/>
+    <File Name="../../../Source/VePower/VeResource.h"/>
+    <File Name="../../../Source/VePower/VeResourceManager.cpp"/>
+    <File Name="../../../Source/VePower/VeResourceManager.h"/>
+    <File Name="../../../Source/VePower/VeURL.cpp"/>
+    <File Name="../../../Source/VePower/VeURL.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Stream">
+    <File Name="../../../Source/VePower/VeBinaryStream.cpp"/>
+    <File Name="../../../Source/VePower/VeBinaryStream.h"/>
+    <File Name="../../../Source/VePower/VeMemoryStream.cpp"/>
+    <File Name="../../../Source/VePower/VeMemoryStream.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Templates">
+    <File Name="../../../Source/VePower/VeHashMap.h"/>
+    <File Name="../../../Source/VePower/VeList.h"/>
+    <File Name="../../../Source/VePower/VePair.h"/>
+    <File Name="../../../Source/VePower/VeRefList.h"/>
+    <File Name="../../../Source/VePower/VeSingleton.h"/>
+    <File Name="../../../Source/VePower/VeSmartPointer.h"/>
+    <File Name="../../../Source/VePower/VeStringMap.h"/>
+    <File Name="../../../Source/VePower/VeTreeMap.h"/>
+    <File Name="../../../Source/VePower/VeVector.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="XML">
+    <File Name="../../../Source/VePower/VeXML.cpp"/>
+    <File Name="../../../Source/VePower/VeXML.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Shipping"/>
+  <Dependencies Name="Debug"/>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-Wall;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG;-fno-exceptions;-fno-rtti" C_Options="-g;-Wall;-O0;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_DEBUG;-DVE_MEM_DEBUG" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../SDK/Include/Externals"/>
+      </Compiler>
+      <Linker Options="-ldl -lpthread -lrtmp -lidn -lrt" Required="yes">
+        <LibraryPath Value="../../../SDK/Linux/$(PlatformName)/$(Configuration)"/>
+        <Library Value="libcurllib.a"/>
+        <Library Value="libzlib.a"/>
+        <Library Value="libzziplib.a"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).so" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Debug]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyToSDK.sh $(ProjectName) $(PlatformName) $(Configuration) so</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG;-fno-exceptions;-fno-rtti" C_Options="-O2;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_DYNAMIC_LIB;-DVE_RELEASE;-DVE_MEM_DEBUG" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../SDK/Include/Externals"/>
+      </Compiler>
+      <Linker Options="-O2 -ldl -lpthread -lrtmp -lidn -lrt" Required="yes">
+        <LibraryPath Value="../../../SDK/Linux/$(PlatformName)/$(Configuration)"/>
+        <Library Value="libcurllib.a"/>
+        <Library Value="libzlib.a"/>
+        <Library Value="libzziplib.a"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).so" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Release]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyToSDK.sh $(ProjectName) $(PlatformName) $(Configuration) so</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Shipping" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O3;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING;-fno-exceptions;-fno-rtti" C_Options="-O3;-Wall;$(VE_MACRO_OS);$(VE_MACRO_CPU);-DVE_STATIC_LIB;-DVE_SHIPPING" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="../../../SDK/Include/Externals"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../Binaries/Linux/$(PlatformName)/$(Configuration)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[Configuration=Shipping]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">sh ../CopyToSDK.sh $(ProjectName) $(PlatformName) $(Configuration) a</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

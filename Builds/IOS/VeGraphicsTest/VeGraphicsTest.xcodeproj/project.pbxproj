@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0424D319F63A1F00D41C85 /* libraknetlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0424D219F63A1E00D41C85 /* libraknetlib.a */; };
+		4A2178C4194963FE00CB0138 /* liblzmalib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2178C3194963FE00CB0138 /* liblzmalib.a */; };
+		4A2178C61949644400CB0138 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 4A2178C51949644400CB0138 /* Fonts */; };
+		4A383E4E1974720800AB3D55 /* Animation in Resources */ = {isa = PBXBuildFile; fileRef = 4A383E4D1974720800AB3D55 /* Animation */; };
+		4A5A867318ED596F00C89BBA /* startup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5A867218ED596F00C89BBA /* startup.cfg */; };
+		6507C27018449A480093D001 /* libogglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507C26E18449A480093D001 /* libogglib.a */; };
+		6507C27118449A480093D001 /* libvorbislib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507C26F18449A480093D001 /* libvorbislib.a */; };
+		650A1BFF1862F65A0010C325 /* libpnglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650A1BFE1862F65A0010C325 /* libpnglib.a */; };
+		650A1C081862F89A0010C325 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = 650A1C071862F89A0010C325 /* Textures */; };
+		656FE90418422F1D001F1F99 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656FE90318422F1D001F1F99 /* OpenAL.framework */; };
+		658EDA9D189239A00064C86F /* Lua in Resources */ = {isa = PBXBuildFile; fileRef = 658EDA9C189239A00064C86F /* Lua */; };
+		659A02781845ECC600593E76 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A02771845ECC600593E76 /* AudioToolbox.framework */; };
+		65B88A71185314EC001826BA /* liblualib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B88A70185314EC001826BA /* liblualib.a */; };
+		8A3516E1163EE095006AE3DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3516E0163EE095006AE3DF /* Default-568h@2x.png */; };
+		8A3D21931628028B00CC4AD6 /* libcurllib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D218D1628028B00CC4AD6 /* libcurllib.a */; };
+		8A3D21951628028B00CC4AD6 /* libVeMain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D218F1628028B00CC4AD6 /* libVeMain.a */; };
+		8A3D21961628028B00CC4AD6 /* libVePower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D21901628028B00CC4AD6 /* libVePower.a */; };
+		8A3D21971628028B00CC4AD6 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D21911628028B00CC4AD6 /* libzlib.a */; };
+		8A3D21981628028B00CC4AD6 /* libzziplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D21921628028B00CC4AD6 /* libzziplib.a */; };
+		8A7DD4B31664CF720085EE15 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7DD4B21664CF720085EE15 /* QuartzCore.framework */; };
+		8A9801E515EB875A0065B427 /* VeGraphicsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9801E315EB875A0065B427 /* VeGraphicsTest.cpp */; };
+		8ABD5BF517A25E1A000A44FE /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD5BF417A25E1A000A44FE /* Shaders */; };
+		8ABD5BF717A25F28000A44FE /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD5BF617A25F28000A44FE /* Scripts */; };
+		8ABE74E917A65992008B5404 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = 8ABE74E817A65992008B5404 /* Audio */; };
+		8AC4FAF915E4A2F900BEEAC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4FAF815E4A2F900BEEAC5 /* UIKit.framework */; };
+		8AC4FAFB15E4A2F900BEEAC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4FAFA15E4A2F900BEEAC5 /* Foundation.framework */; };
+		8AC4FAFD15E4A2F900BEEAC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4FAFC15E4A2F900BEEAC5 /* CoreGraphics.framework */; };
+		8AC4FB0115E4A2F900BEEAC5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4FB0015E4A2F900BEEAC5 /* OpenGLES.framework */; };
+		8AC4FB0715E4A2F900BEEAC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4FB0515E4A2F900BEEAC5 /* InfoPlist.strings */; };
+		8AC4FB9E15E4DB1E00BEEAC5 /* GraphicsTestMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4FB9D15E4DB1E00BEEAC5 /* GraphicsTestMain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0424D219F63A1E00D41C85 /* libraknetlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraknetlib.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-fzljssmljyqjvrcptvciacxwnjmp/Build/Products/Debug-iphoneos/libraknetlib.a"; sourceTree = "<group>"; };
+		4A2178C3194963FE00CB0138 /* liblzmalib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblzmalib.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/CoreLibsTests-fzljssmljyqjvrcptvciacxwnjmp/Build/Products/Debug-iphoneos/liblzmalib.a"; sourceTree = "<group>"; };
+		4A2178C51949644400CB0138 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../Binaries/Fonts; sourceTree = "<group>"; };
+		4A383E4D1974720800AB3D55 /* Animation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Animation; path = ../../../Binaries/Animation; sourceTree = "<group>"; };
+		4A5A867218ED596F00C89BBA /* startup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = startup.cfg; path = ../../../Binaries/startup.cfg; sourceTree = "<group>"; };
+		6507C26E18449A480093D001 /* libogglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogglib.a; path = "../ogglib/build/Debug-iphoneos/libogglib.a"; sourceTree = "<group>"; };
+		6507C26F18449A480093D001 /* libvorbislib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbislib.a; path = "../vorbislib/build/Debug-iphoneos/libvorbislib.a"; sourceTree = "<group>"; };
+		650A1BFE1862F65A0010C325 /* libpnglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpnglib.a; path = "../pnglib/build/Debug-iphoneos/libpnglib.a"; sourceTree = "<group>"; };
+		650A1C071862F89A0010C325 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = ../../../Binaries/Textures; sourceTree = "<group>"; };
+		656FE90318422F1D001F1F99 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		658EDA9C189239A00064C86F /* Lua */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Lua; path = ../../../Binaries/Lua; sourceTree = "<group>"; };
+		659A02771845ECC600593E76 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65B88A70185314EC001826BA /* liblualib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblualib.a; path = "../lualib/build/Debug-iphoneos/liblualib.a"; sourceTree = "<group>"; };
+		8A3516E0163EE095006AE3DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A3D218D1628028B00CC4AD6 /* libcurllib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurllib.a; path = "../curllib/build/Shipping-iphoneos/libcurllib.a"; sourceTree = "<group>"; };
+		8A3D218F1628028B00CC4AD6 /* libVeMain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVeMain.a; path = "../VeMain/build/Release-iphoneos/libVeMain.a"; sourceTree = "<group>"; };
+		8A3D21901628028B00CC4AD6 /* libVePower.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVePower.a; path = "../VePower/build/Shipping-iphoneos/libVePower.a"; sourceTree = "<group>"; };
+		8A3D21911628028B00CC4AD6 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzlib.a; path = "../zlib/build/Shipping-iphoneos/libzlib.a"; sourceTree = "<group>"; };
+		8A3D21921628028B00CC4AD6 /* libzziplib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzziplib.a; path = "../zziplib/build/Shipping-iphoneos/libzziplib.a"; sourceTree = "<group>"; };
+		8A7DD4B21664CF720085EE15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8A9801E315EB875A0065B427 /* VeGraphicsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeGraphicsTest.cpp; path = ../../../../Tests/VeGraphicsTest/VeGraphicsTest.cpp; sourceTree = "<group>"; };
+		8A9801E415EB875A0065B427 /* VeGraphicsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeGraphicsTest.h; path = ../../../../Tests/VeGraphicsTest/VeGraphicsTest.h; sourceTree = "<group>"; };
+		8ABD5BF417A25E1A000A44FE /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders; path = ../../../Binaries/Shaders; sourceTree = "<group>"; };
+		8ABD5BF617A25F28000A44FE /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../../../Binaries/Scripts; sourceTree = "<group>"; };
+		8ABE74E817A65992008B5404 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Audio; path = ../../../Binaries/Audio; sourceTree = "<group>"; };
+		8AC4FAF415E4A2F900BEEAC5 /* VeGraphicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeGraphicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4FAF815E4A2F900BEEAC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AC4FAFA15E4A2F900BEEAC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AC4FAFC15E4A2F900BEEAC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AC4FAFE15E4A2F900BEEAC5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8AC4FB0015E4A2F900BEEAC5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8AC4FB0415E4A2F900BEEAC5 /* VeGraphicsTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeGraphicsTest-Info.plist"; sourceTree = "<group>"; };
+		8AC4FB0615E4A2F900BEEAC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC4FB0A15E4A2F900BEEAC5 /* VeGraphicsTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 2; path = "VeGraphicsTest-Prefix.pch"; sourceTree = "<group>"; };
+		8AC4FB9D15E4DB1E00BEEAC5 /* GraphicsTestMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicsTestMain.cpp; path = ../../../../Tests/VeGraphicsTest/GraphicsTestMain.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC4FAF115E4A2F900BEEAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0424D319F63A1F00D41C85 /* libraknetlib.a in Frameworks */,
+				4A2178C4194963FE00CB0138 /* liblzmalib.a in Frameworks */,
+				650A1BFF1862F65A0010C325 /* libpnglib.a in Frameworks */,
+				65B88A71185314EC001826BA /* liblualib.a in Frameworks */,
+				6507C27018449A480093D001 /* libogglib.a in Frameworks */,
+				6507C27118449A480093D001 /* libvorbislib.a in Frameworks */,
+				8A3D21931628028B00CC4AD6 /* libcurllib.a in Frameworks */,
+				8A3D21951628028B00CC4AD6 /* libVeMain.a in Frameworks */,
+				8A3D21961628028B00CC4AD6 /* libVePower.a in Frameworks */,
+				8A3D21971628028B00CC4AD6 /* libzlib.a in Frameworks */,
+				8A3D21981628028B00CC4AD6 /* libzziplib.a in Frameworks */,
+				8AC4FAF915E4A2F900BEEAC5 /* UIKit.framework in Frameworks */,
+				8AC4FAFB15E4A2F900BEEAC5 /* Foundation.framework in Frameworks */,
+				8AC4FAFD15E4A2F900BEEAC5 /* CoreGraphics.framework in Frameworks */,
+				8AC4FB0115E4A2F900BEEAC5 /* OpenGLES.framework in Frameworks */,
+				656FE90418422F1D001F1F99 /* OpenAL.framework in Frameworks */,
+				659A02781845ECC600593E76 /* AudioToolbox.framework in Frameworks */,
+				8A7DD4B31664CF720085EE15 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3516E2163EE0B2006AE3DF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4A383E4D1974720800AB3D55 /* Animation */,
+				8ABE74E817A65992008B5404 /* Audio */,
+				4A2178C51949644400CB0138 /* Fonts */,
+				658EDA9C189239A00064C86F /* Lua */,
+				8ABD5BF617A25F28000A44FE /* Scripts */,
+				8ABD5BF417A25E1A000A44FE /* Shaders */,
+				650A1C071862F89A0010C325 /* Textures */,
+				8A3516E0163EE095006AE3DF /* Default-568h@2x.png */,
+				4A5A867218ED596F00C89BBA /* startup.cfg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		8AC4FAE915E4A2F900BEEAC5 = {
+			isa = PBXGroup;
+			children = (
+				8AC4FB0215E4A2F900BEEAC5 /* VeGraphicsTest */,
+				8A3516E2163EE0B2006AE3DF /* Resource */,
+				8AC4FAF715E4A2F900BEEAC5 /* Frameworks */,
+				8AC4FAF515E4A2F900BEEAC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC4FAF515E4A2F900BEEAC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4FAF415E4A2F900BEEAC5 /* VeGraphicsTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC4FAF715E4A2F900BEEAC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A0424D219F63A1E00D41C85 /* libraknetlib.a */,
+				4A2178C3194963FE00CB0138 /* liblzmalib.a */,
+				650A1BFE1862F65A0010C325 /* libpnglib.a */,
+				65B88A70185314EC001826BA /* liblualib.a */,
+				6507C26E18449A480093D001 /* libogglib.a */,
+				6507C26F18449A480093D001 /* libvorbislib.a */,
+				8A3D218D1628028B00CC4AD6 /* libcurllib.a */,
+				8A3D218F1628028B00CC4AD6 /* libVeMain.a */,
+				8A3D21901628028B00CC4AD6 /* libVePower.a */,
+				8A3D21911628028B00CC4AD6 /* libzlib.a */,
+				8A3D21921628028B00CC4AD6 /* libzziplib.a */,
+				8AC4FAF815E4A2F900BEEAC5 /* UIKit.framework */,
+				8AC4FAFA15E4A2F900BEEAC5 /* Foundation.framework */,
+				8AC4FAFC15E4A2F900BEEAC5 /* CoreGraphics.framework */,
+				8AC4FAFE15E4A2F900BEEAC5 /* GLKit.framework */,
+				8AC4FB0015E4A2F900BEEAC5 /* OpenGLES.framework */,
+				656FE90318422F1D001F1F99 /* OpenAL.framework */,
+				659A02771845ECC600593E76 /* AudioToolbox.framework */,
+				8A7DD4B21664CF720085EE15 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC4FB0215E4A2F900BEEAC5 /* VeGraphicsTest */ = {
+			isa = PBXGroup;
+			children = (
+				8A9801E315EB875A0065B427 /* VeGraphicsTest.cpp */,
+				8A9801E415EB875A0065B427 /* VeGraphicsTest.h */,
+				8AC4FB9D15E4DB1E00BEEAC5 /* GraphicsTestMain.cpp */,
+				8AC4FB0315E4A2F900BEEAC5 /* Supporting Files */,
+			);
+			path = VeGraphicsTest;
+			sourceTree = "<group>";
+		};
+		8AC4FB0315E4A2F900BEEAC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4FB0415E4A2F900BEEAC5 /* VeGraphicsTest-Info.plist */,
+				8AC4FB0515E4A2F900BEEAC5 /* InfoPlist.strings */,
+				8AC4FB0A15E4A2F900BEEAC5 /* VeGraphicsTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC4FAF315E4A2F900BEEAC5 /* VeGraphicsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC4FB1D15E4A2F900BEEAC5 /* Build configuration list for PBXNativeTarget "VeGraphicsTest" */;
+			buildPhases = (
+				8AC4FAF015E4A2F900BEEAC5 /* Sources */,
+				8AC4FAF115E4A2F900BEEAC5 /* Frameworks */,
+				8AC4FAF215E4A2F900BEEAC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeGraphicsTest;
+			productName = VeGraphicsTest;
+			productReference = 8AC4FAF415E4A2F900BEEAC5 /* VeGraphicsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC4FAEB15E4A2F900BEEAC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Napoleon;
+				TargetAttributes = {
+					8AC4FAF315E4A2F900BEEAC5 = {
+						DevelopmentTeam = PN54UDXSBB;
+					};
+				};
+			};
+			buildConfigurationList = 8AC4FAEE15E4A2F900BEEAC5 /* Build configuration list for PBXProject "VeGraphicsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AC4FAE915E4A2F900BEEAC5;
+			productRefGroup = 8AC4FAF515E4A2F900BEEAC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC4FAF315E4A2F900BEEAC5 /* VeGraphicsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC4FAF215E4A2F900BEEAC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4FB0715E4A2F900BEEAC5 /* InfoPlist.strings in Resources */,
+				8A3516E1163EE095006AE3DF /* Default-568h@2x.png in Resources */,
+				8ABD5BF517A25E1A000A44FE /* Shaders in Resources */,
+				4A383E4E1974720800AB3D55 /* Animation in Resources */,
+				4A2178C61949644400CB0138 /* Fonts in Resources */,
+				650A1C081862F89A0010C325 /* Textures in Resources */,
+				4A5A867318ED596F00C89BBA /* startup.cfg in Resources */,
+				658EDA9D189239A00064C86F /* Lua in Resources */,
+				8ABD5BF717A25F28000A44FE /* Scripts in Resources */,
+				8ABE74E917A65992008B5404 /* Audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC4FAF015E4A2F900BEEAC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4FB9E15E4DB1E00BEEAC5 /* GraphicsTestMain.cpp in Sources */,
+				8A9801E515EB875A0065B427 /* VeGraphicsTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AC4FB0515E4A2F900BEEAC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4FB0615E4A2F900BEEAC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC4FB1B15E4A2F900BEEAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AC4FB1C15E4A2F900BEEAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AC4FB1E15E4A2F900BEEAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeGraphicsTest/VeGraphicsTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_DEBUG,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_IOS,
+					VE_STATIC_LIB,
+					VE_CPU_ARM,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../../SDK/Include;
+				INFOPLIST_FILE = "VeGraphicsTest/VeGraphicsTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CoreLibsTests-fzljssmljyqjvrcptvciacxwnjmp/Build/Products/Debug-iphoneos",
+				);
+				OTHER_CFLAGS = "-O0";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AC4FB1F15E4A2F900BEEAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeGraphicsTest/VeGraphicsTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_RELEASE,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_IOS,
+					VE_STATIC_LIB,
+					VE_CPU_ARM,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../../SDK/Include;
+				INFOPLIST_FILE = "VeGraphicsTest/VeGraphicsTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CoreLibsTests-fzljssmljyqjvrcptvciacxwnjmp/Build/Products/Debug-iphoneos",
+				);
+				OTHER_CFLAGS = (
+					"-O2",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AC4FB3C15E4AC6C00BEEAC5 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Shipping;
+		};
+		8AC4FB3D15E4AC6C00BEEAC5 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeGraphicsTest/VeGraphicsTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_SHIPPING,
+					VE_PLATFORM_IOS,
+					VE_STATIC_LIB,
+					VE_CPU_ARM,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../../SDK/Include;
+				INFOPLIST_FILE = "VeGraphicsTest/VeGraphicsTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../../../SDK/IOS/${CONFIGURATION}-${PLATFORM_NAME}",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/CoreLibsTests-fzljssmljyqjvrcptvciacxwnjmp/Build/Products/Debug-iphoneos",
+				);
+				LLVM_LTO = YES;
+				OTHER_CFLAGS = (
+					"-O3",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC4FAEE15E4A2F900BEEAC5 /* Build configuration list for PBXProject "VeGraphicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4FB1B15E4A2F900BEEAC5 /* Debug */,
+				8AC4FB1C15E4A2F900BEEAC5 /* Release */,
+				8AC4FB3C15E4AC6C00BEEAC5 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+		8AC4FB1D15E4A2F900BEEAC5 /* Build configuration list for PBXNativeTarget "VeGraphicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4FB1E15E4A2F900BEEAC5 /* Debug */,
+				8AC4FB1F15E4A2F900BEEAC5 /* Release */,
+				8AC4FB3D15E4AC6C00BEEAC5 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC4FAEB15E4A2F900BEEAC5 /* Project object */;
+}

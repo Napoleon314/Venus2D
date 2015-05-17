@@ -1,0 +1,28 @@
+<ShaderConfig>
+	<Group>
+		<draw_sprite_base src="draw_sprite.hlsl" entry="VeMainVS">
+			<Profile value="vs_5_0"/>
+			<Profile value="vs_4_0"/>
+		</draw_sprite_base>
+		<draw_sprite_base src="draw_sprite.hlsl" entry="VeMainPS">
+			<Profile value="ps_5_0"/>
+			<Profile value="ps_4_0"/>
+		</draw_sprite_base>
+		<draw_color_shape src="draw_color_shape.hlsl" entry="VeMainVS">
+			<Profile value="vs_5_0"/>
+			<Profile value="vs_4_0"/>
+		</draw_color_shape>
+		<draw_color_shape src="draw_color_shape.hlsl" entry="VeMainPS">
+			<Profile value="ps_5_0"/>
+			<Profile value="ps_4_0"/>
+		</draw_color_shape>
+		<draw_text src="draw_text.hlsl" entry="VeMainVS">
+			<Profile value="vs_5_0"/>
+			<Profile value="vs_4_0"/>
+		</draw_text>
+		<draw_text src="draw_text.hlsl" entry="VeMainPS">
+			<Profile value="ps_5_0"/>
+			<Profile value="ps_4_0"/>
+		</draw_text>
+	</Group>
+</ShaderConfig>

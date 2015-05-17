@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:8442495c84ed5cd3edc0ffb7aa7aa7a4:981011b9c191f48c27d7011441220651:7d5e194aac806cf1635bd30a12620d6e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="card_Weapons_01.png" width="1024" height="1024">
+    <sprite n="c01_001_gun_2.png" x="650" y="540" w="208" h="172" r="y"/>
+    <sprite n="c01_001_gun_2_a.png" x="959" y="901" w="18" h="20" oX="83" oY="33" oW="172" oH="208"/>
+    <sprite n="c01_001_gun_3.png" x="511" y="534" w="138" h="180" oX="9" oY="6" oW="200" oH="152" r="y"/>
+    <sprite n="c01_002_gun_1.png" x="627" y="221" w="342" h="102" oX="1" oY="0" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_10.png" x="955" y="882" w="24" h="18" oX="39" oY="259" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_11.png" x="834" y="999" w="30" h="24" oX="6" oY="268" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_2.png" x="701" y="976" w="62" h="44" oX="10" oY="0" oW="104" oH="344"/>
+    <sprite n="c01_002_gun_3.png" x="590" y="1007" w="44" h="16" oX="54" oY="37" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_4.png" x="977" y="798" w="34" h="38" oX="7" oY="87" oW="104" oH="344"/>
+    <sprite n="c01_002_gun_5.png" x="110" y="816" w="18" h="14" oX="68" oY="144" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_6.png" x="635" y="1007" w="38" h="16" oX="68" oY="169" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_7.png" x="514" y="903" w="90" h="60" oX="3" oY="134" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_8.png" x="872" y="843" w="82" h="62" oX="1" oY="213" oW="104" oH="344"/>
+    <sprite n="c01_002_gun_9.png" x="674" y="1007" w="26" h="16" oX="77" oY="269" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_a1.png" x="635" y="118" w="342" h="102" oX="1" oY="0" oW="104" oH="344" r="y"/>
+    <sprite n="c01_002_gun_a3.png" x="411" y="798" w="102" h="180" oX="14" oY="259" oW="132" oH="448"/>
+    <sprite n="c01_003_gun_1.png" x="501" y="335" w="172" h="198" oX="1" oY="0" oW="200" oH="172" r="y"/>
+    <sprite n="c01_003_gun_2.png" x="326" y="1" w="308" h="198" oX="0" oY="1" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_2_d.png" x="955" y="843" w="36" h="38" oX="110" oY="131" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_2_e.png" x="799" y="999" w="34" h="24" oX="209" oY="2" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_2_f.png" x="764" y="999" w="34" h="24" oX="209" oY="2" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_2_g.png" x="977" y="468" w="34" h="34" oX="80" oY="73" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_2_h.png" x="975" y="373" w="36" h="38" oX="110" oY="131" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_2_i.png" x="977" y="433" w="34" h="34" oX="80" oY="73" oW="308" oH="200"/>
+    <sprite n="c01_003_gun_3.png" x="280" y="335" w="220" h="202" oX="0" oY="1" oW="220" oH="204"/>
+    <sprite n="c02_001_gun1.png" x="201" y="328" w="78" h="420" oX="0" oY="1" oW="420" oH="80" r="y"/>
+    <sprite n="c02_001_gun1_1.png" x="882" y="906" w="76" h="58" oX="2" oY="8" oW="80" oH="72"/>
+    <sprite n="c02_001_gun2.png" x="605" y="903" w="52" h="72" oX="0" oY="7" oW="72" oH="68" r="y"/>
+    <sprite n="c02_001_gun3.png" x="859" y="747" w="146" h="50" oX="0" oY="1" oW="148" oH="52"/>
+    <sprite n="c02_001_win_lv3.png" x="264" y="798" w="146" h="152" oX="1" oY="0" oW="148" oH="152"/>
+    <sprite n="c02_001_win_lv4.png" x="859" y="540" w="138" h="206" oX="1" oY="1" oW="140" oH="208"/>
+    <sprite n="c02_002_gun_0.png" x="674" y="324" w="300" h="108"/>
+    <sprite n="c02_002_gun_1.png" x="375" y="979" w="214" h="44" oX="0" oY="1" oW="44" oH="216" r="y"/>
+    <sprite n="c02_002_gun_2.png" x="659" y="802" w="210" h="58" oX="1" oY="1" oW="212" oH="60"/>
+    <sprite n="c02_002_gun_4.png" x="179" y="749" w="84" h="268" r="y"/>
+    <sprite n="c04_001_Weapons_0.png" x="110" y="328" w="90" h="414" oX="0" oY="1" oW="92" oH="416"/>
+    <sprite n="c04_001_Weapons_1a.png" x="977" y="503" w="28" h="24"/>
+    <sprite n="c04_001_Weapons_1b.png" x="996" y="82" w="24" h="28" r="y"/>
+    <sprite n="c04_001_Weapons_1c.png" x="375" y="951" w="28" h="24"/>
+    <sprite n="c04_001_Weapons_2a.png" x="764" y="990" w="92" h="8" r="y"/>
+    <sprite n="c04_001_Weapons_2b.png" x="764" y="981" w="92" h="8" r="y"/>
+    <sprite n="c04_001_Weapons_2c.png" x="769" y="972" w="92" h="8" r="y"/>
+    <sprite n="c04_001_Weapons_3a.png" x="997" y="225" w="26" h="80" oX="0" oY="1" oW="80" oH="28" r="y"/>
+    <sprite n="c04_001_Weapons_3b.png" x="970" y="225" w="26" h="80" oX="0" oY="1" oW="80" oH="28" r="y"/>
+    <sprite n="c04_001_Weapons_3c.png" x="996" y="1" w="26" h="80" oX="0" oY="1" oW="80" oH="28" r="y"/>
+    <sprite n="c04_001_Weapons_4a.png" x="666" y="713" w="192" h="88" r="y"/>
+    <sprite n="c04_001_Weapons_4b.png" x="90" y="831" w="88" h="192"/>
+    <sprite n="c04_001_Weapons_4c.png" x="1" y="831" w="88" h="192"/>
+    <sprite n="c04_001_Weapons_5.png" x="659" y="861" w="212" h="50" oX="1" oY="0" oW="52" oH="212" r="y"/>
+    <sprite n="c04_001_Weapons_6.png" x="280" y="709" w="220" h="88" r="y"/>
+    <sprite n="c04_002_Weapons_1.png" x="1" y="328" w="108" h="502" oX="0" oY="0" oW="504" oH="108" r="y"/>
+    <sprite n="c04_002_Weapons_1_a.png" x="264" y="951" w="110" h="72" oX="297" oY="0" oW="504" oH="108"/>
+    <sprite n="c04_002_Weapons_1_b.png" x="870" y="798" w="106" h="44" oX="396" oY="3" oW="504" oH="108"/>
+    <sprite n="c04_002_Weapons_1_c.png" x="975" y="412" w="34" h="20" oX="468" oY="3" oW="504" oH="108"/>
+    <sprite n="c04_002_Weapons_1_d.png" x="771" y="943" w="106" h="28" oX="0" oY="0" oW="128" oH="28"/>
+    <sprite n="c04_002_Weapons_1_e.png" x="978" y="118" w="28" h="106" oX="0" oY="0" oW="128" oH="28" r="y"/>
+    <sprite n="c04_003_Weapons_1.png" x="1" y="1" w="324" h="326" oX="0" oY="1" oW="324" oH="328"/>
+    <sprite n="c04_003_Weapons_2.png" x="590" y="976" w="110" h="30" oX="160" oY="3" oW="324" oH="328" r="y"/>
+    <sprite n="c04_003_Weapons_3.png" x="658" y="945" w="110" h="30" oX="210" oY="162" oW="324" oH="328"/>
+    <sprite n="c04_003_Weapons_4.png" x="771" y="912" w="110" h="30" oX="133" oY="213" oW="324" oH="328" r="y"/>
+    <sprite n="c04_003_Weapons_5.png" x="658" y="912" w="112" h="32" oX="2" oY="134" oW="324" oH="328"/>
+    <sprite n="c05_001_fly_0.png" x="280" y="538" w="230" h="170" oX="1" oY="1" oW="232" oH="172"/>
+    <sprite n="c05_001_fly_1.png" x="514" y="798" w="144" h="104"/>
+    <sprite n="c05_001_gun_0.png" x="674" y="433" w="302" h="106" oX="1" oY="1" oW="304" oH="108"/>
+    <sprite n="c05_001_gun_1.png" x="110" y="743" w="68" h="72"/>
+    <sprite n="c05_001_shield_0.png" x="326" y="200" w="300" h="134" oX="1" oY="0" oW="140" oH="300" r="y"/>
+    <sprite n="c05_001_shield_1.png" x="501" y="715" w="164" h="82" oX="2" oY="2" oW="88" oH="168" r="y"/>
+    <sprite n="c05_002_gun_0.png" x="975" y="306" w="48" h="66" oX="1" oY="0" oW="68" oH="48" r="y"/>
+    <sprite n="c05_003_fly_1.png" x="635" y="1" w="360" h="116" r="y"/>
+</TextureAtlas>

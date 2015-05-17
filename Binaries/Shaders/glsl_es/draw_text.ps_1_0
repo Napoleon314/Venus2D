@@ -1,0 +1,12 @@
+uniform lowp sampler2D uPSTexture;
+
+varying highp vec2 vTex;
+varying highp vec2 vParam;
+varying highp vec4 vTexRange;
+varying lowp vec4 vColor0;
+
+void main()
+{
+	gl_FragColor = vColor0;
+	gl_FragColor.a *= clamp(texture2D(uPSTexture, vTex).r * vParam.y + vParam.x, 0.0, 1.0);
+}

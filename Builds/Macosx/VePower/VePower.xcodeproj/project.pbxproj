@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A44856B1626DE720002D193 /* VeURL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A4485691626DE720002D193 /* VeURL.cpp */; };
+		8A44856D1626DE840002D193 /* VeURL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A44856A1626DE720002D193 /* VeURL.h */; };
+		8A46EA79163076F8000F9C8F /* VeAllocatorManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A46EA75163076F8000F9C8F /* VeAllocatorManager.cpp */; };
+		8A46EA7A163076F8000F9C8F /* VeStringParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A46EA77163076F8000F9C8F /* VeStringParser.cpp */; };
+		8A46EA7C1630770D000F9C8F /* VeAllocatorManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A46EA76163076F8000F9C8F /* VeAllocatorManager.h */; };
+		8A46EA7D1630770D000F9C8F /* VeStringParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A46EA78163076F8000F9C8F /* VeStringParser.h */; };
+		8A65DA6016257688002F7F70 /* VeAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2116257688002F7F70 /* VeAllocator.cpp */; };
+		8A65DA6216257688002F7F70 /* VeAngle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2316257688002F7F70 /* VeAngle.cpp */; };
+		8A65DA6416257688002F7F70 /* VeBackgroundTaskQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2516257688002F7F70 /* VeBackgroundTaskQueue.cpp */; };
+		8A65DA6616257688002F7F70 /* VeBinaryStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2716257688002F7F70 /* VeBinaryStream.cpp */; };
+		8A65DA6816257688002F7F70 /* VeColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2916257688002F7F70 /* VeColor.cpp */; };
+		8A65DA6A16257688002F7F70 /* VeDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2B16257688002F7F70 /* VeDirectory.cpp */; };
+		8A65DA6E16257688002F7F70 /* VeFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA2F16257688002F7F70 /* VeFile.cpp */; };
+		8A65DA7016257688002F7F70 /* VeFloat16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA3116257688002F7F70 /* VeFloat16.cpp */; };
+		8A65DA7416257688002F7F70 /* VeLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA3516257688002F7F70 /* VeLog.cpp */; };
+		8A65DA7616257688002F7F70 /* VeMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA3716257688002F7F70 /* VeMath.cpp */; };
+		8A65DA7816257688002F7F70 /* VeMemObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA3916257688002F7F70 /* VeMemObject.cpp */; };
+		8A65DA7A16257688002F7F70 /* VeMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA3B16257688002F7F70 /* VeMemory.cpp */; };
+		8A65DA7C16257688002F7F70 /* VeMemoryStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA3D16257688002F7F70 /* VeMemoryStream.cpp */; };
+		8A65DA7F16257688002F7F70 /* VePower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4016257688002F7F70 /* VePower.cpp */; };
+		8A65DA8116257688002F7F70 /* VePowerPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4216257688002F7F70 /* VePowerPCH.cpp */; };
+		8A65DA8416257688002F7F70 /* VeRefObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4516257688002F7F70 /* VeRefObject.cpp */; };
+		8A65DA8616257688002F7F70 /* VeResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4716257688002F7F70 /* VeResourceManager.cpp */; };
+		8A65DA8816257688002F7F70 /* VeRTTI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4916257688002F7F70 /* VeRTTI.cpp */; };
+		8A65DA8A16257688002F7F70 /* VeSharedLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4B16257688002F7F70 /* VeSharedLib.cpp */; };
+		8A65DA8E16257688002F7F70 /* VeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA4F16257688002F7F70 /* VeString.cpp */; };
+		8A65DA9116257688002F7F70 /* VeThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA5216257688002F7F70 /* VeThread.cpp */; };
+		8A65DA9316257688002F7F70 /* VeTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA5416257688002F7F70 /* VeTime.cpp */; };
+		8A65DA9716257688002F7F70 /* VeVector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA5816257688002F7F70 /* VeVector2D.cpp */; };
+		8A65DA9916257688002F7F70 /* VeVector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA5A16257688002F7F70 /* VeVector3D.cpp */; };
+		8A65DA9B16257688002F7F70 /* VeVector4D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA5C16257688002F7F70 /* VeVector4D.cpp */; };
+		8A65DA9D16257688002F7F70 /* VeZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A65DA5E16257688002F7F70 /* VeZip.cpp */; };
+		8A65DAFB162577E8002F7F70 /* libVePower.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65D9CA162575C1002F7F70 /* libVePower.a */; };
+		8A65DAFD16257811002F7F70 /* VeAllocator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2216257688002F7F70 /* VeAllocator.h */; };
+		8A65DAFE16257811002F7F70 /* VeAngle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2416257688002F7F70 /* VeAngle.h */; };
+		8A65DAFF16257811002F7F70 /* VeBackgroundTaskQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2616257688002F7F70 /* VeBackgroundTaskQueue.h */; };
+		8A65DB0016257811002F7F70 /* VeBinaryStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2816257688002F7F70 /* VeBinaryStream.h */; };
+		8A65DB0116257811002F7F70 /* VeColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2A16257688002F7F70 /* VeColor.h */; };
+		8A65DB0216257811002F7F70 /* VeDirectory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2C16257688002F7F70 /* VeDirectory.h */; };
+		8A65DB0316257811002F7F70 /* VeEvent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2D16257688002F7F70 /* VeEvent.h */; };
+		8A65DB0416257811002F7F70 /* VeEventSub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA2E16257688002F7F70 /* VeEventSub.h */; };
+		8A65DB0516257811002F7F70 /* VeFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3016257688002F7F70 /* VeFile.h */; };
+		8A65DB0616257811002F7F70 /* VeFloat16.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3216257688002F7F70 /* VeFloat16.h */; };
+		8A65DB0716257811002F7F70 /* VeHashMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3316257688002F7F70 /* VeHashMap.h */; };
+		8A65DB0816257811002F7F70 /* VeList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3416257688002F7F70 /* VeList.h */; };
+		8A65DB0916257811002F7F70 /* VeLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3616257688002F7F70 /* VeLog.h */; };
+		8A65DB0A16257811002F7F70 /* VeMath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3816257688002F7F70 /* VeMath.h */; };
+		8A65DB0B16257811002F7F70 /* VeMemObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3A16257688002F7F70 /* VeMemObject.h */; };
+		8A65DB0C16257811002F7F70 /* VeMemory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3C16257688002F7F70 /* VeMemory.h */; };
+		8A65DB0D16257811002F7F70 /* VeMemoryStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3E16257688002F7F70 /* VeMemoryStream.h */; };
+		8A65DB0E16257811002F7F70 /* VePair.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA3F16257688002F7F70 /* VePair.h */; };
+		8A65DB0F16257811002F7F70 /* VePower.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4116257688002F7F70 /* VePower.h */; };
+		8A65DB1016257811002F7F70 /* VePowerPCH.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4316257688002F7F70 /* VePowerPCH.h */; };
+		8A65DB1116257811002F7F70 /* VeRefList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4416257688002F7F70 /* VeRefList.h */; };
+		8A65DB1216257811002F7F70 /* VeRefObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4616257688002F7F70 /* VeRefObject.h */; };
+		8A65DB1316257811002F7F70 /* VeResourceManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4816257688002F7F70 /* VeResourceManager.h */; };
+		8A65DB1416257811002F7F70 /* VeRTTI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4A16257688002F7F70 /* VeRTTI.h */; };
+		8A65DB1516257811002F7F70 /* VeSharedLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4C16257688002F7F70 /* VeSharedLib.h */; };
+		8A65DB1616257811002F7F70 /* VeSingleton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4D16257688002F7F70 /* VeSingleton.h */; };
+		8A65DB1716257811002F7F70 /* VeSmartPointer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA4E16257688002F7F70 /* VeSmartPointer.h */; };
+		8A65DB1816257811002F7F70 /* VeString.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5016257688002F7F70 /* VeString.h */; };
+		8A65DB1916257811002F7F70 /* VeStringMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5116257688002F7F70 /* VeStringMap.h */; };
+		8A65DB1A16257811002F7F70 /* VeThread.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5316257688002F7F70 /* VeThread.h */; };
+		8A65DB1B16257811002F7F70 /* VeTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5516257688002F7F70 /* VeTime.h */; };
+		8A65DB1C16257811002F7F70 /* VeTreeMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5616257688002F7F70 /* VeTreeMap.h */; };
+		8A65DB1D16257811002F7F70 /* VeVector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5716257688002F7F70 /* VeVector.h */; };
+		8A65DB1E16257811002F7F70 /* VeVector2D.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5916257688002F7F70 /* VeVector2D.h */; };
+		8A65DB1F16257811002F7F70 /* VeVector3D.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5B16257688002F7F70 /* VeVector3D.h */; };
+		8A65DB2016257811002F7F70 /* VeVector4D.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5D16257688002F7F70 /* VeVector4D.h */; };
+		8A65DB2116257811002F7F70 /* VeZip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A65DA5F16257688002F7F70 /* VeZip.h */; };
+		8AC9D5CA16366BFE004282E2 /* VeXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9D5C816366BFE004282E2 /* VeXML.cpp */; };
+		8AC9D5CD16366DF9004282E2 /* VeXML.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8AC9D5C916366BFE004282E2 /* VeXML.h */; };
+		8AE6150E164ECB5200F62C17 /* VeResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6150C164ECB5200F62C17 /* VeResource.cpp */; };
+		8AE61510164ECB6100F62C17 /* VeResource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8AE6150D164ECB5200F62C17 /* VeResource.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A65DAD516257794002F7F70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${SRCROOT}/../../../SDK/Macosx/${CONFIGURATION}";
+			dstSubfolderSpec = 0;
+			files = (
+				8A65DAFB162577E8002F7F70 /* libVePower.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A65DAFC162577EF002F7F70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${SRCROOT}/../../../SDK/Include";
+			dstSubfolderSpec = 0;
+			files = (
+				8AE61510164ECB6100F62C17 /* VeResource.h in CopyFiles */,
+				8AC9D5CD16366DF9004282E2 /* VeXML.h in CopyFiles */,
+				8A46EA7C1630770D000F9C8F /* VeAllocatorManager.h in CopyFiles */,
+				8A46EA7D1630770D000F9C8F /* VeStringParser.h in CopyFiles */,
+				8A44856D1626DE840002D193 /* VeURL.h in CopyFiles */,
+				8A65DAFD16257811002F7F70 /* VeAllocator.h in CopyFiles */,
+				8A65DAFE16257811002F7F70 /* VeAngle.h in CopyFiles */,
+				8A65DAFF16257811002F7F70 /* VeBackgroundTaskQueue.h in CopyFiles */,
+				8A65DB0016257811002F7F70 /* VeBinaryStream.h in CopyFiles */,
+				8A65DB0116257811002F7F70 /* VeColor.h in CopyFiles */,
+				8A65DB0216257811002F7F70 /* VeDirectory.h in CopyFiles */,
+				8A65DB0316257811002F7F70 /* VeEvent.h in CopyFiles */,
+				8A65DB0416257811002F7F70 /* VeEventSub.h in CopyFiles */,
+				8A65DB0516257811002F7F70 /* VeFile.h in CopyFiles */,
+				8A65DB0616257811002F7F70 /* VeFloat16.h in CopyFiles */,
+				8A65DB0716257811002F7F70 /* VeHashMap.h in CopyFiles */,
+				8A65DB0816257811002F7F70 /* VeList.h in CopyFiles */,
+				8A65DB0916257811002F7F70 /* VeLog.h in CopyFiles */,
+				8A65DB0A16257811002F7F70 /* VeMath.h in CopyFiles */,
+				8A65DB0B16257811002F7F70 /* VeMemObject.h in CopyFiles */,
+				8A65DB0C16257811002F7F70 /* VeMemory.h in CopyFiles */,
+				8A65DB0D16257811002F7F70 /* VeMemoryStream.h in CopyFiles */,
+				8A65DB0E16257811002F7F70 /* VePair.h in CopyFiles */,
+				8A65DB0F16257811002F7F70 /* VePower.h in CopyFiles */,
+				8A65DB1016257811002F7F70 /* VePowerPCH.h in CopyFiles */,
+				8A65DB1116257811002F7F70 /* VeRefList.h in CopyFiles */,
+				8A65DB1216257811002F7F70 /* VeRefObject.h in CopyFiles */,
+				8A65DB1316257811002F7F70 /* VeResourceManager.h in CopyFiles */,
+				8A65DB1416257811002F7F70 /* VeRTTI.h in CopyFiles */,
+				8A65DB1516257811002F7F70 /* VeSharedLib.h in CopyFiles */,
+				8A65DB1616257811002F7F70 /* VeSingleton.h in CopyFiles */,
+				8A65DB1716257811002F7F70 /* VeSmartPointer.h in CopyFiles */,
+				8A65DB1816257811002F7F70 /* VeString.h in CopyFiles */,
+				8A65DB1916257811002F7F70 /* VeStringMap.h in CopyFiles */,
+				8A65DB1A16257811002F7F70 /* VeThread.h in CopyFiles */,
+				8A65DB1B16257811002F7F70 /* VeTime.h in CopyFiles */,
+				8A65DB1C16257811002F7F70 /* VeTreeMap.h in CopyFiles */,
+				8A65DB1D16257811002F7F70 /* VeVector.h in CopyFiles */,
+				8A65DB1E16257811002F7F70 /* VeVector2D.h in CopyFiles */,
+				8A65DB1F16257811002F7F70 /* VeVector3D.h in CopyFiles */,
+				8A65DB2016257811002F7F70 /* VeVector4D.h in CopyFiles */,
+				8A65DB2116257811002F7F70 /* VeZip.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A4485691626DE720002D193 /* VeURL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeURL.cpp; path = ../../../Source/VePower/VeURL.cpp; sourceTree = "<group>"; };
+		8A44856A1626DE720002D193 /* VeURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeURL.h; path = ../../../Source/VePower/VeURL.h; sourceTree = "<group>"; };
+		8A46EA75163076F8000F9C8F /* VeAllocatorManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeAllocatorManager.cpp; path = ../../../Source/VePower/VeAllocatorManager.cpp; sourceTree = "<group>"; };
+		8A46EA76163076F8000F9C8F /* VeAllocatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeAllocatorManager.h; path = ../../../Source/VePower/VeAllocatorManager.h; sourceTree = "<group>"; };
+		8A46EA77163076F8000F9C8F /* VeStringParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeStringParser.cpp; path = ../../../Source/VePower/VeStringParser.cpp; sourceTree = "<group>"; };
+		8A46EA78163076F8000F9C8F /* VeStringParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeStringParser.h; path = ../../../Source/VePower/VeStringParser.h; sourceTree = "<group>"; };
+		8A65D9CA162575C1002F7F70 /* libVePower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVePower.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A65DA2116257688002F7F70 /* VeAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeAllocator.cpp; path = ../../../Source/VePower/VeAllocator.cpp; sourceTree = "<group>"; };
+		8A65DA2216257688002F7F70 /* VeAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeAllocator.h; path = ../../../Source/VePower/VeAllocator.h; sourceTree = "<group>"; };
+		8A65DA2316257688002F7F70 /* VeAngle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeAngle.cpp; path = ../../../Source/VePower/VeAngle.cpp; sourceTree = "<group>"; };
+		8A65DA2416257688002F7F70 /* VeAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeAngle.h; path = ../../../Source/VePower/VeAngle.h; sourceTree = "<group>"; };
+		8A65DA2516257688002F7F70 /* VeBackgroundTaskQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeBackgroundTaskQueue.cpp; path = ../../../Source/VePower/VeBackgroundTaskQueue.cpp; sourceTree = "<group>"; };
+		8A65DA2616257688002F7F70 /* VeBackgroundTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeBackgroundTaskQueue.h; path = ../../../Source/VePower/VeBackgroundTaskQueue.h; sourceTree = "<group>"; };
+		8A65DA2716257688002F7F70 /* VeBinaryStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeBinaryStream.cpp; path = ../../../Source/VePower/VeBinaryStream.cpp; sourceTree = "<group>"; };
+		8A65DA2816257688002F7F70 /* VeBinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeBinaryStream.h; path = ../../../Source/VePower/VeBinaryStream.h; sourceTree = "<group>"; };
+		8A65DA2916257688002F7F70 /* VeColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeColor.cpp; path = ../../../Source/VePower/VeColor.cpp; sourceTree = "<group>"; };
+		8A65DA2A16257688002F7F70 /* VeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeColor.h; path = ../../../Source/VePower/VeColor.h; sourceTree = "<group>"; };
+		8A65DA2B16257688002F7F70 /* VeDirectory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeDirectory.cpp; path = ../../../Source/VePower/VeDirectory.cpp; sourceTree = "<group>"; };
+		8A65DA2C16257688002F7F70 /* VeDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeDirectory.h; path = ../../../Source/VePower/VeDirectory.h; sourceTree = "<group>"; };
+		8A65DA2D16257688002F7F70 /* VeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeEvent.h; path = ../../../Source/VePower/VeEvent.h; sourceTree = "<group>"; };
+		8A65DA2E16257688002F7F70 /* VeEventSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeEventSub.h; path = ../../../Source/VePower/VeEventSub.h; sourceTree = "<group>"; };
+		8A65DA2F16257688002F7F70 /* VeFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeFile.cpp; path = ../../../Source/VePower/VeFile.cpp; sourceTree = "<group>"; };
+		8A65DA3016257688002F7F70 /* VeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeFile.h; path = ../../../Source/VePower/VeFile.h; sourceTree = "<group>"; };
+		8A65DA3116257688002F7F70 /* VeFloat16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeFloat16.cpp; path = ../../../Source/VePower/VeFloat16.cpp; sourceTree = "<group>"; };
+		8A65DA3216257688002F7F70 /* VeFloat16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeFloat16.h; path = ../../../Source/VePower/VeFloat16.h; sourceTree = "<group>"; };
+		8A65DA3316257688002F7F70 /* VeHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeHashMap.h; path = ../../../Source/VePower/VeHashMap.h; sourceTree = "<group>"; };
+		8A65DA3416257688002F7F70 /* VeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeList.h; path = ../../../Source/VePower/VeList.h; sourceTree = "<group>"; };
+		8A65DA3516257688002F7F70 /* VeLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeLog.cpp; path = ../../../Source/VePower/VeLog.cpp; sourceTree = "<group>"; };
+		8A65DA3616257688002F7F70 /* VeLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeLog.h; path = ../../../Source/VePower/VeLog.h; sourceTree = "<group>"; };
+		8A65DA3716257688002F7F70 /* VeMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeMath.cpp; path = ../../../Source/VePower/VeMath.cpp; sourceTree = "<group>"; };
+		8A65DA3816257688002F7F70 /* VeMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeMath.h; path = ../../../Source/VePower/VeMath.h; sourceTree = "<group>"; };
+		8A65DA3916257688002F7F70 /* VeMemObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeMemObject.cpp; path = ../../../Source/VePower/VeMemObject.cpp; sourceTree = "<group>"; };
+		8A65DA3A16257688002F7F70 /* VeMemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeMemObject.h; path = ../../../Source/VePower/VeMemObject.h; sourceTree = "<group>"; };
+		8A65DA3B16257688002F7F70 /* VeMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeMemory.cpp; path = ../../../Source/VePower/VeMemory.cpp; sourceTree = "<group>"; };
+		8A65DA3C16257688002F7F70 /* VeMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeMemory.h; path = ../../../Source/VePower/VeMemory.h; sourceTree = "<group>"; };
+		8A65DA3D16257688002F7F70 /* VeMemoryStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeMemoryStream.cpp; path = ../../../Source/VePower/VeMemoryStream.cpp; sourceTree = "<group>"; };
+		8A65DA3E16257688002F7F70 /* VeMemoryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeMemoryStream.h; path = ../../../Source/VePower/VeMemoryStream.h; sourceTree = "<group>"; };
+		8A65DA3F16257688002F7F70 /* VePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VePair.h; path = ../../../Source/VePower/VePair.h; sourceTree = "<group>"; };
+		8A65DA4016257688002F7F70 /* VePower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VePower.cpp; path = ../../../Source/VePower/VePower.cpp; sourceTree = "<group>"; };
+		8A65DA4116257688002F7F70 /* VePower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VePower.h; path = ../../../Source/VePower/VePower.h; sourceTree = "<group>"; };
+		8A65DA4216257688002F7F70 /* VePowerPCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VePowerPCH.cpp; path = ../../../Source/VePower/VePowerPCH.cpp; sourceTree = "<group>"; };
+		8A65DA4316257688002F7F70 /* VePowerPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VePowerPCH.h; path = ../../../Source/VePower/VePowerPCH.h; sourceTree = "<group>"; };
+		8A65DA4416257688002F7F70 /* VeRefList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeRefList.h; path = ../../../Source/VePower/VeRefList.h; sourceTree = "<group>"; };
+		8A65DA4516257688002F7F70 /* VeRefObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeRefObject.cpp; path = ../../../Source/VePower/VeRefObject.cpp; sourceTree = "<group>"; };
+		8A65DA4616257688002F7F70 /* VeRefObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeRefObject.h; path = ../../../Source/VePower/VeRefObject.h; sourceTree = "<group>"; };
+		8A65DA4716257688002F7F70 /* VeResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeResourceManager.cpp; path = ../../../Source/VePower/VeResourceManager.cpp; sourceTree = "<group>"; };
+		8A65DA4816257688002F7F70 /* VeResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeResourceManager.h; path = ../../../Source/VePower/VeResourceManager.h; sourceTree = "<group>"; };
+		8A65DA4916257688002F7F70 /* VeRTTI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeRTTI.cpp; path = ../../../Source/VePower/VeRTTI.cpp; sourceTree = "<group>"; };
+		8A65DA4A16257688002F7F70 /* VeRTTI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeRTTI.h; path = ../../../Source/VePower/VeRTTI.h; sourceTree = "<group>"; };
+		8A65DA4B16257688002F7F70 /* VeSharedLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeSharedLib.cpp; path = ../../../Source/VePower/VeSharedLib.cpp; sourceTree = "<group>"; };
+		8A65DA4C16257688002F7F70 /* VeSharedLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeSharedLib.h; path = ../../../Source/VePower/VeSharedLib.h; sourceTree = "<group>"; };
+		8A65DA4D16257688002F7F70 /* VeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeSingleton.h; path = ../../../Source/VePower/VeSingleton.h; sourceTree = "<group>"; };
+		8A65DA4E16257688002F7F70 /* VeSmartPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeSmartPointer.h; path = ../../../Source/VePower/VeSmartPointer.h; sourceTree = "<group>"; };
+		8A65DA4F16257688002F7F70 /* VeString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeString.cpp; path = ../../../Source/VePower/VeString.cpp; sourceTree = "<group>"; };
+		8A65DA5016257688002F7F70 /* VeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeString.h; path = ../../../Source/VePower/VeString.h; sourceTree = "<group>"; };
+		8A65DA5116257688002F7F70 /* VeStringMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeStringMap.h; path = ../../../Source/VePower/VeStringMap.h; sourceTree = "<group>"; };
+		8A65DA5216257688002F7F70 /* VeThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeThread.cpp; path = ../../../Source/VePower/VeThread.cpp; sourceTree = "<group>"; };
+		8A65DA5316257688002F7F70 /* VeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeThread.h; path = ../../../Source/VePower/VeThread.h; sourceTree = "<group>"; };
+		8A65DA5416257688002F7F70 /* VeTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeTime.cpp; path = ../../../Source/VePower/VeTime.cpp; sourceTree = "<group>"; };
+		8A65DA5516257688002F7F70 /* VeTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeTime.h; path = ../../../Source/VePower/VeTime.h; sourceTree = "<group>"; };
+		8A65DA5616257688002F7F70 /* VeTreeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeTreeMap.h; path = ../../../Source/VePower/VeTreeMap.h; sourceTree = "<group>"; };
+		8A65DA5716257688002F7F70 /* VeVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeVector.h; path = ../../../Source/VePower/VeVector.h; sourceTree = "<group>"; };
+		8A65DA5816257688002F7F70 /* VeVector2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeVector2D.cpp; path = ../../../Source/VePower/VeVector2D.cpp; sourceTree = "<group>"; };
+		8A65DA5916257688002F7F70 /* VeVector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeVector2D.h; path = ../../../Source/VePower/VeVector2D.h; sourceTree = "<group>"; };
+		8A65DA5A16257688002F7F70 /* VeVector3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeVector3D.cpp; path = ../../../Source/VePower/VeVector3D.cpp; sourceTree = "<group>"; };
+		8A65DA5B16257688002F7F70 /* VeVector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeVector3D.h; path = ../../../Source/VePower/VeVector3D.h; sourceTree = "<group>"; };
+		8A65DA5C16257688002F7F70 /* VeVector4D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeVector4D.cpp; path = ../../../Source/VePower/VeVector4D.cpp; sourceTree = "<group>"; };
+		8A65DA5D16257688002F7F70 /* VeVector4D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeVector4D.h; path = ../../../Source/VePower/VeVector4D.h; sourceTree = "<group>"; };
+		8A65DA5E16257688002F7F70 /* VeZip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeZip.cpp; path = ../../../Source/VePower/VeZip.cpp; sourceTree = "<group>"; };
+		8A65DA5F16257688002F7F70 /* VeZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeZip.h; path = ../../../Source/VePower/VeZip.h; sourceTree = "<group>"; };
+		8AC9D5C816366BFE004282E2 /* VeXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeXML.cpp; path = ../../../Source/VePower/VeXML.cpp; sourceTree = "<group>"; };
+		8AC9D5C916366BFE004282E2 /* VeXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeXML.h; path = ../../../Source/VePower/VeXML.h; sourceTree = "<group>"; };
+		8AE6150C164ECB5200F62C17 /* VeResource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeResource.cpp; path = ../../../Source/VePower/VeResource.cpp; sourceTree = "<group>"; };
+		8AE6150D164ECB5200F62C17 /* VeResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeResource.h; path = ../../../Source/VePower/VeResource.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A65D9C7162575C1002F7F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A65D9BF162575C1002F7F70 = {
+			isa = PBXGroup;
+			children = (
+				8A65DA1F1625766E002F7F70 /* VePower */,
+				8A65D9CB162575C1002F7F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A65D9CB162575C1002F7F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A65D9CA162575C1002F7F70 /* libVePower.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A65DA1F1625766E002F7F70 /* VePower */ = {
+			isa = PBXGroup;
+			children = (
+				8AE6150C164ECB5200F62C17 /* VeResource.cpp */,
+				8AE6150D164ECB5200F62C17 /* VeResource.h */,
+				8AC9D5C816366BFE004282E2 /* VeXML.cpp */,
+				8AC9D5C916366BFE004282E2 /* VeXML.h */,
+				8A46EA75163076F8000F9C8F /* VeAllocatorManager.cpp */,
+				8A46EA76163076F8000F9C8F /* VeAllocatorManager.h */,
+				8A46EA77163076F8000F9C8F /* VeStringParser.cpp */,
+				8A46EA78163076F8000F9C8F /* VeStringParser.h */,
+				8A4485691626DE720002D193 /* VeURL.cpp */,
+				8A44856A1626DE720002D193 /* VeURL.h */,
+				8A65DA2116257688002F7F70 /* VeAllocator.cpp */,
+				8A65DA2216257688002F7F70 /* VeAllocator.h */,
+				8A65DA2316257688002F7F70 /* VeAngle.cpp */,
+				8A65DA2416257688002F7F70 /* VeAngle.h */,
+				8A65DA2516257688002F7F70 /* VeBackgroundTaskQueue.cpp */,
+				8A65DA2616257688002F7F70 /* VeBackgroundTaskQueue.h */,
+				8A65DA2716257688002F7F70 /* VeBinaryStream.cpp */,
+				8A65DA2816257688002F7F70 /* VeBinaryStream.h */,
+				8A65DA2916257688002F7F70 /* VeColor.cpp */,
+				8A65DA2A16257688002F7F70 /* VeColor.h */,
+				8A65DA2B16257688002F7F70 /* VeDirectory.cpp */,
+				8A65DA2C16257688002F7F70 /* VeDirectory.h */,
+				8A65DA2D16257688002F7F70 /* VeEvent.h */,
+				8A65DA2E16257688002F7F70 /* VeEventSub.h */,
+				8A65DA2F16257688002F7F70 /* VeFile.cpp */,
+				8A65DA3016257688002F7F70 /* VeFile.h */,
+				8A65DA3116257688002F7F70 /* VeFloat16.cpp */,
+				8A65DA3216257688002F7F70 /* VeFloat16.h */,
+				8A65DA3316257688002F7F70 /* VeHashMap.h */,
+				8A65DA3416257688002F7F70 /* VeList.h */,
+				8A65DA3516257688002F7F70 /* VeLog.cpp */,
+				8A65DA3616257688002F7F70 /* VeLog.h */,
+				8A65DA3716257688002F7F70 /* VeMath.cpp */,
+				8A65DA3816257688002F7F70 /* VeMath.h */,
+				8A65DA3916257688002F7F70 /* VeMemObject.cpp */,
+				8A65DA3A16257688002F7F70 /* VeMemObject.h */,
+				8A65DA3B16257688002F7F70 /* VeMemory.cpp */,
+				8A65DA3C16257688002F7F70 /* VeMemory.h */,
+				8A65DA3D16257688002F7F70 /* VeMemoryStream.cpp */,
+				8A65DA3E16257688002F7F70 /* VeMemoryStream.h */,
+				8A65DA3F16257688002F7F70 /* VePair.h */,
+				8A65DA4016257688002F7F70 /* VePower.cpp */,
+				8A65DA4116257688002F7F70 /* VePower.h */,
+				8A65DA4216257688002F7F70 /* VePowerPCH.cpp */,
+				8A65DA4316257688002F7F70 /* VePowerPCH.h */,
+				8A65DA4416257688002F7F70 /* VeRefList.h */,
+				8A65DA4516257688002F7F70 /* VeRefObject.cpp */,
+				8A65DA4616257688002F7F70 /* VeRefObject.h */,
+				8A65DA4716257688002F7F70 /* VeResourceManager.cpp */,
+				8A65DA4816257688002F7F70 /* VeResourceManager.h */,
+				8A65DA4916257688002F7F70 /* VeRTTI.cpp */,
+				8A65DA4A16257688002F7F70 /* VeRTTI.h */,
+				8A65DA4B16257688002F7F70 /* VeSharedLib.cpp */,
+				8A65DA4C16257688002F7F70 /* VeSharedLib.h */,
+				8A65DA4D16257688002F7F70 /* VeSingleton.h */,
+				8A65DA4E16257688002F7F70 /* VeSmartPointer.h */,
+				8A65DA4F16257688002F7F70 /* VeString.cpp */,
+				8A65DA5016257688002F7F70 /* VeString.h */,
+				8A65DA5116257688002F7F70 /* VeStringMap.h */,
+				8A65DA5216257688002F7F70 /* VeThread.cpp */,
+				8A65DA5316257688002F7F70 /* VeThread.h */,
+				8A65DA5416257688002F7F70 /* VeTime.cpp */,
+				8A65DA5516257688002F7F70 /* VeTime.h */,
+				8A65DA5616257688002F7F70 /* VeTreeMap.h */,
+				8A65DA5716257688002F7F70 /* VeVector.h */,
+				8A65DA5816257688002F7F70 /* VeVector2D.cpp */,
+				8A65DA5916257688002F7F70 /* VeVector2D.h */,
+				8A65DA5A16257688002F7F70 /* VeVector3D.cpp */,
+				8A65DA5B16257688002F7F70 /* VeVector3D.h */,
+				8A65DA5C16257688002F7F70 /* VeVector4D.cpp */,
+				8A65DA5D16257688002F7F70 /* VeVector4D.h */,
+				8A65DA5E16257688002F7F70 /* VeZip.cpp */,
+				8A65DA5F16257688002F7F70 /* VeZip.h */,
+			);
+			name = VePower;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A65D9C9162575C1002F7F70 /* VePower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A65D9CE162575C1002F7F70 /* Build configuration list for PBXNativeTarget "VePower" */;
+			buildPhases = (
+				8A65D9C6162575C1002F7F70 /* Sources */,
+				8A65D9C7162575C1002F7F70 /* Frameworks */,
+				8A65DAD516257794002F7F70 /* CopyFiles */,
+				8A65DAFC162577EF002F7F70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VePower;
+			productName = VePower;
+			productReference = 8A65D9CA162575C1002F7F70 /* libVePower.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A65D9C1162575C1002F7F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Napoleon;
+			};
+			buildConfigurationList = 8A65D9C4162575C1002F7F70 /* Build configuration list for PBXProject "VePower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A65D9BF162575C1002F7F70;
+			productRefGroup = 8A65D9CB162575C1002F7F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A65D9C9162575C1002F7F70 /* VePower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A65D9C6162575C1002F7F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A65DA6016257688002F7F70 /* VeAllocator.cpp in Sources */,
+				8A65DA6216257688002F7F70 /* VeAngle.cpp in Sources */,
+				8A65DA6416257688002F7F70 /* VeBackgroundTaskQueue.cpp in Sources */,
+				8A65DA6616257688002F7F70 /* VeBinaryStream.cpp in Sources */,
+				8A65DA6816257688002F7F70 /* VeColor.cpp in Sources */,
+				8A65DA6A16257688002F7F70 /* VeDirectory.cpp in Sources */,
+				8A65DA6E16257688002F7F70 /* VeFile.cpp in Sources */,
+				8A65DA7016257688002F7F70 /* VeFloat16.cpp in Sources */,
+				8A65DA7416257688002F7F70 /* VeLog.cpp in Sources */,
+				8A65DA7616257688002F7F70 /* VeMath.cpp in Sources */,
+				8A65DA7816257688002F7F70 /* VeMemObject.cpp in Sources */,
+				8A65DA7A16257688002F7F70 /* VeMemory.cpp in Sources */,
+				8A65DA7C16257688002F7F70 /* VeMemoryStream.cpp in Sources */,
+				8A65DA7F16257688002F7F70 /* VePower.cpp in Sources */,
+				8A65DA8116257688002F7F70 /* VePowerPCH.cpp in Sources */,
+				8A65DA8416257688002F7F70 /* VeRefObject.cpp in Sources */,
+				8A65DA8616257688002F7F70 /* VeResourceManager.cpp in Sources */,
+				8A65DA8816257688002F7F70 /* VeRTTI.cpp in Sources */,
+				8A65DA8A16257688002F7F70 /* VeSharedLib.cpp in Sources */,
+				8A65DA8E16257688002F7F70 /* VeString.cpp in Sources */,
+				8A65DA9116257688002F7F70 /* VeThread.cpp in Sources */,
+				8A65DA9316257688002F7F70 /* VeTime.cpp in Sources */,
+				8A65DA9716257688002F7F70 /* VeVector2D.cpp in Sources */,
+				8A65DA9916257688002F7F70 /* VeVector3D.cpp in Sources */,
+				8A65DA9B16257688002F7F70 /* VeVector4D.cpp in Sources */,
+				8A65DA9D16257688002F7F70 /* VeZip.cpp in Sources */,
+				8A44856B1626DE720002D193 /* VeURL.cpp in Sources */,
+				8A46EA79163076F8000F9C8F /* VeAllocatorManager.cpp in Sources */,
+				8A46EA7A163076F8000F9C8F /* VeStringParser.cpp in Sources */,
+				8AC9D5CA16366BFE004282E2 /* VeXML.cpp in Sources */,
+				8AE6150E164ECB5200F62C17 /* VeResource.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A65D9CC162575C1002F7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A65D9CD162575C1002F7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8A65D9CF162575C1002F7F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_DEBUG,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_OSX,
+					VE_STATIC_LIB,
+					VE_CPU_X64,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../Externals/zlib,
+					../../../Externals/zziplib,
+					../../../Externals/tinyxmllib,
+					../../../Externals/curllib,
+				);
+				OTHER_CFLAGS = "-O0";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A65D9D0162575C1002F7F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_RELEASE,
+					VE_MEM_DEBUG,
+					VE_PLATFORM_OSX,
+					VE_STATIC_LIB,
+					VE_CPU_X64,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../Externals/zlib,
+					../../../Externals/zziplib,
+					../../../Externals/tinyxmllib,
+					../../../Externals/curllib,
+				);
+				OTHER_CFLAGS = "-O2";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A65D9D7162575CB002F7F70 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Shipping;
+		};
+		8A65D9D8162575CB002F7F70 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VE_SHIPPING,
+					VE_PLATFORM_OSX,
+					VE_STATIC_LIB,
+					VE_CPU_X64,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../Externals/zlib,
+					../../../Externals/zziplib,
+					../../../Externals/tinyxmllib,
+					../../../Externals/curllib,
+				);
+				OTHER_CFLAGS = "-O3";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-exceptions",
+					"-fno-rtti",
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Shipping;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A65D9C4162575C1002F7F70 /* Build configuration list for PBXProject "VePower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A65D9CC162575C1002F7F70 /* Debug */,
+				8A65D9CD162575C1002F7F70 /* Release */,
+				8A65D9D7162575CB002F7F70 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+		8A65D9CE162575C1002F7F70 /* Build configuration list for PBXNativeTarget "VePower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A65D9CF162575C1002F7F70 /* Debug */,
+				8A65D9D0162575C1002F7F70 /* Release */,
+				8A65D9D8162575CB002F7F70 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Shipping;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A65D9C1162575C1002F7F70 /* Project object */;
+}

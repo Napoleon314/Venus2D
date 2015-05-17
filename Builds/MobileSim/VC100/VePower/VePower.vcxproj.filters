@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{083e282d-3b62-4097-8b91-8830ccc5a180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3ab73220-a43a-493b-8a8b-2bd6557048ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{fd4d0667-3262-435f-a690-85a0d9af1f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{26bcab24-f2d5-471c-b0c0-00be5aee8354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{105bed93-c4c0-45db-af3a-bac0f47f1d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{1a4e749a-03a3-445a-b5da-7fccd52b3ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{2fc0bb22-d3d8-47b4-b16d-de06f965c6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{454dc526-7ae9-430a-8404-78fe0b805c51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\VePower\VePowerPCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLog.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMemObject.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMemory.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VePower.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeRefObject.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeSharedLib.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAllocator.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeThread.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeString.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeFloat16.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAngle.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeColor.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeVector2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeVector3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeVector4D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeBinaryStream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeRTTI.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMemoryStream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeBackgroundTaskQueue.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTime.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeDirectory.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeFile.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeZip.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeURL.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeXML.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAsset.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeMatrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeQuaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeObject.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLua.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeAllocatorManager.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTimer.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTransform.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLuaBind.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeBoundingBox.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeClientBase.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeServerBase.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeNetEntity.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeNetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeLine2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\VePower\VeTextTable.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\VePower\VePowerPCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VePair.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeSingleton.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeSmartPointer.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLog.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMemObject.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMemory.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VePower.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeRefObject.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeSharedLib.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeThread.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAllocator.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeList.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeHashMap.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTreeMap.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeString.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeRefList.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeFloat16.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeStringMap.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAngle.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeColor.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeVector4D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeBinaryStream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeRTTI.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMemoryStream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeEventSub.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeBackgroundTaskQueue.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTime.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeDirectory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeFile.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeZip.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeURL.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeXML.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAsset.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeQuaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeObject.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeAllocatorManager.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeMap.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTimer.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTransform.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLuaBind.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeBoundingBox.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeClientBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeServerBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeNetEntity.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTemplate.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeLine2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\VePower\VeTextTable.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\VePower\VeBinaryStream.inl">
+      <Filter>Stream</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeMemoryStream.inl">
+      <Filter>Stream</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeAngle.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeColor.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeMath.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeMatrix.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeQuaternion.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeVector2D.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeVector3D.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeVector4D.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeAllocator.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeBackgroundTaskQueue.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeFloat16.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeMemory.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeRefObject.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeThread.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeTime.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeResourceManager.inl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeResource.inl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeTimer.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeTransform.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeLua.inl">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeBoundingBox.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeClientBase.inl">
+      <Filter>Network</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeServerBase.inl">
+      <Filter>Network</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeNetEntity.inl">
+      <Filter>Network</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeLine2D.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\..\..\Source\VePower\VeTextTable.inl">
+      <Filter>Parser</Filter>
+    </None>
+  </ItemGroup>
+</Project>

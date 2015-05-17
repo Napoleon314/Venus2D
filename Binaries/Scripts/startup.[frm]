@@ -1,0 +1,33 @@
+<Frame>
+	<Platform>
+		<Unit name="base_rendering">
+			<Technique scheme="default">
+				<Output only_init="false">
+					<Clear buffers="c|d|s">
+						<Color>0.0,0.125,0.3,1.0</Color>
+						<Depth>1.0</Depth>
+						<Stencil>0</Stencil>
+					</Clear>
+					<Scene camera="main" material_scheme="default" lod_bias="0"/>
+				</Output>
+			</Technique>
+		</Unit>
+		<Unit name="render_texture">
+			<!--Technique scheme="msaa">
+				<Texture name="color_buffer_msaa" width="scene_width" height="scene_height" mip="1" array="1" format="R8G8B8A8_UNORM" msaa="max" usage="rtv"/>
+				<Texture name="depth_buffer_msaa" width="scene_width" height="scene_height" mip="1" array="1" format="D24_UNORM_S8_UINT" msaa="max" usage="dsv"/>
+				<Texture name="color_buffer" width="scene_width" height="scene_height" mip="1" array="1" format="R8G8B8A8_UNORM" msaa="none" usage="rtv|srv"/>
+			</Technique-->
+			<Technique scheme="default" input_target="scene">
+				<Texture name="color_buffer" width="scene_width" height="scene_height" mip="1" array="1" format="R8G8B8A8_UNORM" msaa="none" usage="rtv|srv" scope="global"/>
+				<Texture name="depth_buffer" width="scene_width" height="scene_height" mip="1" array="1" format="D24_UNORM_S8_UINT" msaa="none" usage="dsv|srv" scope="global"/>
+				<Target name="scene" rtv="color_buffer" dsv="depth_buffer" input="previous"/>
+				<Output only_init="false">
+					<Quad material="copy">
+						<Input slot="0" srv="color_buffer"/>
+					</Quad>
+				</Output>
+			</Technique>
+		</Unit>
+	</Platform>
+</Frame>

@@ -1,0 +1,33 @@
+<Material>
+	<Platform>
+		<NodeData>
+			<Test>
+				<IAIndexBuffer name="TriangleIndex" format="R16_UINT"/>
+				<IAInputLayout name="Sample"/>
+				<IAPrimitiveTopology type="triangle_list"/>
+				<IAVertexBuffer name="Triangle" slot="1" stride="12"/>
+				<VSCBuffer name="ConstantBuffer" slot="0"/>
+				<VSShader name="Sample"/>
+				<RSScissor slot="0" rect="0,0,400,600"/>
+				<PSSampler name="point_clamp" slot="0"/>
+				<PSShader name="Sample"/>
+				<PSShaderRes name="color_buffer" slot="0"/>
+				<OMBlendState name="replace" factor="0,0,0,0"/>
+				<OMDepthStencilState name="depth_test" stencil_ref="0"/>
+				<OMRenderTargetView name="color_buffer_msaa" slot="0"/>
+				<OMDepthStencilView name="depth_buffer_msaa"/>
+				<RSViewport slot="0" value="0,0,800,600"/>
+				<!--VSShader name="Sample"/>
+				<PSShader name="Sample"/>
+				<IAInputLayout name="Sample"/>
+				<IAPrimitiveTopology type="triangle_list"/>
+				<IAVertexBuffer name="Triangle" slot="1" stride="12"/>
+				<IAVertexBuffer name="TriangleColor" slot="0" stride="4"/>
+				<RSViewport slot="0" value="0,0,800,600"/-->
+			</Test>
+		</NodeData>
+		<Node>
+			<Test parent="Quad" data="Test"/>
+		</Node>
+	</Platform>
+</Material>

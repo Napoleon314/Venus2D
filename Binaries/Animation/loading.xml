@@ -1,0 +1,33 @@
+<dragonBones name="loading" frameRate="24" version="2.3">
+  <armature name="loading0">
+    <bone name="loading">
+      <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="loading" parent="loading" z="0">
+        <display name="loading" type="image">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="21" pY="21"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="show" fadeInTime="0" duration="20" scale="1" loop="0" tweenEasing="NaN">
+      <timeline name="loading" scale="1" offset="0">
+        <frame z="0" tweenEasing="0" duration="4">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="5">
+          <transform x="0" y="0" skX="89.99" skY="89.99" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="5">
+          <transform x="0" y="0" skX="180" skY="180" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="5">
+          <transform x="0" y="0" skX="-89.99" skY="-89.99" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="0" tweenEasing="0" duration="1">
+          <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>
